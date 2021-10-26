@@ -13,20 +13,43 @@
 
 <body>
     <header>
-        
         <H1>Bienvenido, a Parfum Légende</H1>
         <section>Redes sociales </section>
-
+        <div>
+            <img src="./images/Logo-rape-claro.png" alt="Logo de Parfum Légende">
+        </div>
     </header>
 
     <section>
         <img src="/img/Banner.jfif" alt="">
-        
+
         <h2>Informacion de la Pagina</h2>
     </section>
-    
 
-    
+    <main>
+        <h4>REGISTRARTE</h4>
+        <form action="#" class="form-register">
+            <label for="name-new-user" id="name-new-user">Nombre(s)*</label>
+            <input type="text" name="name-new-user" id="name-new-user" required>
+
+            <label for="lastname-new-user" id="lastname-new-user">Apellidos(s)*</label>
+            <input type="text" name="lastname-new-user" id="lastname-new-user" required>
+
+            <label for="email-new-user" id="email-new-user">Email*</label>
+            <input type="email" name="email-new-user" id="email-new-user" required>
+
+            <label for="password-user" id="password-user">Contraseña*</label>
+            <input type="password" name="password-user" id="password-user" required>
+
+            <p>Tus datos personales serán usados para mejorar la experiencia en nuestro sitio web, para acceder a tu
+                cuenta y para otros propósitos descritos en nuestra <a href="/privacy">política privacidad.</a></p>
+
+            <p>¿Nuevo cliente?<a href="/login">Ingresa aquí</a></p>
+
+            <input type="submit" class="button-register" value="Registrarse">
+        </form>
+    </main>
+
     <footer>
         <h2>Footer de la página</h2>
         <P>Contáctenos</P>
