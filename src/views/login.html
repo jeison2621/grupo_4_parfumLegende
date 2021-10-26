@@ -13,22 +13,36 @@
 
 <body>
     <header>
-        
         <H1>Bienvenido, a Parfum Légende</H1>
         <section>Redes sociales </section>
-
     </header>
 
     <section>
         <img src="/img/Banner.jfif" alt="">
-        
+
         <h2>Informacion de la Pagina</h2>
     </section>
-    
-    <footer>
 
-        <h2>Footer de la pagina</h2>
-        <P>Contactenos</P>
+    <main>
+        <h4>INGRESA</h4>
+        <form action="#" class="form-login">
+            <label for="email-user" id="email-user">Email*</label>
+            <input type="email" name="email-user" id="email-user" placeholder="ejemplo@correo.com" required>
+
+            <label for="password-user" id="password-user">Contraseña*</label>
+            <input type="password" name="password-user" id="password-user" placeholder="contraseña1234" required>
+
+            <p>¿Nuevo cliente?<a href="/register">Crear cuenta</a></p>
+
+            <p>¿Olvidaste tu contraseña?<a href="#">Recuperar contraseña</a></p>
+
+            <input type="submit" class="button-login" value="Ingresar">
+        </form>
+    </main>
+
+    <footer>
+        <h2>Footer de la página</h2>
+        <P>Contáctenos</P>
     </footer>
 </body>
 

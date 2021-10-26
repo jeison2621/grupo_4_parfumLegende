@@ -7,7 +7,7 @@
 - Somos una empresa de comercializacion y distribucion  de fragancias y perfumes, la 
 cual busca ayudarte a que siempre lleves con tigo el mejor aroma y la mejor calidad , especialmente 
 mujeres entre 16 y 50 años.Estamos comprometidos con el cuidado y bienestar de las mujeres en una sociedad 
-diversa y global
+diversa y global.
 
 # Integrantes
 
