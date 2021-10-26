@@ -16,5 +16,15 @@ router.get('/register', function(req, res) {
 router.get('/login', function(req, res) {
     res.sendFile(path.join(__dirname, '../views/login.html'))
 });
+
+/* GET login page. */
+router.get('/login', function(req, res) {
+    res.sendFile(path.join(__dirname, '../views/productCart.html'))
+});
+
+/* GET login page. */
+router.get('/login', function(req, res) {
+    res.sendFile(path.join(__dirname, '../views/productDetail.html'))
+});
  
 module.exports = router;
