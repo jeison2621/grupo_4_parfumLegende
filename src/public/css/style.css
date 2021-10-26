@@ -1,0 +1,41 @@
+/*
+Colores
+#8b7171 #a68382 #393737 #bb8e8e #dfcbca
+
+Tipografías
+Roboto Slab (https://fonts.google.com/specimen/Roboto+Slab)
+Alegreya (https://fonts.google.com/specimen/Alegreya)
+Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab';
+}
+
+body
+{
+    background-color: bisque;
+    color: white;
+    text-align: center;    
+}
+
+section{
+    background-color: white;
+    color: #a68382;
+    text-align: center;
+}
+
+header
+{
+    background-color: rgba(139, 67, 67, 1) ;
+}
+
+footer
+{
+    
+background-color: rgba(139, 67, 67, 1);
+text-align: center;
+}
