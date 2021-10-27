@@ -15,6 +15,11 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
     font-family: 'Roboto Slab';
 }
 
+/* INDEX.html */
+
+
+/* INDEX.html Header */
+
 .cabecera{
     display: flex;
     background: white;
@@ -24,9 +29,10 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
 .cabecera .seccion-1{
     display: flex;
     color: brown;
+
     width: 50%;
     flex-wrap: wrap;
-    
+    width: 50%;    
 }
 .cabecera .seccion-1 a{
     color: brown;
@@ -59,3 +65,11 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
 main{
     background: #ebebeb;
 }
+
+/* PRODUCTCART.html */
+
+/* PRODUCTDETAIL.html */
+
+/* REGISTER.html */
+
+/* LOGIN.html */
