@@ -72,4 +72,29 @@ main{
 
 /* REGISTER.html */
 
+.main-register {
+    border: solid red 2px;
+    width: 90vw;
+    margin: 30px auto;
+    padding: 2px;
+}
+
+.form-register {    
+    display: flex;    
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form-register label, input {
+    margin: 2px;
+    width: 80%;
+    padding: 10px;
+}
+
+@media (min-width: 481px) {
+    .main-register {
+        width: 430px;
+    }
+}    
+
 /* LOGIN.html */
