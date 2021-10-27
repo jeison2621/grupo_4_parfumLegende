@@ -17,23 +17,25 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
 
 .cabecera{
     display: flex;
-    background: brown;
+    background: white;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .cabecera .seccion-1{
     display: flex;
+    color: brown;
 
     width: 50%;
     
 }
 .cabecera .seccion-2{
     display: flex;
+    color: brown;
  
     text-decoration: none;
     width: 50%;
     justify-content: end;
-    padding: 10px;
+    padding: 20px;
 
     
 }
@@ -49,4 +51,8 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
    
     width: 100%;
     
+}
+
+main{
+    background: #ebebeb;
 }
