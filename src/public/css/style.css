@@ -121,14 +121,14 @@ main section article img{
     width: 90vw;
     margin: 30px auto;
     padding: 4px;
-    background-color: #dfcbca;
+    background-color: #fff;
     border: rgba(57, 55, 55, 0.3) solid 2px;
-    border-radius: 4%;
-    color: brown;
+    color: #000;
 }
 
 .main-register h3 {
     margin: 8px;
+    font-family: 'Myanmar Khyay';
 }
 
 .form-register {    
@@ -148,6 +148,13 @@ main section article img{
     margin-left: 8px;   
 }
 
+.button-register {
+    color: #fff;
+    background-color: rgba(163, 73, 164, 1);
+    border: none;
+    font-weight: bold;
+}
+
 @media (min-width: 481px) {
     .main-register {
         width: 430px;
@@ -163,11 +170,12 @@ main section article img{
     background-color: #dfcbca;
     border: rgba(57, 55, 55, 0.3) solid 2px;
     border-radius: 4%;
-    color: brown;
+    color: #000;
 }
 
 .main-login h3 {
     margin: 8px;
+    font-family: 'Myanmar Khyay';
 }
 
 .form-login {    
