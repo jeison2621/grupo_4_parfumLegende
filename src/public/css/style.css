@@ -20,79 +20,83 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
 
 /* INDEX.html Header */
 
-.cabecera{
+.cabecera {
     display: flex;
     background: rgba(139, 67, 67, 1);
     padding-top: 10px;
     padding-bottom: 10px;
     justify-content: space-between;
 }
-.cabecera .seccion-1{
+
+.cabecera .seccion-1 {
     display: flex;
     color: white;
     padding: 10px;
 
     width: 60%;
     flex-wrap: wrap;
-      
+
 
 }
-.cabecera .seccion-1 a{
+
+.cabecera .seccion-1 a {
     color: white;
-    }
-.cabecera .seccion-2{
+}
+
+.cabecera .seccion-2 {
     display: flex;
     width: 30%;
     justify-content: end;
     padding: 20px;
     flex-wrap: wrap;
 
-    
+
 }
 
-.cabecera .seccion-2 nav{
+.cabecera .seccion-2 nav {
     display: flex;
-    
+
 }
 
-.cabecera .seccion-2 nav p i{
+.cabecera .seccion-2 nav p i {
     color: white;
 }
-.cabecera .contenedor-logo{
-   
-    
+
+.cabecera .contenedor-logo {
+
+
     width: 10vh;
     height: 10vh;
 }
 
 .cabecera .contenedor-logo img {
-   
+
     width: 100%;
-    
+
 }
 
 /* INDEX.html main */
 
-main{
+main {
     background: #ebebeb;
     text-align: center;
 }
 
-main section{
+main section {
     display: flex;
-    
+
     height: 50%;
     background: white;
     padding: 10pt;
     margin: auto;
- 
+
     flex-wrap: wrap;
 
-    
+
 }
 
-main section article{
-    
+main section article {
+
     width: 300px;
     height: 200px;
     padding: 10px;
@@ -100,84 +104,90 @@ main section article{
     margin: auto;
     margin-bottom: 10px;
     border-radius: 10pt;
-    -webkit-box-shadow: 0px 2px 24px 0px #000000; 
+    -webkit-box-shadow: 0px 2px 24px 0px #000000;
     box-shadow: 0px 2px 24px 0px #000000;
 
 }
 
-main section article img{
+main section article img {
     width: 100%;
     height: 80%;
 }
+
 /* INDEX.html Footer */
-footer{
+footer {
     display: flex;
     background: rgba(139, 67, 67, 1);
     text-align: center;
-    color:white;
+    color: white;
     justify-content: center;
     flex-direction: column;
     margin: auto;
 }
 
-footer p{
+footer p {
     width: 100%;
 }
 
-footer p i{
-    color:white
+footer p i {
+    color: white
 }
 
 
 /* PRODUCTCART.html */
 
-.main_cart .carrito_content{ 
-    background-color: white;   
-    
-    
+.main_cart .carrito_content {
+    background-color: white;
+
+
 
 }
 
-.main_cart .carrito_content .carrito_head{
+.main_cart .carrito_content .carrito_head {
     display: flex;
     width: 100vw;
-    height: 7vw;    
+    height: 7vw;
     align-items: center;
     margin: auto;
     padding: 2px;
     background-color: rgba(156, 85, 242, 1);
-    
+
 }
-.main_cart .carrito_content .carrito_head h2{
+
+.main_cart .carrito_content .carrito_head h2 {
     margin: auto;
     font-size: large;
-    color: white;    
+    color: white;
 }
-.main_cart .carrito_content .product .encabezado{ 
+
+.main_cart .carrito_content .product .encabezado {
     width: 100vw;
     display: flex;
     flex-direction: row;
     padding: 2px;
-    
+
 }
-.main_cart .carrito_content .product .encabezado h2{ 
+
+.main_cart .carrito_content .product .encabezado h2 {
     display: flex;
     font-size: medium;
     flex-direction: row;
     padding: 5px;
     margin: auto;
-   
+
 }
-.main_cart .carrito_content .product .product_detail{ 
+
+.main_cart .carrito_content .product .product_detail {
     width: 100vw;
     display: flex;
     flex-direction: row;
     padding: 2px;
     border-top: 1px solid;
-    border-bottom: 1px  solid;
-    
+    border-bottom: 1px solid;
+
 }
-.main_cart .carrito_content .product .product_detail p{ 
+
+.main_cart .carrito_content .product .product_detail p {
     width: 95%;
     font-size: medium;
     font-weight: bold;
@@ -188,63 +198,69 @@ footer p i{
     margin: auto;
 }
 
-.main_cart .carrito_content .product .product_detail p img{ 
+.main_cart .carrito_content .product .product_detail p img {
     width: 25vw;
     display: flex;
     flex-direction: row;
     padding: 2px;
-    
+
 }
-.main_cart .carrito_content .notasytotal{
+
+.main_cart .carrito_content .notasytotal {
     display: flex;
 }
 
-.main_cart .carrito_content .notasytotal .notas{ 
+.main_cart .carrito_content .notasytotal .notas {
     width: 50%;
-    flex-direction: column;  
+    flex-direction: column;
     padding: 2px;
     margin-left: 4px;
 }
-.main_cart .carrito_content .notasytotal .notas p{ 
-    
-    display: flex;   
-    padding: 2px;
-    
-}
-.main_cart .carrito_content .notasytotal .notas textarea{ 
-   
+
+.main_cart .carrito_content .notasytotal .notas p {
+
     display: flex;
-    padding: 2px;    
+    padding: 2px;
+
+}
+
+.main_cart .carrito_content .notasytotal .notas textarea {
+
+    display: flex;
+    padding: 2px;
     color: gray;
     font-size: 12px;
 
-   
+
 }
-.main_cart .carrito_content .notasytotal .total{ 
+
+.main_cart .carrito_content .notasytotal .total {
     width: 50%;
     display: flex;
     margin-left: 2px;
     flex-direction: column;
-    padding: 2px;    
-}
-.main_cart .carrito_content .notasytotal .total p{ 
-   
-    display: flex;
-    padding: 2px;    
+    padding: 2px;
 }
 
-.main_cart .carrito_content .notasytotal .total button{ 
-   
-  background-color: rgba(87, 103, 247, 1);
-  border: none;
-  color: #fff; 
-  font-weight: normal;
-  font-size: 20px;
-  
-  
+.main_cart .carrito_content .notasytotal .total p {
+
+    display: flex;
+    padding: 2px;
 }
-.main_cart .carrito_content .notasytotal .total p .cbox1{ 
-    margin: 0;    
+
+.main_cart .carrito_content .notasytotal .total button {
+
+    background-color: rgba(87, 103, 247, 1);
+    border: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+
+
+}
+
+.main_cart .carrito_content .notasytotal .total p .cbox1 {
+    margin: 0;
 }
 
 
@@ -253,6 +269,145 @@ footer p i{
 
 
 /* PRODUCTDETAIL.html */
+
+.main_productDetailt .producto_info {
+    background-color: white;
+
+}
+
+.main_productDetail .producto_info .productdescript {
+    background: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.main_productDetail .producto_info .productdescript .producto {
+    margin: auto;
+}
+
+.main_productDetail .producto_info .productdescript .producto img {
+    width: 400px;
+    height: 400px;
+    
+}
+
+.main_productDetail .producto_info .productdescript .producto p {
+    margin: auto;
+}
+
+.main_productDetail .producto_info .productdescript .miniatura {
+    padding: 10px; 
+    width: 100px;
+    height: 100px;
+}
+.main_productDetail .producto_info .productdescript .miniatura img {
+    width: 100%;
+    height: 100%;
+}
+
+.main_productDetail .producto_info .productdescript .description {
+    width: 50vw;
+}
+
+.main_productDetail .producto_info .productdescript .description .uno {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_productDetail .producto_info .productdescript .description .uno i {
+    margin: auto;
+}
+
+.main_productDetail .producto_info .productdescript .description .uno img {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.main_productDetail .producto_info .productdescript .description .uno p {
+    margin: auto;
+}
+
+.main_productDetail .producto_info .productdescript .description .uno .cajita {
+   border: rgba(237, 121, 83, 1) solid; 
+   background-color: rgba(237, 121, 83, 1);
+   color: #fff;
+}
+
+.main_productDetail .producto_info .productdescript .description .uno .quantity {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.main_productDetail .producto_info .productdescript .description .uno .quantity input {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.main_productDetail .producto_info .productdescript .description .dos {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_productDetail .producto_info .productdescript .description .dos i {
+    margin: auto;
+}
+
+.main_productDetail .producto_info .productdescript .description .dos img {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.main_productDetail .producto_info .productdescript .description .dos p {
+    margin: auto;
+}
+
+.main_productDetail .producto_info .productdescript .description .dos .cajita {
+    border: rgba(237, 121, 83, 1) solid; 
+    background-color: rgba(237, 121, 83, 1);
+    color: #fff;
+}
+
+.main_productDetail .producto_info .productdescript .description .dos .quantity{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.main_productDetail .producto_info .productdescript .description .tres {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_productDetail .producto_info .productdescript .description .tres i {
+    margin: auto;
+}
+
+.main_productDetail .producto_info .productdescript .description .tres img {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.main_productDetail .producto_info .productdescript .description .tres p {
+    margin: auto;
+}
+
+.main_productDetail .producto_info .productdescript .description .tres .cajita {
+    border: rgba(237, 121, 83, 1) solid; 
+    background-color: rgba(237, 121, 83, 1);
+    color: #fff;
+}
+
+.main_productDetail .producto_info .productdescript .description .tres .quantity {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* REGISTER.html */
 
@@ -270,21 +425,23 @@ footer p i{
     font-family: 'Myanmar Khyay';
 }
 
-.form-register {    
-    display: flex;    
+.form-register {
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
 }
 
-.form-register label, input, p {
+.form-register label,
+input,
+p {
     margin: 2px;
     width: 80%;
     padding: 10px;
 }
 
-.form-register a { 
-    margin-left: 8px;   
+.form-register a {
+    margin-left: 8px;
 }
 
 .button-register {
@@ -298,7 +455,7 @@ footer p i{
     .main-register {
         width: 430px;
     }
-}    
+}
 
 /* LOGIN.html */
 .main-login {
@@ -315,21 +472,23 @@ footer p i{
     font-family: 'Myanmar Khyay';
 }
 
-.form-login {    
-    display: flex;    
+.form-login {
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
 }
 
-.form-login label, input, p {
+.form-login label,
+input,
+p {
     margin: 2px;
     width: 80%;
     padding: 10px;
 }
 
-.form-login a { 
-    margin-left: 8px;   
+.form-login a {
+    margin-left: 8px;
 }
 
 .button-login {
@@ -343,4 +502,4 @@ footer p i{
     .main-login {
         width: 430px;
     }
-}    
+}
