@@ -22,26 +22,26 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
 
 .cabecera{
     display: flex;
-    background: white;
+    background: rgba(139, 67, 67, 1);
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: space-between;
 }
 .cabecera .seccion-1{
     display: flex;
-    color: brown;
+    color: white;
+    padding: 10px;
 
-    width: 50%;
+    width: 60%;
     flex-wrap: wrap;
-    width: 50%;    
+      
 }
 .cabecera .seccion-1 a{
-    color: brown;
+    color: white;
     }
 .cabecera .seccion-2{
     display: flex;
-    color: brown; 
-    text-decoration: none;
-    width: 50%;
+    width: 30%;
     justify-content: end;
     padding: 20px;
     flex-wrap: wrap;
@@ -49,6 +49,14 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
     
 }
 
+.cabecera .seccion-2 nav{
+    display: flex;
+    
+}
+
+.cabecera .seccion-2 nav p i{
+    color: white;
+}
 .cabecera .contenedor-logo{
    
     
@@ -62,9 +70,46 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
     
 }
 
+/* INDEX.html main */
+
 main{
     background: #ebebeb;
+    text-align: center;
 }
+
+main section{
+    display: flex;
+    
+    height: 50%;
+    background: white;
+    padding: 10pt;
+    margin: auto;
+ 
+    flex-wrap: wrap;
+
+    
+}
+
+main section article{
+    
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10pt;
+    -webkit-box-shadow: 0px 2px 24px 0px #000000; 
+    box-shadow: 0px 2px 24px 0px #000000;
+
+}
+
+main section article img{
+    width: 100%;
+    height: 80%;
+}
+
+
 
 /* PRODUCTCART.html */
 
