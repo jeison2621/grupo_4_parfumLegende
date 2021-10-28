@@ -132,7 +132,7 @@ footer p i{
 /* PRODUCTCART.html */
 
 .main_cart .carrito_content{ 
-    background-color: white;
+    background-color: white;   
     
     
 
@@ -162,6 +162,7 @@ footer p i{
 }
 .main_cart .carrito_content .product .encabezado h2{ 
     display: flex;
+    font-size: medium;
     flex-direction: row;
     padding: 5px;
     margin: auto;
@@ -172,12 +173,14 @@ footer p i{
     display: flex;
     flex-direction: row;
     padding: 2px;
-    border-top: solid;
-    border-bottom: solid;
+    border-top: 1px solid;
+    border-bottom: 1px  solid;
     
 }
 .main_cart .carrito_content .product .product_detail p{ 
     width: 95%;
+    font-size: medium;
+    font-weight: bold;
     display: flex;
     flex-direction: row;
     padding: 2px;
@@ -192,41 +195,55 @@ footer p i{
     padding: 2px;
     
 }
-.main_cart .carrito_content .notas{ 
-    width: 40vw;
+.main_cart .carrito_content .notasytotal{
     display: flex;
-    flex-direction: column;  
-    align-content: flex-start;  
-    justify-content: flex-start;
-    padding: 2px;
-    margin-left: 2px;
 }
-.main_cart .carrito_content .notas p{ 
-    width: 40vw;
+
+.main_cart .carrito_content .notasytotal .notas{ 
+    width: 50%;
+    flex-direction: column;  
+    padding: 2px;
+    margin-left: 4px;
+}
+.main_cart .carrito_content .notasytotal .notas p{ 
+    
     display: flex;   
     padding: 2px;
     
 }
-.main_cart .carrito_content .notas textarea{ 
-    width: 40vw;
+.main_cart .carrito_content .notasytotal .notas textarea{ 
+   
     display: flex;
     padding: 2px;    
+    color: gray;
+    font-size: 12px;
+
+   
 }
-.main_cart .carrito_content .total{ 
-    width: 40vw;
+.main_cart .carrito_content .notasytotal .total{ 
+    width: 50%;
     display: flex;
     margin-left: 2px;
-    justify-content: flex-end;
-    align-content: flex-end;
     flex-direction: column;
     padding: 2px;    
 }
-.main_cart .carrito_content .total p{ 
-    width: 40vw;
+.main_cart .carrito_content .notasytotal .total p{ 
+   
     display: flex;
     padding: 2px;    
 }
-.main_cart .carrito_content .total p .cbox1{ 
+
+.main_cart .carrito_content .notasytotal .total button{ 
+   
+  background-color: rgba(87, 103, 247, 1);
+  border: none;
+  color: #fff; 
+  font-weight: normal;
+  font-size: 20px;
+  
+  
+}
+.main_cart .carrito_content .notasytotal .total p .cbox1{ 
     margin: 0;    
 }
 

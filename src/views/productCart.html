@@ -18,28 +18,28 @@
         <section class="seccion-1">
 
             <div class="contenedor-logo">
-               <a href=""> <img src="./images/Logo-rape-claro.png" alt="Logo de Parfum Légende"></a> 
+                <a href=""> <img src="./images/Logo-rape-claro.png" alt="Logo de Parfum Légende"></a>
 
             </div>
             <H2>Parfum Légende</H2>
             <p>
-                <a class="logo-facebook" href="">  <i class="fab fa-facebook"></i></a>
+                <a class="logo-facebook" href=""> <i class="fab fa-facebook"></i></a>
                 <a class="logo-instagram" href=""> <i class="fab fa-instagram"></i></a>
-                <a class="logo-whatsapp" href="">  <i class="fab fa-whatsapp"></i></a>
+                <a class="logo-whatsapp" href=""> <i class="fab fa-whatsapp"></i></a>
             </p>
 
-        </section >
+        </section>
 
 
-        
+
 
         <section class="seccion-2">
             <nav>
-                
-                    <p><a href="/register"   ><i class="fas fa-user"></i></a></p>
-                    <p><a href="/login"      ><i class="fas fa-sign-in-alt"></i></a></p>
-                    <p><a href="/productCart"><i class="fas fa-shopping-cart"></i></a></p>
-               
+
+                <p><a href="/register"><i class="fas fa-user"></i></a></p>
+                <p><a href="/login"><i class="fas fa-sign-in-alt"></i></a></p>
+                <p><a href="/productCart"><i class="fas fa-shopping-cart"></i></a></p>
+
             </nav>
         </section>
 
@@ -68,13 +68,13 @@
                     <p><img src="./images/8.jpg" alt="Olympea Legend"> <i class="far fa-edit"></i><i
                             class="far fa-trash-alt"></i></p>
                     <p class=>$250.000</p>
-                    <p class="quantity"> <input type="button" value="-" class="minus"> <label
-                            class="screen-reader-text" for="quantity_61784a0446a52"></label>
+                    <p class="quantity"> <input type="button" value="-" class="minus"> <label class="screen-reader-text"
+                            for="quantity_61784a0446a52"></label>
                         <input type="number" id="quantity_61784a0446a52" class="input-text qty text" step="1" min="1"
                             max="99" name="quantity" value="1" title="Cantidad" size="4" placeholder=""
                             inputmode="numeric">
                         <input type="button" value="+" class="plus">
-                    
+
                     </p>
                     <p class=>$250.000</p>
 
@@ -82,20 +82,29 @@
 
 
             </div>
-            <section class="notas">
-                <p>Agregar notas a la orden</p>
-                <textarea name="comentarios" id="cartSpecialIstruccions" cols="30" rows="10"
-                    placeholder="¿Esta compra es un regalo? Agrega una nota aquí para enviar con el producto."> </textarea>
-                <p>Cupón: tu código de cupón se aplicará al ir a pagar</p>
-                <textarea name="cupon" id="cartCupon" cols="30" rows="10" placeholder="Cofdigo cupón"> </textarea>
 
-            </section>
-            <section class="total">
+            <div class="notasytotal">
 
-                <p> SUBTOTAL: $250.000 </p>
-                <p> IVA incluido. Envío y descuentos agregados al ir a pagar.</p><br>
-                <p><input type="checkbox"  id="cbox1" value="first_checkbox"> Acepto términos y condiciones </p>
-            </section>
+                <div class="notas">
+                    <p>Agregar notas a la orden</p>
+                    <textarea name="comentarios" id="cartSpecialIstruccions" cols="30"
+                        rows="10"> ¿Esta compra es un regalo? Agrega una nota aquí para enviar con el producto.</textarea>
+                    <p>Cupón: tu código de cupón se aplicará al ir a pagar</p>
+                    <textarea name="cupon" id="cartCupon" cols="30" rows="3"> Codigo Cupón</textarea>
+
+                </div>
+                <div class="total">
+
+                    <h2> SUBTOTAL: $250.000 </h2>
+                    <p> IVA incluido. Envío y descuentos agregados al ir a pagar.</p><br>
+                    <p><input type="checkbox" id="cbox1" value="first_checkbox"> Acepto términos y condiciones </p>
+                    <button type="ir_a_pagar">Ir a pagar</button>
+                </div>
+
+
+
+            </div>
+
 
 
 
@@ -105,12 +114,12 @@
     </main>
 
     <footer>
-        
+
         <P>Contáctenos</P>
         <p>
-            <a class="logo-facebook" href="">  <i class="fab fa-facebook"></i></a>
+            <a class="logo-facebook" href=""> <i class="fab fa-facebook"></i></a>
             <a class="logo-instagram" href=""> <i class="fab fa-instagram"></i></a>
-            <a class="logo-whatsapp" href="">  <i class="fab fa-whatsapp"></i></a>
+            <a class="logo-whatsapp" href=""> <i class="fab fa-whatsapp"></i></a>
         </p>
 
         <p>Copyright © 2021 Parfum Légende</p>
