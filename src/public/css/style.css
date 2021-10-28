@@ -141,9 +141,9 @@ footer p i{
 .main_cart .carrito_content .carrito_head{
     display: flex;
     width: 100vw;
-    height: 10vw;    
+    height: 7vw;    
     align-items: center;
-    margin: 5px auto;
+    margin: auto;
     padding: 2px;
     background-color: rgba(156, 85, 242, 1);
     
