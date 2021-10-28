@@ -131,6 +131,110 @@ footer p i{
 
 /* PRODUCTCART.html */
 
+.main_cart .carrito_content{ 
+    background-color: white;
+    
+    
+
+}
+
+.main_cart .carrito_content .carrito_head{
+    display: flex;
+    width: 100vw;
+    height: 10vw;    
+    align-items: center;
+    margin: 5px auto;
+    padding: 2px;
+    background-color: rgba(156, 85, 242, 1);
+    
+}
+.main_cart .carrito_content .carrito_head h2{
+    margin: auto;
+    font-size: large;
+    color: white;    
+}
+.main_cart .carrito_content .product .encabezado{ 
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    
+}
+.main_cart .carrito_content .product .encabezado h2{ 
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: auto;
+   
+}
+.main_cart .carrito_content .product .product_detail{ 
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    border-top: solid;
+    border-bottom: solid;
+    
+}
+.main_cart .carrito_content .product .product_detail p{ 
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    justify-content: center;
+    margin: auto;
+}
+
+.main_cart .carrito_content .product .product_detail p img{ 
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    
+}
+.main_cart .carrito_content .notas{ 
+    width: 40vw;
+    display: flex;
+    flex-direction: column;  
+    align-content: flex-start;  
+    justify-content: flex-start;
+    padding: 2px;
+    margin-left: 2px;
+}
+.main_cart .carrito_content .notas p{ 
+    width: 40vw;
+    display: flex;   
+    padding: 2px;
+    
+}
+.main_cart .carrito_content .notas textarea{ 
+    width: 40vw;
+    display: flex;
+    padding: 2px;    
+}
+.main_cart .carrito_content .total{ 
+    width: 40vw;
+    display: flex;
+    margin-left: 2px;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-direction: column;
+    padding: 2px;    
+}
+.main_cart .carrito_content .total p{ 
+    width: 40vw;
+    display: flex;
+    padding: 2px;    
+}
+.main_cart .carrito_content .total p .cbox1{ 
+    margin: 0;    
+}
+
+
+
+
+
+
 /* PRODUCTDETAIL.html */
 
 /* REGISTER.html */
