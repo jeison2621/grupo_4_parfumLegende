@@ -22,64 +22,71 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
 
 .cabecera {
     display: flex;
-    background: rgba(139, 67, 67, 1);
     padding-top: 10px;
     padding-bottom: 10px;
     justify-content: space-between;
     flex-direction: column;
-    max-width: 1200px;
-    margin: auto;
 }
 
 .cabecera .seccion-1 {
     display: flex;
     color: white;
-    padding: 10px;
+    padding: 5px;
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: rgba(87, 103, 247, 1);
+    background-color: #542d2d;
     height: 70px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.cabecera .seccion-1 h1 {
+    margin-left: 105px;
 }
 
 .cabecera .seccion-1 a {
     color: white;
 }
 
+.contenedor-logo {
+    width: 100px;
+    position: absolute;
+}
+
+.contenedor-logo img {
+    width: 90%;    
+    border-radius: 20%;
+}
+
+.seccion-1 nav {
+    display: flex;
+}
+
 .cabecera .seccion-2 {
     display: flex;
     width: 100%;
-    justify-content: end;
-    padding: 30px;
-    flex-wrap: wrap;
-    background-color: aquamarine;
-}
-
-.cabecera .seccion-2 nav {
-    display: flex;
-
-}
-
-.cabecera .seccion-2 nav p i {
-    color: white;
+    height: 80px;
+    background-color: #dfcbca;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .cabecera .seccion-3 {
-    background-color: burlywood;
-    width: 100%;
+    background-color: rgba(139, 67, 67, 0.8);
+    width: 80%;
+    margin: auto;
+    margin-top: -15px;
 }
 
-.cabecera .contenedor-logo {
-
-
-    width: 10vh;
-    height: 10vh;
+.cabecera .seccion-3 input {
+    padding: 5px;
 }
 
-.cabecera .contenedor-logo img {
-
-    width: 100%;
-
+.cabecera .seccion-3 button {
+    height: 90%;
+    width:50px;
 }
 
 /* INDEX.html main */
