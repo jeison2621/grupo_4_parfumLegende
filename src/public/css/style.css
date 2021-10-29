@@ -535,3 +535,10 @@ p {
         width: 430px;
     }
 }
+
+@media(min-whidt:481px){
+    .cabecera .seccion-2{
+        justify-content: end;
+        
+    }
+}
