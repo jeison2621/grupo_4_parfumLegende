@@ -310,6 +310,7 @@ footer p i {
     background: white;
     display: flex;
     flex-direction: row;
+    margin-top:20px ;
 }
 
 .main_productDetail .producto_info .productdescript .producto {
@@ -344,6 +345,7 @@ footer p i {
     display: flex;
     flex-direction: row;
     margin: 10px;
+    
 }
 
 .main_productDetail .producto_info .productdescript .description .uno i {
@@ -443,6 +445,43 @@ footer p i {
     margin: auto;
     display: flex;
     flex-direction: row;
+}
+
+.main_productDetail .producto_info .productdescript .description .comprar_ahora {
+    margin-top: 20px;
+}
+.main_productDetail .producto_info .productdescript .description .comprar_ahora {
+    margin-top: 20px;
+}
+.main_productDetail .producto_info .productdescript .description .comprar_ahora {
+    margin-top: 20px;
+}
+.main_productDetail .producto_info .productdescript .description .comprar_ahora .button-comprarAhora {
+    margin-top: 20px;
+    color: #fff;
+    background-color: rgba(163, 73, 164, 1);
+    border: none;
+    font-weight: bold;
+}
+.main_productDetail .producto_info .productdescript .description .comprar_ahora .button-AgregarCarrito {
+    margin-top: 20px;
+    color: #fff;
+    background-color: rgba(87, 103, 247, 1);
+    border: none;
+    font-weight: bold;
+}
+
+.main_productDetailt .producto_info .descripcion_detalle {
+    background-color: white;
+    display: flex;
+    
+
+}
+.main_productDetailt .producto_info .descripcion_detalle h2 {
+        
+    display: flex;
+    flex-direction: row;
+
 }
 
 /* REGISTER.html */
