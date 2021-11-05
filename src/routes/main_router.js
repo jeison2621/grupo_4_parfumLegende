@@ -1,11 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const path = require('path')
+const path = require('path'); 
+const main_controller = require('../controllers/main_controller'); 
 
 /* GET home page. */
-router.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../views/index.html'))
-});
+router.get('/', main_controller.home);
 
 /* GET register page. */
 router.get('/register', function(req, res) {
@@ -14,7 +13,8 @@ router.get('/register', function(req, res) {
 
 /* GET login page. */
 router.get('/login', function(req, res) {
-    res.sendFile(path.join(__dirname, '../views/login.html'))
+    res.send("llegamos"); 
+   // res.sendFile(path.join(__dirname, '../views/login.html'))
 });
 
 /* GET productCart page. */
