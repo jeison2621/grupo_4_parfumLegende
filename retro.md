@@ -4,8 +4,7 @@
  - Trabajar. Codear.
  - Método Scrum.
  - Implementar conceptos vistos al proyecto.
- - Revisar el código de los otros. Socializarlo. 
-
+ - Revisar el código de los otros. Socializarlo.
 
 ## Hacer Más :
  - Mantener el ánimo.
@@ -26,3 +25,21 @@
 
 ## Dejar de Hacer:
  - Impuntualidad en las reuniones.
+
+ # Retrospectiva - Sprint 3
+
+ ## Comenzar a Hacer:
+ - Sprint 4
+
+## Hacer Más:
+- Tener los ejercicios del PlayGround al día.
+
+## Continuar Haciendo:
+- Reuniones miércoles y domingo.
+- Trabajar (avanzar) en conjunto.
+
+## Hacer Menos:
+- No preguntar o pedir ayuda.
+
+## Dejar de Hacer:
+- Procastinar.
