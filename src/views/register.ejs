@@ -1,43 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Parfum Léngede</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-
+    <%- include('./partials/head') %>
 <body>
-    <header class="cabecera">
-
-        <section class="seccion-1">
-            <div class="contenedor-logo">
-                <a href="/"> <img src="./images/logo/PL_Fondo_rape_oscuro.png" alt="Logo de Parfum Légende"></a>
-            </div>
-            <H1>Parfum Légende</H1>
-            <nav>
-                <p><a href="/register"><i class="fas fa-user"></i></a></p>
-                <p><a href="/login"><i class="fas fa-sign-in-alt"></i></a></p>
-                <p><a href="/productCart"><i class="fas fa-shopping-cart"></i></a></p>
-            </nav>
-        </section>
-
-        <section class="seccion-2">
-            <p>¡Compra desde casa y paga contra entrega!</p>
-        </section>
-
-        <section class="seccion-3">
-            <form action="#" method="get">
-                <input type="search" value="search">                
-           </form>
-        </section>
-
-    </header>
-
+    <%- include('./partials/header') %>
+    <%- include('./partials/banner') %>
     <main class="main-register">
         <h3>REGISTRARTE</h3>
         <form action="#" class="form-register">
@@ -61,19 +27,6 @@
             <input type="submit" class="button-register" value="Registrarse">
         </form>
     </main>
-
-    <footer>
-        
-        <P>Contáctenos</P>
-        <p>
-            <a class="logo-facebook" href="">  <i class="fab fa-facebook"></i></a>
-            <a class="logo-instagram" href=""> <i class="fab fa-instagram"></i></a>
-            <a class="logo-whatsapp" href="">  <i class="fab fa-whatsapp"></i></a>
-        </p>
-
-        <p>Copyright © 2021 Parfum Légende</p>
-
-    </footer>
+    <%- include('./partials/footer') %>
 </body>
-
 </html>
