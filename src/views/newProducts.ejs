@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Parfum Léngede</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    </head>
+<body>
+    <main class="main-pruducts">
+        <h3>NUEVO PRODUCTO</h3>
+        <form action="#" class="form-pruducts">
+            <label for="name-new-user" id="name-new-product">Nombre del producto:</label>
+            <input type="text" name="name-new-product" id="name-new-product" required>
+
+            <label for="description-new-product" id="description-new-product">Descripción:</label>
+            <input type="text" name="description-new-product" id="description-new-product" required>
+            
+            <label for="category-new-product" id="category-new-product">Imagen</label>
+            <input type="file" name="category-new-product" id="category-new-product" accept="image/png, image/jpeg" required>
+
+            <label for="category-new-product" id="category-new-product">Categoría</label>
+            <select name="category-new-product" id="category-new-product">
+                <option value="">Elija una categoría</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+
+            <label for="ml-new-product" id="ml-new-product">Cantidad</label>
+            <input type="number" name="ml-new-product" id="ml-new-product" required>
+
+            <label for="ml-new-product" id="ml-new-product">Tipo de Cantidad</label>
+            <select name="category-new-product" id="category-new-product">
+                <option value="">Elija un tipo de cantidad</option>
+                <option value="ml">Milílitros (ml.)</option>
+                <option value="fl.oz">Onzas fluidas (fl. oz.)</option>
+            </select>
+
+            <label for="price-new-product" id="price-new-product">Precio</label>
+            <input type="number" name="price-new-product" id="price-new-product" required>
+
+            <p>Editar un producto <a href="/edit-product">Ingresa aquí</a></p>
+
+            <input type="submit" class="button-new-produt" value="Agregar el producto">
+        </form>
+    </main>
+</body>
+</html>

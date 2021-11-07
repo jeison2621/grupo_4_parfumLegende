@@ -575,6 +575,13 @@ p {
     font-weight: bold;
 }
 
+/* NEWPRODUCTS.html */
+
+.main-pruducts {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (min-width: 481px) {
     .main-login {
         width: 430px;

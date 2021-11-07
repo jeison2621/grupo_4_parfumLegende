@@ -7,24 +7,18 @@ const main_controller = require('../controllers/main_controller');
 router.get('/', main_controller.home);
 
 /* GET register page. */
-router.get('/register', function(req, res) {
-    res.sendFile(path.join(__dirname, '../views/register.html'))
-});
+router.get('/register', main_controller.register);
 
 /* GET login page. */
-router.get('/login', function(req, res) {
-    res.send("llegamos"); 
-   // res.sendFile(path.join(__dirname, '../views/login.html'))
-});
+router.get('/login', main_controller.login);
 
 /* GET productCart page. */
-router.get('/productCart', function(req, res) {
-    res.sendFile(path.join(__dirname, '../views/productCart.html'))
-});
+router.get('/productCart', main_controller.productCart);
 
 /* GET productDetail page. */
-router.get('/productDetail', function(req, res) {
-    res.sendFile(path.join(__dirname, '../views/productDetail.html'))
-});
+router.get('/productDetail', main_controller.productDetail);
+
+/* GET newProducts page. */
+router.get('/newProducts', main_controller.newProducts);
 
 module.exports = router;
