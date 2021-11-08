@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const main_routes = require('./routes/main_router'); 
 const methodOverride = require('method-Override');
-
 const app = express();
 
 app.set('view engine', 'ejs'); 
