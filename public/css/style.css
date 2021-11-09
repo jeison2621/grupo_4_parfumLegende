@@ -78,17 +78,14 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
 .cabecera .seccion-3 {
     background-color: rgba(139, 67, 67, 0.8);
     width: 80%;
+    height: 70px;
     margin: auto;
     margin-top: -15px;
 }
 
 .cabecera .seccion-3 input {
+    margin: 16px;
     padding: 5px;
-}
-
-.cabecera .seccion-3 button {
-    height: 90%;
-    width:50px;
 }
 
 /* INDEX.html main */
