@@ -576,6 +576,72 @@ p {
 }
 
 /* NEWPRODUCTS.html */
+.main-new-pruducts {
+    padding: 10px;
+}
+
+.main-new-pruducts h3 {
+    padding: 10px;
+}
+
+.form-new-pruducts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.form-new-pruducts .input-file {
+    width: 70%;
+}
+
+.form-new-pruducts input, select {
+    margin: 15px;
+    padding: 5px;
+    width: 30%;
+}
+
+.form-new-pruducts select {
+    width: 22%;
+}
+
+.form-new-pruducts p {
+    text-align: left;
+}
+
+/* EDITPRODUCTS.html */
+.main-edit-pruducts {
+    padding: 10px;
+}
+
+.main-edit-pruducts h3 {
+    padding: 10px;
+}
+
+.form-edit-pruducts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.form-edit-pruducts .input-file {
+    width: 70%;
+}
+
+.form-edit-pruducts input, select {
+    margin: 15px;
+    padding: 5px;
+    width: 30%;
+}
+
+.form-edit-pruducts select {
+    width: 22%;
+}
+
+.form-edit-pruducts p {
+    text-align: left;
+}
 
 @media (min-width: 481px) {
     .main-login {

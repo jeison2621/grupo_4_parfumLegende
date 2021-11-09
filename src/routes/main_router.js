@@ -21,4 +21,8 @@ router.get('/productDetail', main_controller.productDetail);
 /* GET newProducts page. */
 router.get('/newProducts', main_controller.newProducts);
 
+
+/* GET editProducts page. */
+router.get('/editProducts', main_controller.editProducts);
+
 module.exports = router;
