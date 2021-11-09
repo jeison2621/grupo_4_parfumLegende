@@ -1,8 +1,8 @@
 const express = require('express');
 const path = require('path');
 const main_routes = require('./routes/main_router'); 
-const methodOverride = require('method-Override');      //Enviar datos de un formulario mediante put o delete
-const app = express();
+//const methodOverride = require('method-Override');      //Enviar datos de un formulario mediante put o delete
+//const app = express();
 
 //implementacion EJs
 app.set('view engine', 'ejs'); 
