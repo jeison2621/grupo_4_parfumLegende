@@ -5,10 +5,9 @@
     <%- include('./partials/head') %>
 <body>
     <%- include('./partials/header') %>
-    <%- include('./partials/banner') %>
-    <main class="main-pruducts">
+    <main class="main-new-pruducts">
         <h3>NUEVO PRODUCTO</h3>
-        <form action="#" class="form-pruducts">
+        <form action="#" method="post" class="form-new-pruducts">
             <label for="name-new-user" id="name-new-product">Nombre del producto:</label>
             <input type="text" name="name-new-product" id="name-new-product" required>
 
@@ -38,9 +37,9 @@
             <label for="price-new-product" id="price-new-product">Precio</label>
             <input type="number" name="price-new-product" id="price-new-product" required>
 
-            <p>Editar un producto <a href="/edit-product">Ingresa aquí</a></p>
-
             <input type="submit" class="button-new-produt" value="Agregar el producto">
+
+            <p>Editar un producto <a href="/editProducts">Ingresa aquí</a></p>
         </form>
     </main>
     <%- include('./partials/footer') %>

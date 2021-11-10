@@ -20,5 +20,6 @@ app.use('/register', main_routes);
 app.use('/productCart', main_routes);
 app.use('/productDetail', main_routes);
 app.use('/newProducts', main_routes);
+app.use('/editProducts', main_routes);
 
 module.exports = app;

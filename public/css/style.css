@@ -78,17 +78,14 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
 .cabecera .seccion-3 {
     background-color: rgba(139, 67, 67, 0.8);
     width: 80%;
+    height: 70px;
     margin: auto;
     margin-top: -15px;
 }
 
 .cabecera .seccion-3 input {
+    margin: 16px;
     padding: 5px;
-}
-
-.cabecera .seccion-3 button {
-    height: 90%;
-    width:50px;
 }
 
 /* INDEX.html main */
@@ -614,6 +611,72 @@ p {
 }
 
 /* NEWPRODUCTS.html */
+.main-new-pruducts {
+    padding: 10px;
+}
+
+.main-new-pruducts h3 {
+    padding: 10px;
+}
+
+.form-new-pruducts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.form-new-pruducts .input-file {
+    width: 70%;
+}
+
+.form-new-pruducts input, select {
+    margin: 15px;
+    padding: 5px;
+    width: 30%;
+}
+
+.form-new-pruducts select {
+    width: 22%;
+}
+
+.form-new-pruducts p {
+    text-align: left;
+}
+
+/* EDITPRODUCTS.html */
+.main-edit-pruducts {
+    padding: 10px;
+}
+
+.main-edit-pruducts h3 {
+    padding: 10px;
+}
+
+.form-edit-pruducts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.form-edit-pruducts .input-file {
+    width: 70%;
+}
+
+.form-edit-pruducts input, select {
+    margin: 15px;
+    padding: 5px;
+    width: 30%;
+}
+
+.form-edit-pruducts select {
+    width: 22%;
+}
+
+.form-edit-pruducts p {
+    text-align: left;
+}
 
 @media (min-width: 481px) {
     .main-login {
