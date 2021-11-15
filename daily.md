@@ -32,3 +32,51 @@ Adelantar todas las tareas pendientes, todo el codigo la parte visual.
 
 - Wilson 
 Terminar detalles de css, y demas tareas pendientes.
+
+
+# weekly - Sprint 4
+
+## ¿Que hicimos la semana pasada?
+
+- Diego 
+
+    actualice el tablero jira con esprint 4 (tareas)
+    termine tareas del sprint 3
+
+- Jeison
+
+    cargue los catalogos de los producros 
+
+    estructure en footer 
+
+    termine el header 
+    
+
+
+
+- Wilson 
+
+ 
+## ¿Qué impedimentos tuvimos?
+
+- Diego 
+     tiempo de reunion en conjuto
+
+- Jeison
+    Falta de comprensión de algunos conceptos.
+    terminar ejercicios playground
+
+- Wilson 
+Poder adelantar a tiempo las tareas para poder avanzar más rapido.
+
+## ¿Qué haremos la próxima semana? 
+
+- Diego 
+    tareas asignadas en el sprint 4
+
+- Jeison 
+
+    tareas asignadas en el sprint 4
+
+- Wilson 
+Terminar detalles de css, y demas tareas pendientes.
