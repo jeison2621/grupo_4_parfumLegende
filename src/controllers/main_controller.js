@@ -7,7 +7,19 @@ const main_controller = {
     },
     login: (req, res)=>{        
         res.render('login');
-    }
+    },
+    productCart: (req, res)=>{        
+        res.render('productCart');
+    },    
+    productDetail: (req, res)=>{        
+        res.render('productDetail');
+    },
+    newProducts: (req, res)=>{        
+        res.render('newProducts');
+    },
+    editProducts: (req, res)=>{        
+        res.render('editProducts');
+    },
 }
 
 module.exports = main_controller; 

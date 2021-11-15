@@ -43,3 +43,24 @@
 
 ## Dejar de Hacer:
 - Procastinar.
+
+
+
+# Retrospectiva - Sprint 4
+
+ ## Comenzar a Hacer:
+ - asignar tareas de jira
+ 
+
+## Hacer Más:
+- dedicar mas tiempo al proyecto
+
+## Continuar Haciendo:
+- continuar apoyandonos en las dificultades 
+- reuniones para checkeo de avances 
+
+## Hacer Menos:
+- No preguntar o pedir ayuda.
+
+## Dejar de Hacer:
+- Procastinar.
