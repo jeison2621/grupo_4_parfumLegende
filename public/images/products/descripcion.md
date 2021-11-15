@@ -20,7 +20,7 @@
 **********************
 7_Love me victoria secret
 1,7 Oz Edp $275.000
-3,4 Oz Edp $37o.000
+3,4 Oz Edp $370.000
 
 ***********************
 8_Noir tease
