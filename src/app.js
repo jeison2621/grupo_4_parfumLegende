@@ -1,25 +1,30 @@
 const express = require('express');
 const path = require('path');
-const main_routes = require('./routes/main_router'); 
-const methodOverride = require('method-Override');      //Enviar datos de un formulario mediante put o delete
+const main_routes = require('./routes/main_routes'); 
+const products_routes = require('./routes/products_routes'); 
+const methodOverride = require('method-Override');    
 const app = express();
 
-//implementacion EJs
+//Implementación EJS
 app.set('view engine', 'ejs'); 
-
 app.set('views', (path.join(__dirname, './views')));
 
-//app.set('views', './src/views');
-
+//Definiendo carpeta pública
 app.use(express.static(path.join(__dirname, '../public')));
+
+//Configuración para usar PUT, DELETE
 app.use(methodOverride("_method"));
 
+//Configuración para caprurar la información del formulario
+// app.use(express.urlencoded( { extended: false } ));
+// app.use(express.json)
+
+//Configuración de rutas
 app.use('/', main_routes);
-app.use('/login', main_routes);
-app.use('/register', main_routes);
-app.use('/productCart', main_routes);
-app.use('/productDetail', main_routes);
-app.use('/newProducts', main_routes);
-app.use('/editProducts', main_routes);
+app.use('/products', products_routes);
+
+app.use((req, res, next) => {
+    res.status(404).send('not-foud');
+})
 
 module.exports = app;

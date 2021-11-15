@@ -13,23 +13,26 @@ En clase avanzamos en algunos conceptos que no eran claros y empezamos con las t
  
 ## ¿Qué impedimentos tuvimos?
 
-- Diego 
+- Diego
 No haber entendido a tiempo algunos conceptos del sprint.
 
 - Jeison
 Falta de comprensión de algunos conceptos.
 
-- Wilson 
+- Wilson
 Poder adelantar a tiempo las tareas para poder avanzar más rapido.
 
 ## ¿Qué haremos la próxima semana? 
 
-- Diego 
+- Diego
 Hacer el formulario de edición 
 
-- Jeison 
+- Jeison
 Adelantar todas las tareas pendientes, todo el codigo la parte visual.
 
+<<<<<<< HEAD
+- Wilson
+=======
 - Wilson 
 Terminar detalles de css, y demas tareas pendientes.
 
@@ -82,4 +85,7 @@ Terminar detalles de css, y demas tareas pendientes.
     tareas asignadas en el sprint 4
 
 - Wilson 
+<<<<<<< HEAD
     tareas asignadas en el sprint 4
+=======
+
