@@ -61,6 +61,7 @@
 
 ## Hacer Menos:
 - No preguntar o pedir ayuda.
+- subir cambios y no informar 
 
 ## Dejar de Hacer:
 - Procastinar.

@@ -50,11 +50,10 @@ Terminar detalles de css, y demas tareas pendientes.
     estructure en footer 
 
     termine el header 
-    
-
-
 
 - Wilson 
+
+    termine responsive del carrito
 
  
 ## ¿Qué impedimentos tuvimos?
@@ -63,11 +62,15 @@ Terminar detalles de css, y demas tareas pendientes.
      tiempo de reunion en conjuto
 
 - Jeison
+    tiempo de reunion en conjuto
     Falta de comprensión de algunos conceptos.
     terminar ejercicios playground
 
 - Wilson 
-Poder adelantar a tiempo las tareas para poder avanzar más rapido.
+    tiempo de reunion en conjuto
+    cruce con otras tareas 
+    adelantar contenido sprint 4
+
 
 ## ¿Qué haremos la próxima semana? 
 
@@ -79,4 +82,4 @@ Poder adelantar a tiempo las tareas para poder avanzar más rapido.
     tareas asignadas en el sprint 4
 
 - Wilson 
-Terminar detalles de css, y demas tareas pendientes.
+    tareas asignadas en el sprint 4
