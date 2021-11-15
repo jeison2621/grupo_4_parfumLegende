@@ -55,7 +55,7 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
 }
 
 .contenedor-logo img {
-    width: 90%;    
+    width: 90%;
     border-radius: 20%;
 }
 
@@ -97,7 +97,7 @@ main {
     height: 50vh;
 }
 
-.banner img{
+.banner img {
     width: 100%;
     height: 100%;
 }
@@ -127,7 +127,7 @@ main section article {
 
 }
 
-main section  :hover{
+main section article :hover {
     -webkit-box-shadow: 0px 2px 24px 0px #000000;
     box-shadow: 0px 2px 24px 0px #000000;   
 
@@ -166,27 +166,39 @@ footer {
     color: rgb(184, 184, 184);
     justify-content: space-around;
     flex-wrap: wrap;
-    color: white;
+
+
+
 }
 
-footer section{
-    width: 33%;
-    height: 100px;
+footer section {
+    width: 350px;
+    height: 250px;
     padding: 10px;
     border: 2px solid #542d2d;
-    color: white;
-    
+    ;
+
 }
 
+footer section .contenedor-logo-footer {}
 
-.div-redes{
+footer section .contenedor-logo-footer img {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    padding: 5pt;
+    border-radius: 50%;
+
+
+}
+
+.div-redes {
     padding: 5px;
     height: 30px;
     color: white
-    
 }
 
-.div-redes i{
+.div-redes i {
 
     color: white;
     font-size: 20px;
@@ -202,13 +214,11 @@ footer p i {
     color: white
 }
 
+/* PRODUCTCART.html mobile first */
 
-/* PRODUCTCART.html */
 
 .main_cart .carrito_content {
     background-color: white;
-
-
 
 }
 
@@ -231,14 +241,15 @@ footer p i {
 
 .main_cart .carrito_content .product .encabezado {
     width: 100vw;
-    display: flex;
+    display: none;
     flex-direction: row;
     padding: 2px;
 
 }
 
 .main_cart .carrito_content .product .encabezado h2 {
-    display: flex;
+    display: none;
+    width: 95%;
     font-size: medium;
     flex-direction: row;
     padding: 5px;
@@ -247,10 +258,11 @@ footer p i {
 }
 
 .main_cart .carrito_content .product .product_detail {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    padding: 2px;
+   
+    display: flex;    
+    flex-direction: column;
+    width: 95vw;
+    padding: 2vw;
     border-top: 1px solid;
     border-bottom: 1px solid;
 
@@ -262,68 +274,97 @@ footer p i {
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    padding: 2px;
+    padding: 2vw;
     justify-content: center;
     margin: auto;
 }
 
 .main_cart .carrito_content .product .product_detail p img {
-    width: 25vw;
+    width: 80vw;
     display: flex;
     flex-direction: row;
-    padding: 2px;
+    padding: 2vw;
+
+}
+.main_cart .carrito_content .product .product_detail .quantity{
+   
+    display: flex; 
+    width: 50%;
+    text-align: center;  
+    padding: 0vw; 
+    font-size: 3vw;
+    margin: auto;
+    
 
 }
 
 .main_cart .carrito_content .notasytotal {
     display: flex;
+    flex-direction: column;
 }
 
 .main_cart .carrito_content .notasytotal .notas {
-    width: 50%;
+    width: 80%;
     flex-direction: column;
-    padding: 2px;
-    margin-left: 4px;
+    padding: 2vw;
+    margin: auto;
 }
 
 .main_cart .carrito_content .notasytotal .notas p {
 
     display: flex;
-    padding: 2px;
+    padding: 2vw;
+    margin: 0%;
+    align-content: flex-start;
 
 }
 
-.main_cart .carrito_content .notasytotal .notas textarea {
+.main_cart .carrito_content .notasytotal .notas .comentarios {
 
     display: flex;
-    padding: 2px;
-    color: gray;
-    font-size: 12px;
+    padding: 2vw;
+    color: gray;   
+    margin: 0;
+    height: 40vw;
 
+}
+.main_cart .carrito_content .notasytotal .notas .cupon {
+
+    display: flex;
+    padding: 2vw;
+    color: gray;   
+    margin: 0;
+    height: 20vw;
 
 }
 
 .main_cart .carrito_content .notasytotal .total {
-    width: 50%;
+    width: 80%;
     display: flex;
-    margin-left: 2px;
     flex-direction: column;
-    padding: 2px;
+    padding: 2vw;
+    margin: auto;
 }
 
 .main_cart .carrito_content .notasytotal .total p {
 
     display: flex;
     padding: 2px;
+    margin: 0%;
+    text-align: start;
+    align-content: flex-start;
+    margin: auto;
 }
 
 .main_cart .carrito_content .notasytotal .total button {
 
     background-color: rgba(87, 103, 247, 1);
     border: none;
+    padding: 1vw;
     color: #fff;
     font-weight: normal;
     font-size: 20px;
+    margin: auto;
 
 
 }
@@ -348,7 +389,7 @@ footer p i {
     background: white;
     display: flex;
     flex-direction: row;
-    margin-top:20px ;
+    margin-top: 20px;
 }
 
 .main_productDetail .producto_info .productdescript .producto {
@@ -358,7 +399,7 @@ footer p i {
 .main_productDetail .producto_info .productdescript .producto img {
     width: 400px;
     height: 400px;
-    
+
 }
 
 .main_productDetail .producto_info .productdescript .producto p {
@@ -366,13 +407,14 @@ footer p i {
 }
 
 .main_productDetail .producto_info .productdescript .miniatura {
-    padding: 10px; 
+    padding: 10px;
     width: 100px;
     height: 100px;
 }
+
 .main_productDetail .producto_info .productdescript .miniatura img {
     width: 100%;
-    
+
 }
 
 .main_productDetail .producto_info .productdescript .description {
@@ -383,7 +425,7 @@ footer p i {
     display: flex;
     flex-direction: row;
     margin: 10px;
-    
+
 }
 
 .main_productDetail .producto_info .productdescript .description .uno i {
@@ -401,9 +443,9 @@ footer p i {
 }
 
 .main_productDetail .producto_info .productdescript .description .uno .cajita {
-   border: rgba(237, 121, 83, 1) solid; 
-   background-color: rgba(237, 121, 83, 1);
-   color: #fff;
+    border: rgba(237, 121, 83, 1) solid;
+    background-color: rgba(237, 121, 83, 1);
+    color: #fff;
 }
 
 .main_productDetail .producto_info .productdescript .description .uno .quantity {
@@ -411,6 +453,7 @@ footer p i {
     flex-direction: row;
     margin: auto;
 }
+
 .main_productDetail .producto_info .productdescript .description .uno .quantity input {
     display: flex;
     flex-direction: row;
@@ -438,23 +481,23 @@ footer p i {
 }
 
 .main_productDetail .producto_info .productdescript .description .dos .cajita {
-    border: rgba(237, 121, 83, 1) solid; 
+    border: rgba(237, 121, 83, 1) solid;
     background-color: rgba(237, 121, 83, 1);
     color: #fff;
 }
 
-.main_productDetail .producto_info .productdescript .description .dos .quantity{
+.main_productDetail .producto_info .productdescript .description .dos .quantity {
     display: flex;
     flex-direction: row;
-    
-    
+
+
 }
 
 .main_productDetail .producto_info .productdescript .description .tres {
     display: flex;
     flex-direction: row;
     margin: 10px;
-    
+
 
 }
 
@@ -466,7 +509,7 @@ footer p i {
     margin: auto;
     width: 40px;
     height: 40px;
-    
+
 }
 
 .main_productDetail .producto_info .productdescript .description .tres p {
@@ -474,7 +517,7 @@ footer p i {
 }
 
 .main_productDetail .producto_info .productdescript .description .tres .cajita {
-    border: rgba(237, 121, 83, 1) solid; 
+    border: rgba(237, 121, 83, 1) solid;
     background-color: rgba(237, 121, 83, 1);
     color: #fff;
 }
@@ -488,12 +531,15 @@ footer p i {
 .main_productDetail .producto_info .productdescript .description .comprar_ahora {
     margin-top: 20px;
 }
+
 .main_productDetail .producto_info .productdescript .description .comprar_ahora {
     margin-top: 20px;
 }
+
 .main_productDetail .producto_info .productdescript .description .comprar_ahora {
     margin-top: 20px;
 }
+
 .main_productDetail .producto_info .productdescript .description .comprar_ahora .button-comprarAhora {
     margin-top: 20px;
     color: #fff;
@@ -501,6 +547,7 @@ footer p i {
     border: none;
     font-weight: bold;
 }
+
 .main_productDetail .producto_info .productdescript .description .comprar_ahora .button-AgregarCarrito {
     margin-top: 20px;
     color: #fff;
@@ -512,11 +559,12 @@ footer p i {
 .main_productDetailt .producto_info .descripcion_detalle {
     background-color: white;
     display: flex;
-    
+
 
 }
+
 .main_productDetailt .producto_info .descripcion_detalle h2 {
-        
+
     display: flex;
     flex-direction: row;
 
@@ -633,7 +681,8 @@ p {
     width: 70%;
 }
 
-.form-new-pruducts input, select {
+.form-new-pruducts input,
+select {
     margin: 15px;
     padding: 5px;
     width: 30%;
@@ -667,7 +716,8 @@ p {
     width: 70%;
 }
 
-.form-edit-pruducts input, select {
+.form-edit-pruducts input,
+select {
     margin: 15px;
     padding: 5px;
     width: 30%;
@@ -687,38 +737,194 @@ p {
     }
 }
 
-@media(max-width: 481px) {
-    .contenedor-logo {
-        width: 70px;
-        position: absolute;
+@media(min-width:481px) {
+    .cabecera .seccion-2 {
+        justify-content: end;
+
+    }
+
+    /*configurando desktop del carrito*/
+
+    .main_cart .carrito_content {
+        background-color: white;
+
+
+
+    }
+
+    .main_cart .carrito_content .carrito_head {
+        display: flex;
+        width: 100vw;
+        height: 7vw;
+        align-items: center;
+        margin: auto;
+        padding: 2px;
+        background-color: rgba(156, 85, 242, 1);
+
+    }
+
+    .main_cart .carrito_content .carrito_head h2 {
+        margin: auto;
+        font-size: large;
+        color: white;
+    }
+
+    .main_cart .carrito_content .product .encabezado {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        padding: 2px;
+
+    }
+
+    .main_cart .carrito_content .product .encabezado h2 {
+        display: flex;
+        width: 95%;
+        font-size: medium;
+        flex-direction: row;
+        padding: 5px;
+        margin: auto;
+        justify-content: space-around;
+
+    }
+
+    .main_cart .carrito_content .product .product_detail {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        padding: 2vw;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        justify-content: space-around;
+
+    }
+    .main_cart .carrito_content .product .product_detail .quantity{
+   
+        display: flex; 
+        width: 100%;
+        text-align: center;  
+        padding: 0vw; 
+        font-size: 3vw;
+        margin: auto;
+        
+    
     }
     
-}
 
-
-@media (min-width: 468px){
-    .cabecera .seccion-1{
-        
+    .main_cart .carrito_content .product .product_detail p {
+        width: 95%;
+        font-size: medium;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        padding: 2px;
+        justify-content: center;
+        margin: auto;
     }
+
+    .main_cart .carrito_content .product .product_detail p img {
+        width: 25vw;
+        display: flex;
+        flex-direction: row;
+        padding: 2px;
+
+    }
+
+    .main_cart .carrito_content .notasytotal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main_cart .carrito_content .notasytotal .notas {
+        width: 60%;
+        flex-direction: column;
+        padding: 2vw;
+        margin-left: 8vw;
+    }
+
+    .main_cart .carrito_content .notasytotal .notas p {
+
+        display: flex;
+        padding: 2px;
+
+    }
+
+    .main_cart .carrito_content .notasytotal .notas .comentarios {
+
+        display: flex;
+        padding: 2px;
+        color: gray;
+        font-size: 12px;
+        width: 100%;
+        height: 10vw;
+        margin: 0;
+
+
+    }
+
+    .main_cart .carrito_content .notasytotal .notas .cupon {
+
+        display: flex;
+        padding: 2px;
+        color: gray;
+        font-size: 12px;
+        width: 100%;
+        height: 5vw;
+        margin: 0;
+
+
+    }
+
+    .main_cart .carrito_content .notasytotal .total {
+        width: 50%;
+        display: flex;
+        margin-right: 8vw;
+        flex-direction: column;
+        padding: 2vw;
+    }
+
+    .main_cart .carrito_content .notasytotal .total p {
+
+        display: flex;
+        padding: 2vw;
+    }
+
+    .main_cart .carrito_content .notasytotal .total .acepto {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin: auto; 
+        flex-direction: column;
+
+             
+
+    }
+
+    .main_cart .carrito_content .notasytotal .total button {
+
+        background-color: rgba(87, 103, 247, 1);
+        border: none;
+        color: #fff;
+        font-weight: normal;
+        font-size: 20px;
+
+
+    }
+
+    .main_cart .carrito_content .notasytotal .total p .cbox1 {
+        margin: 0;
+    }
+
+
+
+
+
 }
 
-@media(max-width:481px){
-    .cabecera .seccion-2{
-        justify-content: end;
-        background-color: blue;
-       display: none;
-        
-    }
-}
 
-@media(max-width:481px){
-    .cabecera .seccion-3{
-        justify-content: end;
-        background-color: blue;
-       display: none;
-        
-    }
-}
+
+
 
 @media (max-width:600px){
 
