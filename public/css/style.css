@@ -127,6 +127,12 @@ main section article {
 
 }
 
+main section  :hover{
+    -webkit-box-shadow: 0px 2px 24px 0px #000000;
+    box-shadow: 0px 2px 24px 0px #000000;   
+
+}
+
 main section article :hover {
     -webkit-box-shadow: 0px 2px 24px 0px #000000;
     box-shadow: 0px 2px 24px 0px #000000;   
@@ -155,7 +161,6 @@ main section article .description-product{
 
 
 
-
 /* INDEX.html Footer */
 footer {
     width: 100%;
@@ -166,30 +171,40 @@ footer {
     color: rgb(184, 184, 184);
     justify-content: space-around;
     flex-wrap: wrap;
-
-
-
+    color: white;
 }
 
-footer section {
-    width: 350px;
-    height: 250px;
+footer section{
+    width: 33%;
+    height: 100px;
     padding: 10px;
     border: 2px solid #542d2d;
-    ;
-
+    color: white;
+    
 }
 
-footer section .contenedor-logo-footer {}
 
-footer section .contenedor-logo-footer img {
-    display: flex;
-    width: 40%;
-    margin: auto;
-    padding: 5pt;
-    border-radius: 50%;
+.div-redes{
+    padding: 5px;
+    height: 30px;
+    color: white
+    
+}
+
+.div-redes i{
+
+    color: white;
+    font-size: 20px;
+}
 
 
+
+footer p {
+    width: 100%;
+}
+
+footer p i {
+    color: white
 }
 
 .div-redes {
@@ -923,8 +938,44 @@ select {
 }
 
 
+@media (min-width: 481px) {
+    .main-login {
+        width: 430px;
+    }
+}
+
+@media(max-width: 481px) {
+    .contenedor-logo {
+        width: 70px;
+        position: absolute;
+    }
+    
+}
 
 
+@media (min-width: 468px){
+    .cabecera .seccion-1{
+        
+    }
+}
+
+@media(max-width:481px){
+    .cabecera .seccion-2{
+        justify-content: end;
+        background-color: blue;
+       display: none;
+        
+    }
+}
+
+@media(max-width:481px){
+    .cabecera .seccion-3{
+        justify-content: end;
+        background-color: blue;
+       display: none;
+        
+    }
+}
 
 @media (max-width:600px){
 
