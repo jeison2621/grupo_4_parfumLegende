@@ -30,9 +30,6 @@ Hacer el formulario de edición
 - Jeison
 Adelantar todas las tareas pendientes, todo el codigo la parte visual.
 
-<<<<<<< HEAD
-- Wilson
-=======
 - Wilson 
 Terminar detalles de css, y demas tareas pendientes.
 
@@ -85,7 +82,5 @@ Terminar detalles de css, y demas tareas pendientes.
     tareas asignadas en el sprint 4
 
 - Wilson 
-<<<<<<< HEAD
+Terminar detalles de css, y demas tareas pendientes.
     tareas asignadas en el sprint 4
-=======
-

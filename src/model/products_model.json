@@ -1,0 +1,13 @@
+[
+    {
+        "id": 0,
+        "name": "Perfume 0",
+        "description": "Este es el perfume 0",
+        "image": "perfume-0.jpg",
+        "category": "Aceite",
+        "amount": 200,
+        "typeAmount": "ml.",
+        "price": 250000,
+        "discount": 20
+    }
+]
