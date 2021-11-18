@@ -1,131 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./partials/head') %>
-<body>
-    <%- include('./partials/header') %>
-        <main class="main_productDetail">
-            <h2> Detalle producto </h2>
-            <div class="producto_info">
+<%- include('./partials/head') %>
 
-                <div class="productdescript">
+    <body>
+        <%- include('./partials/header') %>
+            <main class="main_productDetail">
+                <h2> Detalle producto </h2>
+                <div class="producto_info">
 
-                    <article class="producto">
-                        <img src="../images/8.jpg" alt="Olympea Legend">
-                        <p class="descripcion">Olympea</p>
+                    <div class="productdescript">
 
-                    </article>
+                        <article class="producto">
+                            <img src="../images/8.jpg" alt="Olympea Legend">
+                            <p class="descripcion">Olympea</p>
 
-                    <div class="miniatura">
-                        <img src="../images/8.jpg" alt="Olympea Legend">
-                        <img src="../images/9.jpg" alt="Olympea amarillo">
+                        </article>
+
+                        <div class="miniatura">
+                            <img src="../images/8.jpg" alt="Olympea Legend">
+                            <img src="../images/9.jpg" alt="Olympea amarillo">
+
+                        </div>
+
+                        <div class="description">
+                            <div class="uno">
+                                <i class="far fa-heart"></i>
+                                <p>200 ml</p>
+                                <p class="cajita">-30%</p>
+                                <p>$250.000</p>
+                                <p class="quantity"> <input type="button" value="-" class="minus"> <label
+                                        class="screen-reader-text" for="quantity_61784a0446a52"></label>
+                                    <input type="number" id="quantity_61784a0446a52" class="input-text qty text"
+                                        step="1" min="1" max="99" name="quantity" value="1" title="Cantidad" size="4"
+                                        placeholder="" inputmode="numeric">
+                                    <input type="button" value="+" class="plus">
+
+                                </p>
+
+                            </div>
+                            <div class="dos">
+                                <i class="far fa-heart"></i>
+                                <p>150 ml</p>
+                                <p class="cajita">-25%</p>
+                                <p>$150.000</p>
+                                <p class="quantity"> <input type="button" value="-" class="minus"> <label
+                                        class="screen-reader-text" for="quantity_61784a0446a52"></label>
+                                    <input type="number" id="quantity_61784a0446a52" class="input-text qty text"
+                                        step="1" min="1" max="99" name="quantity" value="1" title="Cantidad" size="4"
+                                        placeholder="" inputmode="numeric">
+                                    <input type="button" value="+" class="plus">
+
+                                </p>
+
+                            </div>
+                            <div class="tres">
+                                <i class="far fa-heart"></i>
+                                <p>100 ml</p>
+                                <p class="cajita">-25%</p>
+                                <p>$100.000</p>
+                                <p class="quantity"> <input type="button" value="-" class="minus"> <label
+                                        class="screen-reader-text" for="quantity_61784a0446a52"></label>
+                                    <input type="number" id="quantity_61784a0446a52" class="input-text qty text"
+                                        step="1" min="1" max="99" name="quantity" value="1" title="Cantidad" size="4"
+                                        placeholder="" inputmode="numeric">
+                                    <input type="button" value="+" class="plus">
+
+                                </p>
+
+                            </div>
+                            <div class="comprar_ahora">
+                                <input type="submit" class="button-comprarAhora" value="Comprar Ahora">
+                                <input type="submit" class="button-AgregarCarrito" value="Agregar al carrito">
+
+                            </div>
+
+
+                        </div>
+
+
 
                     </div>
 
-                    <div class="description">
-                        <div class="uno">
-                            <i class="far fa-heart"></i>
-                            <p>200 ml</p>
-                            <p class="cajita">-30%</p>
-                            <p>$250.000</p>
-                            <p class="quantity"> <input type="button" value="-" class="minus"> <label
-                                    class="screen-reader-text" for="quantity_61784a0446a52"></label>
-                                <input type="number" id="quantity_61784a0446a52" class="input-text qty text" step="1"
-                                    min="1" max="99" name="quantity" value="1" title="Cantidad" size="4" placeholder=""
-                                    inputmode="numeric">
-                                <input type="button" value="+" class="plus">
-
-                            </p>
-
-                        </div>
-                        <div class="dos">
-                            <i class="far fa-heart"></i>
-                            <p>150 ml</p>
-                            <p class="cajita">-25%</p>
-                            <p>$150.000</p>
-                            <p class="quantity"> <input type="button" value="-" class="minus"> <label
-                                    class="screen-reader-text" for="quantity_61784a0446a52"></label>
-                                <input type="number" id="quantity_61784a0446a52" class="input-text qty text" step="1"
-                                    min="1" max="99" name="quantity" value="1" title="Cantidad" size="4" placeholder=""
-                                    inputmode="numeric">
-                                <input type="button" value="+" class="plus">
-
-                            </p>
-
-                        </div>
-                        <div class="tres">
-                            <i class="far fa-heart"></i>
-                            <p>100 ml</p>
-                            <p class="cajita">-25%</p>
-                            <p>$100.000</p>
-                            <p class="quantity"> <input type="button" value="-" class="minus"> <label
-                                    class="screen-reader-text" for="quantity_61784a0446a52"></label>
-                                <input type="number" id="quantity_61784a0446a52" class="input-text qty text" step="1"
-                                    min="1" max="99" name="quantity" value="1" title="Cantidad" size="4" placeholder=""
-                                    inputmode="numeric">
-                                <input type="button" value="+" class="plus">
-
-                            </p>
-
-                        </div>
-                        <div class="comprar_ahora">
-                            <input type="submit" class="button-comprarAhora" value="Comprar Ahora">
-                            <input type="submit" class="button-AgregarCarrito" value="Agregar al carrito">
+                    <div class="descripcion_detalle">
+                        <div class="encabezado">
+                            <h3 class="titulo">DESCRIPCION</h3>
+                            <h3 class="titulo">CARACTERISTICAS</h3>
+                            <h3 class="titulo">COMPARTIR</h3>
 
                         </div>
 
 
-                    </div>                    
+                        <P> LOS HÉROES VIENEN Y VAN, LAS LEYENDAS SON ETERNAS
+
+                            INVICTUS LEGEND de Paco Rabanne es un Eau de Parfum masculino perteneciente a la familia
+                            olfativa Amaderada Aromática. Lanzado en 2019 de la mano de los perfumistas Domitille
+                            Bertier y Nicolas Beaulieu como un flanker más potente y abrasador que el original
+                            INVICTUS.
+
+                            Con una versión mucho más intensa, ardiente y trasgresora, el nuevo Invictus representa
+                            un
+                            duelo entre dos fuerzas: la refrescante adrenalina y la madera al sol cálida e intensa.
+                            La
+                            primera fuerza la encontramos en las notas de salida en lo refrescante con acordes de
+                            pomelo, sal marina y notas acuáticas. Su corazón aromático cuenta con peculiares notas
+                            vigorizantes de geranio con toques metálicos, hojas de laurel para los que se sientes
+                            ganadores y especias. Su fondo puramente amaderado y ardiente cuenta con madera de
+                            gaiac,
+                            ámbar rojo y elixir de miel.
+
+                            EL FRASCO. El mítico trofeo se tiñe de azul índigo en degradado demostrando así su
+                            fuerza y
+                            virilidad.
+
+                            LA INSPIRACIÓN. En medio de un desierto abrasador se disputa un duelo definitivo, una
+                            espectacular carrera en terreno hostil en la que se respira adrenalina entre tornados
+                            ardientes de arena. El objetivo es claro, hay un trofeo que ganar.
+
+                            EL HÉROE, LA LEYENDA. El hombre Invictus era un héroe en el terreno masculino, por sus
+                            victorias dentro y fuera del campo de batalla. En esta ocasión se enfrenta a un reto
+                            mayor
+                            en un terreno que no es el suyo, y sabe cómo vencer. Se convierte en leyenda.</P>
+                    </div>
+
+
+                    <section class="for-buy">
+
+
+
+
+                    </section>
+
 
 
 
                 </div>
 
-                <div class="descripcion_detalle">
-                    <h2>DESCRIPCION</h2>
-                    <h2>CARACTERISTICAS</h2>
-                    <h2>COMPARTIR</h2>
-                    <P> LOS HÉROES VIENEN Y VAN, LAS LEYENDAS SON ETERNAS
 
-                        INVICTUS LEGEND de Paco Rabanne es un Eau de Parfum masculino perteneciente a la familia
-                        olfativa Amaderada Aromática. Lanzado en 2019 de la mano de los perfumistas Domitille
-                        Bertier y Nicolas Beaulieu como un flanker más potente y abrasador que el original INVICTUS.
-
-                        Con una versión mucho más intensa, ardiente y trasgresora, el nuevo Invictus representa un
-                        duelo entre dos fuerzas: la refrescante adrenalina y la madera al sol cálida e intensa. La
-                        primera fuerza la encontramos en las notas de salida en lo refrescante con acordes de
-                        pomelo, sal marina y notas acuáticas. Su corazón aromático cuenta con peculiares notas
-                        vigorizantes de geranio con toques metálicos, hojas de laurel para los que se sientes
-                        ganadores y especias. Su fondo puramente amaderado y ardiente cuenta con madera de gaiac,
-                        ámbar rojo y elixir de miel.
-
-                        EL FRASCO. El mítico trofeo se tiñe de azul índigo en degradado demostrando así su fuerza y
-                        virilidad.
-
-                        LA INSPIRACIÓN. En medio de un desierto abrasador se disputa un duelo definitivo, una
-                        espectacular carrera en terreno hostil en la que se respira adrenalina entre tornados
-                        ardientes de arena. El objetivo es claro, hay un trofeo que ganar.
-
-                        EL HÉROE, LA LEYENDA. El hombre Invictus era un héroe en el terreno masculino, por sus
-                        victorias dentro y fuera del campo de batalla. En esta ocasión se enfrenta a un reto mayor
-                        en un terreno que no es el suyo, y sabe cómo vencer. Se convierte en leyenda.</P>
-                </div>
-
-
-                <section class="for-buy">
-
-
-
-
-                </section>
-
-
-
-
-            </div>
-
-
-        </main>
-        <%- include('./partials/footer') %>
+            </main>
+            <%- include('./partials/footer') %>
     </body>
-</body>
+    </body>
+
 </html>
