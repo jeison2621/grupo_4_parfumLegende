@@ -426,7 +426,8 @@ footer p i {
     display: flex;
     flex-direction: row;
     padding: 1vw;
-    width: 40%;
+    width: 30vw;
+
 
 }
 
@@ -574,17 +575,40 @@ footer p i {
     font-weight: bold;
 }
 
-.main_productDetailt .producto_info .descripcion_detalle {
-    background-color: white;
+.main_productDetail .producto_info .descripcion_detalle {
+
     display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: auto;
 
 
 }
 
-.main_productDetailt .producto_info .descripcion_detalle h2 {
+.main_productDetail .producto_info .descripcion_detalle .encabezado {
 
     display: flex;
     flex-direction: row;
+    width: 95%;
+
+
+
+}
+
+.main_productDetail .producto_info .descripcion_detalle .encabezado .titulo {
+
+    margin: auto;
+    font-size: medium;
+    font-family: 'Roboto Slab';
+}
+.main_productDetail .producto_info .descripcion_detalle p {
+
+    margin: auto;
+    text-align: justify;
+    font-family: 'Roboto Slab';
+    font-size: small;
+
+
 
 }
 
@@ -971,17 +995,18 @@ select {
     }
 
     .main_productDetail .producto_info .productdescript .miniatura {
-       
+        display: flex;
+        flex-direction: column;
         padding: 1vw;
-        width: 100%;
-        height: 100% ;
-       
+        width: 200px;
+
+
     }
-    
+
     .main_productDetail .producto_info .productdescript .miniatura img {
-        width: 50%;
-        height: 25%;
-    
+        width: 100%;
+
+
     }
 
     .main_productDetail .producto_info .productdescript .description {
@@ -991,13 +1016,18 @@ select {
     .main_productDetail .producto_info .productdescript .description .uno {
         display: flex;
         flex-direction: row;
-        margin: 1vw;
-
+        margin: 10px;
     }
 
     .main_productDetail .producto_info .productdescript .description .uno i {
         margin: auto;
-    }    
+    }
+
+    .main_productDetail .producto_info .productdescript .description .uno img {
+        margin: auto;
+        width: 40px;
+        height: 40px;
+    }
 
     .main_productDetail .producto_info .productdescript .description .uno p {
         margin: auto;
@@ -1012,13 +1042,8 @@ select {
     .main_productDetail .producto_info .productdescript .description .uno .quantity {
         display: flex;
         flex-direction: row;
-        margin: auto;
-    }
 
-    .main_productDetail .producto_info .productdescript .description .uno .quantity input {
-        display: flex;
-        flex-direction: row;
-        margin: auto;
+
     }
 
     .main_productDetail .producto_info .productdescript .description .dos {
@@ -1117,26 +1142,41 @@ select {
         font-weight: bold;
     }
 
-    .main_productDetailt .producto_info .productdescript .descripcion_detalle {
+    .main_productDetail .producto_info .descripcion_detalle {
+
+        display: flex;
+        flex-direction: column;
         background-color: white;
-        display: flex;
-
-
-    }
-
-    .main_productDetailt .producto_info .productdescript .descripcion_detalle .encabezado {
-
-        display: flex;
-        width: 100vw;
-        flex-direction: column; 
-
-    }
-
-    .main_productDetailt .producto_info .productdescript .descripcion_detalle .encabezado .titulo {
-
         margin: auto;
 
+
     }
+
+    .main_productDetail .producto_info .descripcion_detalle .encabezado {
+
+        display: flex;
+        flex-direction: row;
+
+
+
+    }
+
+    .main_productDetail .producto_info .descripcion_detalle .encabezado .titulo {
+
+        margin: auto;
+        font-family: 'Roboto Slab';
+        font-size: medium;
+
+    }
+    .main_productDetail .producto_info .descripcion_detalle p {
+
+        margin: auto;
+        text-align: justify;
+        font-family: 'Roboto Slab';
+        font-size: small;
+
+    }
+    
 
 
 }
