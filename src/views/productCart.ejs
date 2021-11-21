@@ -1,69 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./partials/head') %>
-<body>
-    <%- include('./partials/header') %>
-    <main class="main_cart">
-        <div class="carrito_content">
-            <section class="carrito_head">
-                <h2>CARRITO</h2>
-            </section>
+<%- include('./partials/head') %>
 
-            <div class="product">
-                <div class="encabezado">
-                    <h2>PRODUCTO</h2>
-                    <h2>PRECIO</h2>
-                    <h2>CANTIDAD</h2>
-                    <h2>TOTAL</h2>
+    <body>
+        <%- include('./partials/header') %>
+            <main class="main_cart">
+                <div class="carrito_content">
+                    <section class="carrito_head">
+                        <h2>CARRITO</h2>
+                    </section>
+
+                    <div class="product">
+                        <div class="encabezado">
+                            <h2>PRODUCTO</h2>
+                            <h2>PRECIO</h2>
+                            <h2>CANTIDAD</h2>
+                            <h2>TOTAL</h2>
+                        </div>
+                        <div class="product_detail">
+                            <p><img src="../images/8.jpg" alt="Olympea Legend"> <i class="far fa-edit"></i><i
+                                    class="far fa-trash-alt"></i></p>
+                            <p class=>$250.000</p>
+                            <p class="quantity"> <input type="button" value="-" class="minus"> <label
+                                    class="screen-reader-text" for="quantity_61784a0446a52"></label>
+                                <input type="number" id="quantity_61784a0446a52" class="input-text qty text" step="1"
+                                    min="1" max="99" name="quantity" value="1" title="Cantidad" size="4" placeholder=""
+                                    inputmode="numeric">
+                                <input type="button" value="+" class="plus">
+
+                            </p>
+                            <p class=>$250.000</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="notasytotal">
+
+                        <div class="notas">
+                            <p>Agregar notas a la orden</p>
+                            <textarea class="comentarios" name="comentarios" id="cartSpecialIstruccions" cols="30"
+                                rows="10"> ¿Esta compra es un regalo? Agrega una nota aquí para enviar con el producto.</textarea>
+                            <p>Cupón: tu código de cupón se aplicará al ir a pagar</p>
+                            <textarea class="cupon" name="cupon" id="cartCupon" cols="30"
+                                rows="3">Codigo Cupón</textarea>
+
+                        </div>
+                        <div class="total">
+
+                            <h2> SUBTOTAL: $250.000 </h2>
+                            <p> IVA incluido. Envío y descuentos agregados al ir a pagar.</p><br>
+                            <p class="acepto"><input type="checkbox" id="cbox1" value="first_checkbox"> Acepto términos
+                                y condiciones </p>
+                            <button type="ir_a_pagar">Ir a pagar</button>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
                 </div>
-                <div class="product_detail">
-                    <p><img src="../images/8.jpg" alt="Olympea Legend"> <i class="far fa-edit"></i><i
-                            class="far fa-trash-alt"></i></p>
-                    <p class=>$250.000</p>
-                    <p class="quantity"> <input type="button" value="-" class="minus"> <label class="screen-reader-text"
-                            for="quantity_61784a0446a52"></label>
-                        <input type="number" id="quantity_61784a0446a52" class="input-text qty text" step="1" min="1"
-                            max="99" name="quantity" value="1" title="Cantidad" size="4" placeholder=""
-                            inputmode="numeric">
-                        <input type="button" value="+" class="plus">
-
-                    </p>
-                    <p class=>$250.000</p>
-
-                </div>
 
 
-            </div>
+            </main>
+            <%- include('./partials/footer') %>
+    </body>
 
-            <div class="notasytotal">
-
-                <div class="notas">
-                    <p>Agregar notas a la orden</p>
-                    <textarea class="comentarios" name="comentarios" id="cartSpecialIstruccions" cols="30"
-                        rows="10"> ¿Esta compra es un regalo? Agrega una nota aquí para enviar con el producto.</textarea>
-                    <p>Cupón: tu código de cupón se aplicará al ir a pagar</p>
-                    <textarea class="cupon" name="cupon" id="cartCupon" cols="30" rows="3">Codigo Cupón</textarea>
-
-                </div>
-                <div class="total">
-
-                    <h2> SUBTOTAL: $250.000 </h2>
-                    <p> IVA incluido. Envío y descuentos agregados al ir a pagar.</p><br>
-                    <p class="acepto"><input type="checkbox" id="cbox1" value="first_checkbox"> Acepto términos y condiciones </p>
-                    <button type="ir_a_pagar">Ir a pagar</button>
-                </div>
-
-
-
-            </div>
-
-
-
-
-        </div>
-
-
-    </main>
-    <%- include('./partials/footer') %>
-</body>
 </html>
