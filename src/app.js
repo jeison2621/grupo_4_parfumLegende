@@ -16,7 +16,7 @@ app.use(express.static(path.resolve(__dirname, './public')));
 app.use(methodOverride("_method"));
 
 //Configuración para caprurar la información del formulario
-// app.use(express.urlencoded( { extended: false } ));
+app.use(express.urlencoded( { extended: false } ));
 // app.use(express.json)
 
 //Configuración de rutas

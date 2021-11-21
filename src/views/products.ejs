@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <body>
+        <%- include('./partials/header') %>
+            <main class="s">
+
+                <section class="s">
+
+                    <article class="s">
+
+                        <% allProducts.forEach(product => { %> 
+
+                        <div >
+                        <h2><%= product.name %></h2>
+                        <a href="/products/detail"><img src="/images/<%= product.image %>" alt="" width="100px"></a>
+
+                            <h4> <%= product.category %></h4>
+                            <p>
+                                <%= product.amount %> - <%= product.typeAmount %>
+                            </p>
+                            <h6><%= product.price %> - <%= product.discount %></h6>
+                            <p><%= product.description %></p>
+                            <p>////////////////////////////////////////////////////</p>
+                        </div>
+
+			<% }) %> 
+
+                    </article>
+
+                </section>
+            </main>
+            <%- include('./partials/footer') %>
+    </body>
+</html>

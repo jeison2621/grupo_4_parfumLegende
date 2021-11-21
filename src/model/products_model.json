@@ -3,11 +3,33 @@
         "id": 0,
         "name": "Perfume 0",
         "description": "Este es el perfume 0",
-        "image": "perfume-0.jpg",
+        "image": "1.jpeg",
         "category": "Aceite",
         "amount": 200,
         "typeAmount": "ml.",
         "price": 250000,
         "discount": 20
+    },
+    {
+        "id": 1,
+        "name": "Perfume 1",
+        "description": "Este es el perfume 1",
+        "image": "2.jpeg",
+        "category": "Gel",
+        "amount": 200,
+        "typeAmount": "ml.",
+        "price": 250000,
+        "discount": 35
+    },
+    {
+        "id": 2,
+        "name": "Perfume 2",
+        "description": "Este es el perfume 2",
+        "image": "3.jpeg",
+        "category": "Líquido",
+        "amount": 200,
+        "typeAmount": "ml.",
+        "price": 250000,
+        "discount": 60
     }
 ]
