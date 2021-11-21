@@ -15,4 +15,6 @@ router.get('/new', products_controller.newProducts);
 /* GET editProducts page. */
 router.get('/edit', products_controller.editProducts);
 
+router.get('/products', products_controller.editProducts);
+
 module.exports = router;
