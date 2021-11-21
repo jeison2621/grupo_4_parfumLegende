@@ -5,90 +5,59 @@
     <body>
         <%- include('./partials/header') %>
             <main class="main_productDetail">
-                <h2> Detalle producto </h2>
-                <div class="producto_info">
 
-                    <div class="productdescript">
+                <% productDetail.forEach(product=> { %>
+                    <h2>
+                        <%= product.name %>
+                    </h2>
+                    <div class="producto_info">
 
-                        <article class="producto">
-                            <img src="../images/8.jpg" alt="Olympea Legend">
-                            <p class="descripcion">Olympea</p>
+                        <div class="productdescript">
 
-                        </article>
+                            <article class="producto">
+                                <img src="/images/<%= product.image %>" alt="Olympea Legend">
+                                <p class="descripcion">Categoría: <%= product.category %></p>
 
-                        <div class="miniatura">
-                            <img src="../images/8.jpg" alt="Olympea Legend">
-                            <img src="../images/9.jpg" alt="Olympea amarillo">
+                            </article>
+
+                            <div class="miniatura">
+                                <img src="/images/<%= product.image %>" alt="Olympea Legend">
+                                <!-- <img src="/images/9.jpg" alt="Olympea amarillo"> -->
+                            </div>
+
+                            <div class="description">
+
+                                <div class="uno">
+                                    <i class="far fa-heart"></i>
+                                    <p>
+                                        <%= product.amount %>
+                                            <%= product.typeAmount %>
+                                    </p>
+                                    <p class="cajita">-<%= product.discount %>%</p>
+                                    <p>$<%= product.price %>
+                                    </p>
+                                    <p class="quantity"> <input type="button" value="-" class="minus"> <label
+                                            class="screen-reader-text" for="quantity_61784a0446a52"></label>
+                                        <input type="number" id="quantity_61784a0446a52" class="input-text qty text"
+                                            step="1" min="1" max="99" name="quantity" value="1" title="Cantidad"
+                                            size="4" placeholder="" inputmode="numeric">
+                                        <input type="button" value="+" class="plus">
+
+                                    </p>
+
+                                </div>
+
+                                <div class="comprar_ahora">
+                                    <input type="submit" class="button-comprarAhora" value="Comprar Ahora">
+                                    <input type="submit" class="button-AgregarCarrito" value="Agregar al carrito">
+
+                                </div>
+
+                            </div>
 
                         </div>
 
-                        <div class="description">
-                            <div class="uno">
-                                <i class="far fa-heart"></i>
-                                <p>200 ml</p>
-                                <p class="cajita">-30%</p>
-                                <p>$250.000</p>
-                                <p class="quantity"> <input type="button" value="-" class="minus"> <label
-                                        class="screen-reader-text" for="quantity_61784a0446a52"></label>
-                                    <input type="number" id="quantity_61784a0446a52" class="input-text qty text"
-                                        step="1" min="1" max="99" name="quantity" value="1" title="Cantidad" size="4"
-                                        placeholder="" inputmode="numeric">
-                                    <input type="button" value="+" class="plus">
-
-                                </p>
-
-                            </div>
-                            <div class="dos">
-                                <i class="far fa-heart"></i>
-                                <p>150 ml</p>
-                                <p class="cajita">-25%</p>
-                                <p>$150.000</p>
-                                <p class="quantity"> <input type="button" value="-" class="minus"> <label
-                                        class="screen-reader-text" for="quantity_61784a0446a52"></label>
-                                    <input type="number" id="quantity_61784a0446a52" class="input-text qty text"
-                                        step="1" min="1" max="99" name="quantity" value="1" title="Cantidad" size="4"
-                                        placeholder="" inputmode="numeric">
-                                    <input type="button" value="+" class="plus">
-
-                                </p>
-
-                            </div>
-                            <div class="tres">
-                                <i class="far fa-heart"></i>
-                                <p>100 ml</p>
-                                <p class="cajita">-25%</p>
-                                <p>$100.000</p>
-                                <p class="quantity"> <input type="button" value="-" class="minus"> <label
-                                        class="screen-reader-text" for="quantity_61784a0446a52"></label>
-                                    <input type="number" id="quantity_61784a0446a52" class="input-text qty text"
-                                        step="1" min="1" max="99" name="quantity" value="1" title="Cantidad" size="4"
-                                        placeholder="" inputmode="numeric">
-                                    <input type="button" value="+" class="plus">
-
-                                </p>
-
-                            </div>
-                            <div class="comprar_ahora">
-                                <input type="submit" class="button-comprarAhora" value="Comprar Ahora">
-                                <input type="submit" class="button-AgregarCarrito" value="Agregar al carrito">
-
-                            </div>
-
-
-                        </div>
-
-
-
-                    </div>
-
-                    <div class="descripcion_detalle">
-                        <div class="encabezado">
-                            <h3 class="titulo">DESCRIPCION</h3>
-                            <h3 class="titulo">CARACTERISTICAS</h3>
-                            <h3 class="titulo">COMPARTIR</h3>
-
-                        </div>
-
+<<<<<<< HEAD
                         <P> LOS HÉROES VIENEN Y VAN, LAS LEYENDAS SON ETERNAS
 
                             INVICTUS LEGEND de Paco Rabanne es un Eau de Parfum masculino perteneciente a la familia
@@ -130,11 +99,25 @@
                     </section>
 
 
+=======
+                        <div class="descripcion_detalle">
+                            <div class="encabezado">
+                                <h3 class="titulo">DESCRIPCION</h3>
+                                <h3 class="titulo">CARACTERISTICAS</h3>
+                                <h3 class="titulo">COMPARTIR</h3>
 
+                            </div>
+>>>>>>> 30f00257714b7d507a999e3f056688e82ab8212c
 
-                </div>
+                            <p><%= product.description %></p>
+                        </div>
 
+                        <section class="for-buy">
+                        </section>
 
+                    </div>
+
+                    <% }) %>
             </main>
             <%- include('./partials/footer') %>
     </body>

@@ -7,16 +7,16 @@ const app = express();
 
 //Implementación EJS
 app.set('view engine', 'ejs'); 
-app.set('views', (path.join(__dirname, './views')));
+app.set('views', (path.resolve(__dirname, './views')));
 
 //Definiendo carpeta pública
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.resolve(__dirname, './public')));
 
 //Configuración para usar PUT, DELETE
 app.use(methodOverride("_method"));
 
 //Configuración para caprurar la información del formulario
-// app.use(express.urlencoded( { extended: false } ));
+app.use(express.urlencoded( { extended: false } ));
 // app.use(express.json)
 
 //Configuración de rutas
