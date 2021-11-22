@@ -181,51 +181,41 @@ footer section {
     border: 2px solid #542d2d;
     color: white;
 
+
 }
 
 
-.div-redes {
-    padding: 5px;
-    height: 30px;
-    color: white
+
+.seccion-2{
+    display: flex;
+    justify-content: center;
+}
+.seccion-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
-.div-redes i {
 
+
+
+
+
+.contenedor-redes {
+    padding: 20px;
+    height: 6vh;
+   
     color: white;
-    font-size: 20px;
+
+   
+   
 }
 
+.contenedor-redes div {
 
-
-footer p {
-    width: 100%;
-}
-
-footer p i {
-    color: white
-}
-
-.div-redes {
-    padding: 5px;
-    height: 30px;
-    color: white
-}
-
-.div-redes i {
-
-    color: white;
-    font-size: 20px;
-}
-
-
-
-footer p {
-    width: 100%;
-}
-
-footer p i {
-    color: white
+  
 }
 
 /* PRODUCTCART.html mobile first */
