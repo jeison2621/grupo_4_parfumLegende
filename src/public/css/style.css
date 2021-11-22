@@ -763,6 +763,19 @@ select {
     text-align: left;
 }
 
+/* Listado de productos products.ejs */
+
+.main_products .products .products_article{
+    background-color: white;
+    padding: 10pt;
+    border: 1vw;
+    height: 100%;
+    margin: auto;
+
+}
+
+
+
 @media (min-width: 481px) {
     .main-login {
         width: 430px;
@@ -775,7 +788,7 @@ select {
 
     }
 
-    /*configurando desktop del carrito*/
+   c
 
     .main_cart .carrito_content {
         background-color: white;
