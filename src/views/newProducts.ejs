@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!DOCTYPE html>
-    <html lang="en">    
-    <%- include('./partials/head') %>
-<body>
-    <%- include('./partials/header') %>
-    <main class="main-new-pruducts">
-        <h3>NUEVO PRODUCTO</h3>
-        <form action="#" method="post" class="form-new-pruducts">
-            <label for="name-new-user" id="name-new-product">Nombre del producto:</label>
-            <input type="text" name="name-new-product" id="name-new-product" required>
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
 
-            <label for="description-new-product" id="description-new-product">Descripción:</label>
-            <input type="textarea" name="description-new-product" id="description-new-product" required>
-            
-            <label for="category-new-product" id="category-new-product">Imagen</label>
-            <input type="file" name="category-new-product" id="category-new-product" accept="image/png, image/jpeg" required>
+    <body>
+        <%- include('./partials/header') %>
+            <main class="main-new-pruducts">
+                <article class="article-new-pruducts">
+                    <h3>NUEVO PRODUCTO</h3>
+                    <form action="#" method="post" class="form-new-pruducts">
+                        <label for="name-new-user" id="name-new-product">Nombre:</label>
+                        <input type="text" name="name-new-product" id="name-new-product" required>
 
-            <label for="category-edit-product" id="category-edit-product">Categoría</label>
-            <select name="category-edit-product" id="category-edit-product">
-                <option value="">Elija una categoría</option>
-                <option value="lotion">Loción</option>
-                <option value="oil">Aceite</option>
-                <option value="liquid">Líquido</option>
-                <option value="gel">Gel</option>
-                <option value="cream">Crema</option>
-            </select>
+                        <label for="description-new-product" id="description-new-product">Descripción:</label>
+                        <input type="textarea" name="description-new-product" id="description-new-product" required>
 
-            <label for="ml-new-product" id="ml-new-product">Cantidad</label>
-            <input type="number" name="ml-new-product" id="ml-new-product" required>
 
-            <label for="ml-new-product" id="ml-new-product">Tipo de Cantidad</label>
-            <select name="category-new-product" id="category-new-product">
-                <option value="">Elija un tipo de cantidad</option>
-                <option value="ml">Milílitros (ml.)</option>
-                <option value="fl.oz">Onzas fluidas (fl. oz.)</option>
-            </select>
+                        <label for="category-new-product" id="category-new-product">Imagen</label>
+                        <input type="file" name="category-new-product" id="category-new-product"
+                            accept="image/png, image/jpeg" required>
 
-            <label for="price-new-product" id="price-new-product">Precio</label>
-            <input type="number" name="price-new-product" id="price-new-product" required>
+                        <label for="category-edit-product" id="category-edit-product">Categoría</label>
+                        <select name="category-edit-product" id="category-edit-product">
+                            <option value="">Elija una categoría</option>
+                            <option value="lotion">Loción</option>
+                            <option value="oil">Aceite</option>
+                            <option value="liquid">Líquido</option>
+                            <option value="gel">Gel</option>
+                            <option value="cream">Crema</option>
+                        </select>
 
-            <label for="discount-new-product" id="discount-new-product">Descuento</label>
-            <label><input type="radio" name="discount%-new-product">5 %</label>
-            <label><input type="radio" name="discount%-new-product">10 %</label>
-            <label><input type="radio" name="discount%-new-product">15 %</label>
-            <label><input type="radio" name="discount%-new-product">20 %</label>
-            <label><input type="radio" name="discount%-new-product">25 %</label>
-            <label><input type="radio" name="discount%-new-product">30 %</label>
-            <label><input type="radio" name="discount%-new-product">35 %</label>
-            <label><input type="radio" name="discount%-new-product">40 %</label>
-            <label><input type="radio" name="discount%-new-product">45 %</label>
-            <label><input type="radio" name="discount%-new-product">50 %</label>
-            <label><input type="radio" name="discount%-new-product">55 %</label>
-            <label><input type="radio" name="discount%-new-product">60 %</label>  
+                        <label for="ml-new-product" id="ml-new-product">Cantidad</label>
+                        <input type="number" name="ml-new-product" id="ml-new-product" required>
 
-            <input type="submit" class="button-new-produt" value="Agregar el producto">
+                        <label for="ml-new-product" id="ml-new-product">Tipo de Cantidad</label>
+                        <select name="category-new-product" id="category-new-product">
+                            <option value="">Elija un tipo de cantidad</option>
+                            <option value="ml">Milílitros (ml.)</option>
+                            <option value="fl.oz">Onzas fluidas (fl. oz.)</option>
+                        </select>
 
-            <p>Editar un producto <a href="/editProducts">Ingresa aquí</a></p>
-        </form>
-    </main>
-    <%- include('./partials/footer') %>
-</body>
+                        <label for="price-new-product" id="price-new-product">Precio</label>
+                        <input type="number" name="price-new-product" id="price-new-product" required>
+                        <label for="discount-new-product" id="discount-new-product">Descuento</label>
+                        <div class="div-discount-new-product">
+                            <label><input type="radio" name="discount%-new-product">5 %</label>
+                            <label><input type="radio" name="discount%-new-product">10 %</label>
+                            <label><input type="radio" name="discount%-new-product">15 %</label>
+                            <label><input type="radio" name="discount%-new-product">20 %</label>
+                            <label><input type="radio" name="discount%-new-product">25 %</label>
+                            <label><input type="radio" name="discount%-new-product">30 %</label>
+                            <label><input type="radio" name="discount%-new-product">35 %</label>
+                            <label><input type="radio" name="discount%-new-product">40 %</label>
+                            <label><input type="radio" name="discount%-new-product">45 %</label>
+                            <label><input type="radio" name="discount%-new-product">50 %</label>
+                            <label><input type="radio" name="discount%-new-product">55 %</label>
+                            <label><input type="radio" name="discount%-new-product">60 %</label>
+                        </div>
+
+                        <input type="submit" class="button-new-produt" value="Agregar el producto">
+
+                        <p>Editar un producto <a href="/editProducts">Ingresa aquí</a></p>
+                    </form>
+                </article>
+            </main>
+            <%- include('./partials/footer') %>
+    </body>
+
 </html>
