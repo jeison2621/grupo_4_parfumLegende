@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const main_routes = require('./routes/main_routes'); 
 const products_routes = require('./routes/products_routes'); 
-const methodOverride = require('method-Override');    
+const methodOverride = require('method-override');    
 const app = express();
 
 //Implementación EJS
