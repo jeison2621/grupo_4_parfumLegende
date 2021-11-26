@@ -708,10 +708,9 @@ background: white;
    
     display: flex;
     flex-direction: column;
-   
     margin: 30px auto;
     padding: 4px;
-    width: ;
+   
    
     border: rgba(57, 55, 55, 0.3) solid 2px;
     color: #000;
@@ -725,12 +724,12 @@ background: white;
 }
 
 .form-new-pruducts {
-   
+    width: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 15px;
+    
 }
 
 .form-new-pruducts .input-file {
@@ -739,6 +738,7 @@ background: white;
 
 .form-new-pruducts input,
 select {
+    width: 90%;
     margin: 15px;
     padding: 5px;
     
@@ -756,8 +756,10 @@ select {
 }
 
 body main article label{
+
     text-align: justify;
-    width: 28%;
+    width: 40%;
+    padding-left: 20px;
 }
 
 .div-discount-new-product{
