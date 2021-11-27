@@ -790,40 +790,97 @@ body main article label{
 
 
 /* EDITPRODUCTS.html */
+
 .main-edit-pruducts {
-    padding: 10px;
-}
-
-.main-edit-pruducts h3 {
-    padding: 10px;
-}
-
-.form-edit-pruducts {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 15px;
-}
-
-.form-edit-pruducts .input-file {
-    width: 70%;
-}
-
-.form-edit-pruducts input,
-select {
-    margin: 15px;
-    padding: 5px;
-    width: 30%;
-}
-
-.form-edit-pruducts select {
-    width: 22%;
-}
-
-.form-edit-pruducts p {
-    text-align: left;
-}
-
+    background: white;
+        margin-top: 10px;
+    
+    }
+    
+    .main-edit-pruducts h3{
+        background: white;
+    }
+    .article-edit-pruducts {
+       
+        display: flex;
+        flex-direction: column;
+        margin: 30px auto;
+        padding: 4px;
+       
+       
+        border: rgba(57, 55, 55, 0.3) solid 2px;
+        color: #000;
+    
+    }
+    
+    .main-edit-pruducts h3 {
+        padding: 10px;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+    
+    .form-edit-pruducts {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    
+    .form-edit-pruducts .input-file {
+        width: 100%;
+    }
+    
+    .form-edit-pruducts input,
+    select {
+        width: 90%;
+        margin: 15px;
+        padding: 5px;
+        
+    }
+    
+    .form-edit-pruducts select {
+        width: 50%;
+    }
+    
+    
+    
+    .form-edit-pruducts p {
+        text-align: center; 
+        
+    }
+    
+    .form-edit-pruducts label{
+    
+        text-align: justify;
+        width: 40%;
+        padding-left: 20px;
+    }
+    
+    .div-discount-edit-product{
+        
+        display: flex;
+        width: 90%;
+        justify-content:start;
+        flex-wrap: nowrap;
+    }
+    
+    .button-edit-produt {
+        color: #fff;
+        background-color: rgba(163, 73, 164, 1);
+        border: none;
+        font-weight: bold;
+        width: 80%;
+        height: 45px;
+    }
+    @media (min-width: 481px){
+        .article-edit-pruducts {
+        width: 430px;
+        display: flex  ;
+        flex-wrap: nowrap;    
+    }
+        
 /* Listado de productos products.ejs */
 
 .main_products .products .products_article{
