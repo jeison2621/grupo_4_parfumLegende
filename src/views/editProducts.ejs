@@ -1,73 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!DOCTYPE html>
-    <html lang="en">    
-    <%- include('./partials/head') %>
-<body>
-    <%- include('./partials/header') %>
-    <main class="main-edit-products">
-        <h3>EDITAR PRODUCTO</h3>
-        <% editProduct.forEach(product=> { %>
-            <p><%= product.name %></p>
-        <% }) %>
-        <form action="/detail/ method="put" class="form-edit-products">
-            <label for="name_edit_product" id="name_edit_product">Nombre:</label>
-            <input type="text" name="name_edit_product" id="name_edit_product" value="Perfume Y" required>
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
 
-            <label for="description_edit_product" id="description_edit_product">Descripción:</label>
-            <input type="textarea" name="description_edit_product" id="description_edit_product" value="Descripción" required>
+    <body>
+        <%- include('./partials/header') %>
+            <main class="main-edit-products">
+                <h3>EDITAR PRODUCTO</h3>
+                <% editProduct.forEach(product=> { %>
+                    <p>
+                        <%= product.name %>
+                    </p>
+                    <% }) %>
+                        <form action="/detail/" method="put" class="form-edit-products ">
+                            <label for="name_edit_product " id="name_edit_product ">Nombre:</label>
+                            <input type="text " name="name_edit_product " id="name_edit_product " value="Perfume Y " required>
+
+                            <label for="description_edit_product " id="description_edit_product ">Descripción:</label>
+                            <input type="textarea " name="description_edit_product " id="description_edit_product " value="Descripción " required>
 
 
-            <label for="image_edit_product" id="image_edit_product">Imagen</label>
-            <input type="file" name="image_edit_product" id="image_edit_product"
-                accept="image/png, image/jpeg, image/jpg">
+                            <label for="image_edit_product " id="image_edit_product ">Imagen</label>
+                            <input type="file " name="image_edit_product " id="image_edit_product " accept="image/png, image/jpeg, image/jpg ">
 
-            <label for="category_edit_product" id="category_edit_product">Categoría</label>
-            <select name="category_edit_product" id="category_edit_product">
-                <option value="">Elija una categoría</option>
-                <option value="lotion">Loción</option>
-                <option value="oil">Aceite</option>
-                <option value="liquid">Líquido</option>
-                <option value="gel" selected>Gel</option>
-                <option value="cream">Crema</option>
+                            <label for="category_edit_product " id="category_edit_product ">Categoría</label>
+                            <select name="category_edit_product " id="category_edit_product ">
+                <option value=" ">Elija una categoría</option>
+                <option value="lotion ">Loción</option>
+                <option value="oil ">Aceite</option>
+                <option value="liquid ">Líquido</option>
+                <option value="gel " selected>Gel</option>
+                <option value="cream ">Crema</option>
             </select>
 
-            <label for="amount_edit_product" id="amount_edit_product">Cantidad</label>
-            <input type="number" name="amount_edit_product" id="amount_edit_product" value="50" required>
+                            <label for="amount_edit_product " id="amount_edit_product ">Cantidad</label>
+                            <input type="number " name="amount_edit_product " id="amount_edit_product " value="50 " required>
 
-            <label for="type_amount_edit_product" id="type_amount_edit_product">Tipo de Cantidad</label>
-            <select name="type_amount_edit_product" id="type_amount_edit_product">
-                <option value="">Elija un tipo de cantidad</option>
-                <option value="ml" selected>Milílitros (ml.)</option>
-                <option value="floz">Onzas fluidas (fl. oz.)</option>
+                            <label for="type_amount_edit_product " id="type_amount_edit_product ">Tipo de Cantidad</label>
+                            <select name="type_amount_edit_product " id="type_amount_edit_product ">
+                <option value=" ">Elija un tipo de cantidad</option>
+                <option value="ml " selected>Milílitros (ml.)</option>
+                <option value="floz ">Onzas fluidas (fl. oz.)</option>
             </select>
 
-            <label for="price_edit_product" id="price_edit_product">Precio</label>
-            <input type="number" name="price_edit_product" id="price_edit_product" value="20000" required>
-            
-            <div class="div_discount_edit_product">                    
-            <label for="discount_edit_product" id="discount_edit_product">Descuento</label>
+                            <label for="price_edit_product " id="price_edit_product ">Precio</label>
+                            <input type="number " name="price_edit_product " id="price_edit_product " value="20000 " required>
 
-                <label><input type="radio" name="discount_edit_product" value="0" checked>Sin descuento</label>
-                <label><input type="radio" name="discount_edit_product" value="5">5  %</label>
-                <label><input type="radio" name="discount_edit_product" value="10">10 %</label>
-                <label><input type="radio" name="discount_edit_product" value="15">15 %</label>
-                <label><input type="radio" name="discount_edit_product" value="20">20 %</label>
-                <label><input type="radio" name="discount_edit_product" value="25">25 %</label>
-                <label><input type="radio" name="discount_edit_product" value="30">30 %</label>
-                <label><input type="radio" name="discount_edit_product" value="35">35 %</label>
-                <label><input type="radio" name="discount_edit_product" value="40">40 %</label>
-                <label><input type="radio" name="discount_edit_product" value="45">45 %</label>
-                <label><input type="radio" name="discount_edit_product" value="50">50 %</label>
-                <label><input type="radio" name="discount_edit_product" value="55">55 %</label>
-                <label><input type="radio" name="discount_edit_product" value="60">60 %</label>
-            </div>
+                            <div class="div_discount_edit_product ">
+                                <label for="discount_edit_product " id="discount_edit_product ">Descuento</label>
 
-            <input type="submit" class="button-edit-produt" value="Editar el producto">
-            
-            <p>Agregar un producto <a href="/newProducts">Ingresa aquí</a></p>
-        </form>
-    </main>
-    <%- include('./partials/footer') %>
-</body>
+                                <label><input type="radio " name="discount_edit_product " value="0 " checked>Sin descuento</label>
+                                <label><input type="radio " name="discount_edit_product " value="5 ">5  %</label>
+                                <label><input type="radio " name="discount_edit_product " value="10 ">10 %</label>
+                                <label><input type="radio " name="discount_edit_product " value="15 ">15 %</label>
+                                <label><input type="radio " name="discount_edit_product " value="20 ">20 %</label>
+                                <label><input type="radio " name="discount_edit_product " value="25 ">25 %</label>
+                                <label><input type="radio " name="discount_edit_product " value="30 ">30 %</label>
+                                <label><input type="radio " name="discount_edit_product " value="35 ">35 %</label>
+                                <label><input type="radio " name="discount_edit_product " value="40 ">40 %</label>
+                                <label><input type="radio " name="discount_edit_product " value="45 ">45 %</label>
+                                <label><input type="radio " name="discount_edit_product " value="50 ">50 %</label>
+                                <label><input type="radio " name="discount_edit_product " value="55 ">55 %</label>
+                                <label><input type="radio " name="discount_edit_product " value="60 ">60 %</label>
+                            </div>
+
+                            <input type="submit " class="button-edit-produt " value="Editar el producto ">
+
+                            <p>Agregar un producto <a href="/newProducts ">Ingresa aquí</a></p>
+                        </form>
+            </main>
+            <%- include('./partials/footer') %>
+    </body>
+
 </html>

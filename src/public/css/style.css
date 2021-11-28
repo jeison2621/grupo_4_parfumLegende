@@ -15,6 +15,7 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
     font-family: 'Roboto Slab';
 }
 
+
 /* INDEX.html */
 
 
@@ -86,6 +87,7 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
     padding: 5px;
 }
 
+
 /* INDEX.html main */
 
 main {
@@ -109,12 +111,9 @@ main section {
     padding: 10pt;
     margin: auto;
     flex-wrap: wrap;
-
-
 }
 
 main section article {
-
     width: 300px;
     height: 290px;
     padding: 10px;
@@ -122,24 +121,17 @@ main section article {
     margin: auto;
     margin-bottom: 10px;
     border-radius: 10pt;
-
-
-
 }
 
 main section :hover {
     -webkit-box-shadow: 0px 2px 24px 0px #000000;
     box-shadow: 0px 2px 24px 0px #000000;
-
 }
 
 main section article :hover {
     -webkit-box-shadow: 0px 2px 24px 0px #000000;
     box-shadow: 0px 2px 24px 0px #000000;
-
 }
-
-
 
 main section article img {
     width: 90%;
@@ -150,18 +142,15 @@ main section article p {
     width: 100%;
     margin: 1px;
     padding: 3px;
-
 }
 
 main section article .description-product {
-
     display: none;
 }
 
 
-
-
 /* INDEX.html Footer */
+
 footer {
     width: 100%;
     height: 45%;
@@ -180,50 +169,33 @@ footer section {
     padding: 10px;
     border: 2px solid #542d2d;
     color: white;
-
-
 }
 
-
-
-.seccion-2{
+.seccion-2 {
     display: flex;
     justify-content: center;
 }
-.seccion-3{
+
+.seccion-3 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
-
-
-
-
-
 
 .contenedor-redes {
     padding: 20px;
     height: 6vh;
-   
     color: white;
-
-   
-   
 }
 
-.contenedor-redes div {
+.contenedor-redes div {}
 
-  
-}
 
 /* PRODUCTCART.html mobile first */
 
-
 .main_cart .carrito_content {
     background-color: white;
-
 }
 
 .main_cart .carrito_content .carrito_head {
@@ -234,7 +206,6 @@ footer section {
     margin: auto;
     padding: 2px;
     background-color: rgba(156, 85, 242, 1);
-
 }
 
 .main_cart .carrito_content .carrito_head h2 {
@@ -248,7 +219,6 @@ footer section {
     display: none;
     flex-direction: row;
     padding: 2px;
-
 }
 
 .main_cart .carrito_content .product .encabezado h2 {
@@ -258,18 +228,15 @@ footer section {
     flex-direction: row;
     padding: 5px;
     margin: auto;
-
 }
 
 .main_cart .carrito_content .product .product_detail {
-
     display: flex;
     flex-direction: column;
     width: 95vw;
     padding: 2vw;
     border-top: 1px solid;
     border-bottom: 1px solid;
-
 }
 
 .main_cart .carrito_content .product .product_detail p {
@@ -288,19 +255,15 @@ footer section {
     display: flex;
     flex-direction: row;
     padding: 2vw;
-
 }
 
 .main_cart .carrito_content .product .product_detail .quantity {
-
     display: flex;
     width: 50%;
     text-align: center;
     padding: 0vw;
     font-size: 3vw;
     margin: auto;
-
-
 }
 
 .main_cart .carrito_content .notasytotal {
@@ -316,32 +279,26 @@ footer section {
 }
 
 .main_cart .carrito_content .notasytotal .notas p {
-
     display: flex;
     padding: 2vw;
     margin: 0%;
     align-content: flex-start;
-
 }
 
 .main_cart .carrito_content .notasytotal .notas .comentarios {
-
     display: flex;
     padding: 2vw;
     color: gray;
     margin: 0;
     height: 40vw;
-
 }
 
 .main_cart .carrito_content .notasytotal .notas .cupon {
-
     display: flex;
     padding: 2vw;
     color: gray;
     margin: 0;
     height: 20vw;
-
 }
 
 .main_cart .carrito_content .notasytotal .total {
@@ -353,7 +310,6 @@ footer section {
 }
 
 .main_cart .carrito_content .notasytotal .total p {
-
     display: flex;
     padding: 2px;
     margin: 0%;
@@ -363,7 +319,6 @@ footer section {
 }
 
 .main_cart .carrito_content .notasytotal .total button {
-
     background-color: rgba(87, 103, 247, 1);
     border: none;
     padding: 1vw;
@@ -371,8 +326,6 @@ footer section {
     font-weight: normal;
     font-size: 20px;
     margin: auto;
-
-
 }
 
 .main_cart .carrito_content .notasytotal .total p .cbox1 {
@@ -380,15 +333,10 @@ footer section {
 }
 
 
-
-
-
-
 /* PRODUCTDETAIL.html */
 
 .main_productDetailt .producto_info {
     background-color: white;
-
 }
 
 .main_productDetail .producto_info .productdescript {
@@ -405,7 +353,6 @@ footer section {
 .main_productDetail .producto_info .productdescript .producto img {
     width: 400px;
     height: 400px;
-
 }
 
 .main_productDetail .producto_info .productdescript .producto p {
@@ -417,13 +364,10 @@ footer section {
     flex-direction: row;
     padding: 1vw;
     width: 30vw;
-
-
 }
 
 .main_productDetail .producto_info .productdescript .miniatura img {
     width: 50%;
-
 }
 
 .main_productDetail .producto_info .productdescript .description {
@@ -434,7 +378,6 @@ footer section {
     display: flex;
     flex-direction: row;
     margin: 10px;
-
 }
 
 .main_productDetail .producto_info .productdescript .description .uno i {
@@ -498,16 +441,12 @@ footer section {
 .main_productDetail .producto_info .productdescript .description .dos .quantity {
     display: flex;
     flex-direction: row;
-
-
 }
 
 .main_productDetail .producto_info .productdescript .description .tres {
     display: flex;
     flex-direction: row;
     margin: 10px;
-
-
 }
 
 .main_productDetail .producto_info .productdescript .description .tres i {
@@ -518,7 +457,6 @@ footer section {
     margin: auto;
     width: 40px;
     height: 40px;
-
 }
 
 .main_productDetail .producto_info .productdescript .description .tres p {
@@ -566,41 +504,31 @@ footer section {
 }
 
 .main_productDetail .producto_info .descripcion_detalle {
-
     display: flex;
     flex-direction: column;
     background-color: white;
     margin: auto;
-
-
 }
 
 .main_productDetail .producto_info .descripcion_detalle .encabezado {
-
     display: flex;
     flex-direction: row;
     width: 95%;
-
-
-
 }
 
 .main_productDetail .producto_info .descripcion_detalle .encabezado .titulo {
-
     margin: auto;
     font-size: medium;
     font-family: 'Roboto Slab';
 }
-.main_productDetail .producto_info .descripcion_detalle p {
 
+.main_productDetail .producto_info .descripcion_detalle p {
     margin: auto;
     text-align: justify;
     font-family: 'Roboto Slab';
     font-size: small;
-
-
-
 }
+
 
 /* REGISTER.html */
 
@@ -651,7 +579,9 @@ p {
     }
 }
 
+
 /* LOGIN.html */
+
 .main-login {
     width: 90vw;
     margin: 30px auto;
@@ -693,29 +623,25 @@ p {
     font-weight: bold;
 }
 
+
 /* NEWPRODUCTS.html */
 
 .main-new-products {
-background: white;
+    background: white;
     margin-top: 10px;
-
 }
 
-.main-new-products h3{
+.main-new-products h3 {
     background: white;
 }
+
 .article-new-products {
-   
     display: flex;
     flex-direction: column;
-   
     margin: 30px auto;
     padding: 4px;
-    width: ;
-   
     border: rgba(57, 55, 55, 0.3) solid 2px;
     color: #000;
-
 }
 
 .main-new-products h3 {
@@ -725,12 +651,10 @@ background: white;
 }
 
 .form-new-products {
-   
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 15px;
 }
 
 .form-new-products .input-file {
@@ -739,32 +663,29 @@ background: white;
 
 .form-new-products input,
 select {
+    width: 90%;
     margin: 15px;
     padding: 5px;
-    
 }
 
 .form-new-products select {
     width: 50%;
 }
 
-
-
 .form-new-products p {
-    text-align: center; 
-    
+    text-align: center;
 }
 
-body main article label{
+body main article label {
     text-align: justify;
-    width: 28%;
+    width: 40%;
+    padding-left: 20px;
 }
 
-.div-discount-new-product{
-    
+.div-discount-new-product {
     display: flex;
     width: 90%;
-    justify-content:start;
+    justify-content: start;
     flex-wrap: nowrap;
 }
 
@@ -776,18 +697,18 @@ body main article label{
     width: 80%;
     height: 45px;
 }
-@media (min-width: 481px){
-    .article-new-products {
-    width: 430px;
-    display: flex  ;
-    flex-wrap: nowrap;    
-}
-    
-}
 
+@media (min-width: 481px) {
+    .article-new-products {
+        width: 430px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
 
 
 /* EDITPRODUCTS.html */
+
 .main-edit-products {
     padding: 10px;
 }
@@ -822,14 +743,93 @@ select {
     text-align: left;
 }
 
-/* Listado de productos products.ejs */
+.main-edit-pruducts {
+    background: white;
+    margin-top: 10px;
+}
 
-.main_products .products .products_article{
-    background-color: white;
-    padding: 10pt;
-    border: 1vw;
-    height: 100%;
-    margin: auto;
+.main-edit-pruducts h3 {
+    background: white;
+}
+
+.article-edit-pruducts {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 4px;
+    border: rgba(57, 55, 55, 0.3) solid 2px;
+    color: #000;
+}
+
+.main-edit-pruducts h3 {
+    padding: 10px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.form-edit-pruducts {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-edit-pruducts .input-file {
+    width: 100%;
+}
+
+.form-edit-pruducts input,
+select {
+    width: 90%;
+    margin: 15px;
+    padding: 5px;
+}
+
+.form-edit-pruducts select {
+    width: 50%;
+}
+
+.form-edit-pruducts p {
+    text-align: center;
+}
+
+.form-edit-pruducts label {
+    text-align: justify;
+    width: 40%;
+    padding-left: 20px;
+}
+
+.div-discount-edit-product {
+    display: flex;
+    width: 90%;
+    justify-content: start;
+    flex-wrap: nowrap;
+}
+
+.button-edit-produt {
+    color: #fff;
+    background-color: rgba(163, 73, 164, 1);
+    border: none;
+    font-weight: bold;
+    width: 80%;
+    height: 45px;
+}
+
+@media (min-width: 481px) {
+    .article-edit-pruducts {
+        width: 430px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    /* Listado de productos products.ejs */
+    .main_products .products .products_article {
+        background-color: white;
+        padding: 10pt;
+        border: 1vw;
+        height: 100%;
+        margin: auto;
+    }
 }
 
 @media (min-width: 481px) {
@@ -842,11 +842,9 @@ select {
     .cabecera .seccion-2 {
         justify-content: end;
     }
-
     .main_cart .carrito_content {
         background-color: white;
     }
-
     .main_cart .carrito_content .carrito_head {
         display: flex;
         width: 100vw;
@@ -855,23 +853,18 @@ select {
         margin: auto;
         padding: 2px;
         background-color: rgba(156, 85, 242, 1);
-
     }
-
     .main_cart .carrito_content .carrito_head h2 {
         margin: auto;
         font-size: large;
         color: white;
     }
-
     .main_cart .carrito_content .product .encabezado {
         width: 100vw;
         display: flex;
         flex-direction: row;
         padding: 2px;
-
     }
-
     .main_cart .carrito_content .product .encabezado h2 {
         display: flex;
         width: 95%;
@@ -880,9 +873,7 @@ select {
         padding: 5px;
         margin: auto;
         justify-content: space-around;
-
     }
-
     .main_cart .carrito_content .product .product_detail {
         width: 100vw;
         display: flex;
@@ -891,22 +882,15 @@ select {
         border-top: 1px solid;
         border-bottom: 1px solid;
         justify-content: space-around;
-
     }
-
     .main_cart .carrito_content .product .product_detail .quantity {
-
         display: flex;
         width: 100%;
         text-align: center;
         padding: 0vw;
         font-size: 3vw;
         margin: auto;
-
-
     }
-
-
     .main_cart .carrito_content .product .product_detail p {
         width: 95%;
         font-size: medium;
@@ -917,37 +901,28 @@ select {
         justify-content: center;
         margin: auto;
     }
-
     .main_cart .carrito_content .product .product_detail p img {
         width: 25vw;
         display: flex;
         flex-direction: row;
         padding: 2px;
-
     }
-
     .main_cart .carrito_content .notasytotal {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-
     .main_cart .carrito_content .notasytotal .notas {
         width: 60%;
         flex-direction: column;
         padding: 2vw;
         margin-left: 8vw;
     }
-
     .main_cart .carrito_content .notasytotal .notas p {
-
         display: flex;
         padding: 2px;
-
     }
-
     .main_cart .carrito_content .notasytotal .notas .comentarios {
-
         display: flex;
         padding: 2px;
         color: gray;
@@ -955,12 +930,8 @@ select {
         width: 100%;
         height: 10vw;
         margin: 0;
-
-
     }
-
     .main_cart .carrito_content .notasytotal .notas .cupon {
-
         display: flex;
         padding: 2px;
         color: gray;
@@ -968,10 +939,7 @@ select {
         width: 100%;
         height: 5vw;
         margin: 0;
-
-
     }
-
     .main_cart .carrito_content .notasytotal .total {
         width: 50%;
         display: flex;
@@ -979,192 +947,148 @@ select {
         flex-direction: column;
         padding: 2vw;
     }
-
     .main_cart .carrito_content .notasytotal .total p {
-
         display: flex;
         padding: 2vw;
     }
-
     .main_cart .carrito_content .notasytotal .total .acepto {
         display: flex;
         justify-content: center;
         align-items: center;
         margin: auto;
         flex-direction: column;
-
-
-
     }
-
     .main_cart .carrito_content .notasytotal .total button {
-
         background-color: rgba(87, 103, 247, 1);
         border: none;
         color: #fff;
         font-weight: normal;
         font-size: 20px;
-
-
     }
-
     .main_cart .carrito_content .notasytotal .total p .cbox1 {
         margin: 0;
     }
-
     /*/ configurando desktop del detalle producto/*/
-
-
 }
 
 @media (min-width: 700px) {
     /* PRODUCTDETAIL.html */
-
     .main_productDetailt .producto_info {
         background-color: white;
     }
-
     .main_productDetail .producto_info .productdescript {
         background: white;
         display: flex;
         flex-direction: row;
         margin-top: 20px;
     }
-
     .main_productDetail .producto_info .productdescript .producto {
         margin: auto;
     }
-
     .main_productDetail .producto_info .productdescript .producto img {
         width: 400px;
         height: 400px;
     }
-
     .main_productDetail .producto_info .productdescript .producto p {
         margin: auto;
     }
-
     .main_productDetail .producto_info .productdescript .miniatura {
         display: flex;
         flex-direction: column;
         padding: 1vw;
         width: 200px;
     }
-
     .main_productDetail .producto_info .productdescript .miniatura img {
         width: 100%;
     }
-
     .main_productDetail .producto_info .productdescript .description {
         width: 95vw;
     }
-
     .main_productDetail .producto_info .productdescript .description .uno {
         display: flex;
         flex-direction: row;
         margin: 10px;
     }
-
     .main_productDetail .producto_info .productdescript .description .uno i {
         margin: auto;
     }
-
     .main_productDetail .producto_info .productdescript .description .uno img {
         margin: auto;
         width: 40px;
         height: 40px;
     }
-
     .main_productDetail .producto_info .productdescript .description .uno p {
         margin: auto;
     }
-
     .main_productDetail .producto_info .productdescript .description .uno .cajita {
         border: rgba(237, 121, 83, 1) solid;
         background-color: rgba(237, 121, 83, 1);
         color: #fff;
     }
-
     .main_productDetail .producto_info .productdescript .description .uno .quantity {
         display: flex;
         flex-direction: row;
     }
-
     .main_productDetail .producto_info .productdescript .description .dos {
         display: flex;
         flex-direction: row;
         margin: 10px;
     }
-
     .main_productDetail .producto_info .productdescript .description .dos i {
         margin: auto;
     }
-
     .main_productDetail .producto_info .productdescript .description .dos img {
         margin: auto;
         width: 40px;
         height: 40px;
     }
-
     .main_productDetail .producto_info .productdescript .description .dos p {
         margin: auto;
     }
-
     .main_productDetail .producto_info .productdescript .description .dos .cajita {
         border: rgba(237, 121, 83, 1) solid;
         background-color: rgba(237, 121, 83, 1);
         color: #fff;
     }
-
     .main_productDetail .producto_info .productdescript .description .dos .quantity {
         display: flex;
         flex-direction: row;
     }
-
     .main_productDetail .producto_info .productdescript .description .tres {
         display: flex;
         flex-direction: row;
         margin: 10px;
     }
-
     .main_productDetail .producto_info .productdescript .description .tres i {
         margin: auto;
     }
-
     .main_productDetail .producto_info .productdescript .description .tres img {
         margin: auto;
         width: 40px;
         height: 40px;
     }
-
     .main_productDetail .producto_info .productdescript .description .tres p {
         margin: auto;
     }
-
     .main_productDetail .producto_info .productdescript .description .tres .cajita {
         border: rgba(237, 121, 83, 1) solid;
         background-color: rgba(237, 121, 83, 1);
         color: #fff;
     }
-
     .main_productDetail .producto_info .productdescript .description .tres .quantity {
         margin: auto;
         display: flex;
         flex-direction: row;
     }
-
     .main_productDetail .producto_info .productdescript .description .comprar_ahora {
         margin-top: 20px;
     }
-
     .main_productDetail .producto_info .productdescript .description .comprar_ahora {
         margin-top: 20px;
     }
-
     .main_productDetail .producto_info .productdescript .description .comprar_ahora {
         margin-top: 20px;
     }
-
     .main_productDetail .producto_info .productdescript .description .comprar_ahora .button-comprarAhora {
         margin-top: 20px;
         color: #fff;
@@ -1172,7 +1096,6 @@ select {
         border: none;
         font-weight: bold;
     }
-
     .main_productDetail .producto_info .productdescript .description .comprar_ahora .button-AgregarCarrito {
         margin-top: 20px;
         color: #fff;
@@ -1180,44 +1103,27 @@ select {
         border: none;
         font-weight: bold;
     }
-
     .main_productDetail .producto_info .descripcion_detalle {
-
         display: flex;
         flex-direction: column;
         background-color: white;
         margin: auto;
-
-
     }
-
     .main_productDetail .producto_info .descripcion_detalle .encabezado {
-
         display: flex;
         flex-direction: row;
-
-
-
     }
-
     .main_productDetail .producto_info .descripcion_detalle .encabezado .titulo {
-
         margin: auto;
         font-family: 'Roboto Slab';
         font-size: medium;
-
     }
     .main_productDetail .producto_info .descripcion_detalle p {
-
         margin: auto;
         text-align: justify;
         font-family: 'Roboto Slab';
         font-size: small;
-
     }
-    
-
-
 }
 
 @media (min-width: 481px) {
@@ -1246,18 +1152,14 @@ select {
         justify-content: end;
         background-color: blue;
         display: none;
-
     }
 }
 
 @media (max-width:600px) {
-
     footer section {
         width: 100%;
         height: 100px;
         padding: 10px;
         border: 2px solid #542d2d;
-        ;
-
     }
 }
