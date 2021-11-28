@@ -16,9 +16,9 @@ const newId = () => {
 
 const products_controller = {
     newProducts: (req, res) => {
-		res.render('newProducts')
-	},
-    store: (req, res) => { 
+        res.render('newProducts')
+    },
+    store: (req, res) => {
         const product = {
             "id": newId(),
             "name": req.body.name_new_product,
@@ -53,6 +53,23 @@ const products_controller = {
     },
     products: (req, res) => {
         res.render('products', { allProducts });
+    },
+    update: (req, res) => {
+        let id = req.params.id;
+        let idProduct = allProducts.map(product => {
+            product.id == id
+        })
+
+        const productDetail = {
+            ...idProduct
+        }
+
+        allProducts.push(productDetail)
+
+        let jsonProducts = JSON.stringify(allProducts, null, 4);
+        fs.writeFileSync(productsFilePath, jsonProducts)
+
+        res.render('productDetail', { productDetail });
     }
 }
 
