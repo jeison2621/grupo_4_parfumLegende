@@ -31,5 +31,16 @@
         "typeAmount": "ml.",
         "price": 250000,
         "discount": 60
+    },
+    {
+        "id": 3,
+        "name": "Perfume Y",
+        "description": "Descripción",
+        "image": "1.jpeg",
+        "category": "gel",
+        "amount": "50",
+        "typeAmount": "ml",
+        "price": "20000",
+        "discount": "0"
     }
 ]

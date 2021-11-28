@@ -5,13 +5,13 @@
     <body>
         <%- include('./partials/header') %>
             <main class="main_products">
-
+                <div>
+                    <h1>Todos los productos</h1>
+                </div>
                 <section class="products">
-
+                    <% allProducts.forEach(product=> { %>
                     <article class="products_article">
-
-                        <% allProducts.forEach(product=> { %>
-
+                        
                             <div>
                                 <h2>
                                     <%= product.name %>
@@ -31,13 +31,9 @@
                                 <p>
                                     <%= product.description %>
                                 </p>
-                                <p>////////////////////////////////////////////////////</p>
                             </div>
-
-                            <% }) %>
-
                     </article>
-
+                    <% }) %>
                 </section>
             </main>
             <%- include('./partials/footer') %>

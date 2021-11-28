@@ -695,16 +695,16 @@ p {
 
 /* NEWPRODUCTS.html */
 
-.main-new-pruducts {
+.main-new-products {
 background: white;
     margin-top: 10px;
 
 }
 
-.main-new-pruducts h3{
+.main-new-products h3{
     background: white;
 }
-.article-new-pruducts {
+.article-new-products {
    
     display: flex;
     flex-direction: column;
@@ -718,13 +718,13 @@ background: white;
 
 }
 
-.main-new-pruducts h3 {
+.main-new-products h3 {
     padding: 10px;
     text-align: start;
     margin-bottom: 10px;
 }
 
-.form-new-pruducts {
+.form-new-products {
    
     display: flex;
     text-align: center;
@@ -733,24 +733,24 @@ background: white;
     margin-left: 15px;
 }
 
-.form-new-pruducts .input-file {
+.form-new-products .input-file {
     width: 100%;
 }
 
-.form-new-pruducts input,
+.form-new-products input,
 select {
     margin: 15px;
     padding: 5px;
     
 }
 
-.form-new-pruducts select {
+.form-new-products select {
     width: 50%;
 }
 
 
 
-.form-new-pruducts p {
+.form-new-products p {
     text-align: center; 
     
 }
@@ -777,7 +777,7 @@ body main article label{
     height: 45px;
 }
 @media (min-width: 481px){
-    .article-new-pruducts {
+    .article-new-products {
     width: 430px;
     display: flex  ;
     flex-wrap: nowrap;    
@@ -788,37 +788,37 @@ body main article label{
 
 
 /* EDITPRODUCTS.html */
-.main-edit-pruducts {
+.main-edit-products {
     padding: 10px;
 }
 
-.main-edit-pruducts h3 {
+.main-edit-products h3 {
     padding: 10px;
 }
 
-.form-edit-pruducts {
+.form-edit-products {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 15px;
 }
 
-.form-edit-pruducts .input-file {
+.form-edit-products .input-file {
     width: 70%;
 }
 
-.form-edit-pruducts input,
+.form-edit-products input,
 select {
     margin: 15px;
     padding: 5px;
     width: 30%;
 }
 
-.form-edit-pruducts select {
+.form-edit-products select {
     width: 22%;
 }
 
-.form-edit-pruducts p {
+.form-edit-products p {
     text-align: left;
 }
 
@@ -830,10 +830,7 @@ select {
     border: 1vw;
     height: 100%;
     margin: auto;
-
 }
-
-
 
 @media (min-width: 481px) {
     .main-login {
@@ -844,16 +841,10 @@ select {
 @media(min-width:481px) {
     .cabecera .seccion-2 {
         justify-content: end;
-
     }
-
-   c
 
     .main_cart .carrito_content {
         background-color: white;
-
-
-
     }
 
     .main_cart .carrito_content .carrito_head {
@@ -1027,12 +1018,10 @@ select {
 }
 
 @media (min-width: 700px) {
-
     /* PRODUCTDETAIL.html */
 
     .main_productDetailt .producto_info {
         background-color: white;
-
     }
 
     .main_productDetail .producto_info .productdescript {
@@ -1049,7 +1038,6 @@ select {
     .main_productDetail .producto_info .productdescript .producto img {
         width: 400px;
         height: 400px;
-
     }
 
     .main_productDetail .producto_info .productdescript .producto p {
@@ -1061,14 +1049,10 @@ select {
         flex-direction: column;
         padding: 1vw;
         width: 200px;
-
-
     }
 
     .main_productDetail .producto_info .productdescript .miniatura img {
         width: 100%;
-
-
     }
 
     .main_productDetail .producto_info .productdescript .description {
@@ -1104,8 +1088,6 @@ select {
     .main_productDetail .producto_info .productdescript .description .uno .quantity {
         display: flex;
         flex-direction: row;
-
-
     }
 
     .main_productDetail .producto_info .productdescript .description .dos {
@@ -1137,16 +1119,12 @@ select {
     .main_productDetail .producto_info .productdescript .description .dos .quantity {
         display: flex;
         flex-direction: row;
-
-
     }
 
     .main_productDetail .producto_info .productdescript .description .tres {
         display: flex;
         flex-direction: row;
         margin: 10px;
-
-
     }
 
     .main_productDetail .producto_info .productdescript .description .tres i {
@@ -1157,7 +1135,6 @@ select {
         margin: auto;
         width: 40px;
         height: 40px;
-
     }
 
     .main_productDetail .producto_info .productdescript .description .tres p {
@@ -1243,7 +1220,6 @@ select {
 
 }
 
-
 @media (min-width: 481px) {
     .main-login {
         width: 430px;
@@ -1255,12 +1231,6 @@ select {
         width: 70px;
         position: absolute;
     }
-
-}
-
-
-@media (min-width: 468px) {
-    .cabecera .seccion-1 {}
 }
 
 @media(max-width:481px) {
@@ -1268,7 +1238,6 @@ select {
         justify-content: end;
         background-color: blue;
         display: none;
-
     }
 }
 
