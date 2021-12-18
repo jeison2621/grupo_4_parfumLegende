@@ -626,6 +626,10 @@ p {
 
 /* NEWPRODUCTS.html */
 
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
 .main-new-products {
     background: white;
     margin-top: 10px;
