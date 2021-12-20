@@ -1,14 +1,6 @@
 [
     {
-        "id": 0,
-        "name": "Perfume 0",
-        "description": "Este es el perfume 0",
-        "image": "1.jpeg",
-        "category": "oil",
-        "amount": 200,
-        "typeAmount": "ml",
-        "price": 250000,
-        "discount": "20"
+        "image": "4.jpeg"
     },
     {
         "id": 1,
@@ -31,18 +23,5 @@
         "typeAmount": "floz",
         "price": 250000,
         "discount": "60"
-    },
-    {
-        "id": 3,
-        "name": "Perfume Y",
-        "description": "Descripción",
-        "image": "1.jpeg",
-        "category": "gel",
-        "amount": "50",
-        "typeAmount": "ml",
-        "price": "20000",
-        "discount": "0"
-    },
-    {},
-    {}
+    }
 ]

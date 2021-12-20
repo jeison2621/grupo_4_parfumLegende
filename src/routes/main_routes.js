@@ -1,7 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const multer = require('multer')
-const path = require('path'); 
 const main_controller = require('../controllers/main_controller'); 
 
 /* GET home page. */
