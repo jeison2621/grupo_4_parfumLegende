@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head') %>
+<body>
+    <%- include('./partials/header') %>
+    <main class="main-register">
+        <h3>REGISTRATE HOMBRE</h3>
+        <form  method="post" action="/user/registro" class="form-register" enctype="multipart/form-data">
+            <label for="name-new-user" id="name-new-user">Nombre(s)*</label>
+            <input type="text" name="name" id="name-new-user" placeholder="Ingrese Nombre"  required>
+
+            <label for="lastname-new-user" id="lastname-new-user">Apellidos(s)*</label>
+            <input type="text" name="lastname" id="lastname-new-user" placeholder="Ingrese Apellido" required>
+
+            
+
+            <label for="email-new-user" id="email-new-user">Email*</label>
+            <input type="email" name="email" id="email-new-user" placeholder="Ingrese Correo" required>
+
+            <label for="password-user" id="password-user">Contraseña*</label>
+            <input type="password" name="password" id="password-user" required>
+
+
+            <p>¿Nuevo cliente?<a href="/login">Ingresa aquí</a></p>
+
+            <input type="submit" class="button-register" value="Registrarse">
+        </form>
+    </main>
+    <%- include('./partials/footer') %>
+</body>
+</html>
