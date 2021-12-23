@@ -10,5 +10,6 @@ router.get('/register', main_controller.register);
 
 /* GET login page. */
 router.get('/login', main_controller.login);
+router.post('/login',)
 
 module.exports = router;

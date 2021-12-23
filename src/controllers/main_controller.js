@@ -8,6 +8,10 @@ const main_controller = {
     login: (req, res)=>{        
         res.render('login');
     }
+
+
+
+    
 }
 
 module.exports = main_controller; 
