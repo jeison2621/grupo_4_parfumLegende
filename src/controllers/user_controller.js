@@ -33,7 +33,8 @@ const user_controller = {
             "lastname": req.body.lastname, 
             "email": req.body.email,
             "password":bcrypt.hashSync(req.body.password, 10),
-            "Role": 1
+            "Role": 1,
+            "img" : req.file.destination
         }
 
         allProducts.push(product)

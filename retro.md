@@ -96,4 +96,5 @@
 
 ## Dejar de Hacer:
 - Procastinar.
+
 - quedarse callado si no se entiende algo

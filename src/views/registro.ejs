@@ -5,7 +5,7 @@
     <%- include('./partials/header') %>
     <main class="main-register">
         <h3>REGISTRATE HOMBRE</h3>
-        <form  method="post" action="/user/registro" class="form-register" >
+        <form  method="post" action="/user/registro" class="form-register" enctype="multipart/form-data" >
             <label for="name-new-user" id="name-new-user">Nombre(s)*</label>
             <input type="text" name="name" id="name" placeholder="Ingrese Nombre"  required>
 
@@ -19,6 +19,9 @@
 
             <label for="password-user" id="password-user">Contraseña*</label>
             <input type="password" name="password" id="password" required>
+
+            <input type= "file" name = img >
+    
 
 
             <p>¿Ya tienes una cuenta?<a href="/login">Ingresa aquí</a></p>
