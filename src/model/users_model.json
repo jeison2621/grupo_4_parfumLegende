@@ -98,5 +98,21 @@
         "email": "andres.moyano@misena.edu.co",
         "password": "$2a$10$R2CZk2Id/DzUegH9qoXJiuA4STugHRkuLJl8rV9VYHYfDneY.ttjK",
         "Role": 1
+    },
+    {
+        "id": 14,
+        "name": "el ",
+        "lastname": "byscript",
+        "email": "elcorreodebyscript@gmail.com",
+        "password": "$2a$10$hfgxqlyyxAz10KsZB/j7fuWYBnM7sa.4IeU1XvAS..0h63bTFVKCe",
+        "Role": 1
+    },
+    {
+        "id": 15,
+        "name": "el ",
+        "lastname": "ejemplo",
+        "email": "ejemplo@correo.com",
+        "password": "$2a$10$snKuuknk8t2zgjUU0s1DquvonUR1bRs7xcdtHnNVcQd.lW4Hbgg0i",
+        "Role": 1
     }
 ]
