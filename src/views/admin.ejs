@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<!DOCTYPE html>
-<html lang="en">
+<%- include('./partials/head') %>
 
-<body>
-  <main class="container-fluid">
-    <!--Administrador de productos-->
-    <br>
-    <section class="row">
-      <article class="col-12 ">
-        <h2 class="display-4 text-white bg-info text-center pt-2">Administrador de Productos</h2>
-      </article>
-      <article class="col-12">
-        <a href="/admin/create">
-          <ion-icon name="add-circle-outline"></ion-icon>Agregar
-        </a>
-      </article>
-      <article class="col-12">
+  <body>
+    <%- include('./partials/header') %>
+      <main class="container-fluid">
+        <!--Administrador de productos-->
+        <br>
+        <div class="tablaadmin">
+          <h2>Administrador de Productos</h2>
+          <a href="/admin/create">
+            <ion-icon name="add-circle-outline"></ion-icon>Agregar
+          </a>
 
-        <% allProducts.forEach(product=> { %>
 
-          <table class="default" border="1">
+          <div class="row">
 
-            <tr>
-              <th>id</th>
-              
-              <th>Nombre</th>
+            <% allProducts.forEach(product=> { %>
 
-              <th>Ver</th>
+              <table class="tabla" border="1">
 
-              <th>Editar</th>
+                <div class = "contenedor"> 
+                  <tr>
+                    <th>id</th>
+  
+                    <th>Nombre</th>
+  
+                    <th>Ver</th>
+  
+                    <th>Editar</th>
+  
+                    <th>Eliminar</th>
+  
+                  </tr>
+  
+                  <tr>
+                    <td scope="col">
+                      <%= product.id %>
+                    </td>
+                    <td scope="col">
+                      <%= product.name %>
+                    </td>
+                    
+                    <td><a href="/admin/editdetail/<%= product.id %>">
+                        <ion-icon name="eye-outline"></ion-icon>VER
+                      </a> </td>
+                    <td><a href="/admin/edit/<%= product.id %>">
+                        <ion-icon name="pencil-outline"></ion-icon>EDITAR
+                      </a></td>
+                    <td><a href="/admin/delete/<%= product.id %>">
+                        <ion-icon name="trash-outline"></ion-icon>ELIMINAR
+                      </a></td>
+  
+                  </tr>
 
-              <th>Eliminar</th>
+                </div>
 
-            </tr>
+                
 
-            <tr>
-              <td scope="col">
-                <%= product.id %>
-              </td>
-              <td scope="col">
-                <%= product.name %>
-              </td>
-              <td><a href="/admin/editdetail/<%= product.id %>">
-                  <ion-icon name="eye-outline"></ion-icon>VER
-                </a></td>
-              <td><a href="/admin/edit/<%= product.id %>">
-                  <ion-icon name="pencil-outline"></ion-icon>EDITAR
-                </a></td>
-              <td><a href="/admin/delete/<%= product.id %>">
-                  <ion-icon name="trash-outline"></ion-icon>ELIMINAR
-                </a></td>
+              </table>
+              <% }) %>
 
-            </tr>
+          </div>
 
-          </table>
-          <% }) %>
+        </div>
 
-    </section>
-    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-  </main>
-</body>
+        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+      </main>
+      <%- include('./partials/footer') %>
+  </body>
 
 </html>
