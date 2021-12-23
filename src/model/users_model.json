@@ -98,5 +98,23 @@
         "email": "andres.moyano@misena.edu.co",
         "password": "$2a$10$R2CZk2Id/DzUegH9qoXJiuA4STugHRkuLJl8rV9VYHYfDneY.ttjK",
         "Role": 1
+    },
+    {
+        "id": 14,
+        "name": "brayan",
+        "lastname": "rios",
+        "email": "ssaa@gmail.com",
+        "password": "$2a$10$wIDAxfCdju61X92fxW64dOSt05puGsXvVqIoIAHutTe/8WE7g40Ni",
+        "Role": 1,
+        "img": "C:\\Users\\Jeison\\Desktop\\Nueva carpeta\\grupo_4_parfumLegende\\src\\public\\images\\users"
+    },
+    {
+        "id": 15,
+        "name": "luisa",
+        "lastname": "lopez",
+        "email": "ssaa@gmail.com",
+        "password": "$2a$10$.DHPYdtDv/5/uiohTIW9NOj1rQQBrxyNw4fZy5TugCYw0Se7sKT42",
+        "Role": 1,
+        "img": "C:\\Users\\Jeison\\Desktop\\Nueva carpeta\\grupo_4_parfumLegende\\src\\public\\images\\users"
     }
 ]
