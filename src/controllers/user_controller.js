@@ -2,6 +2,7 @@ const model = require('../model/users_model.json')
 const fs = require('fs')
 const path = require('path');
 const res = require('express/lib/response');
+const bcrypt = require('bcryptjs');
 const { validationResult } = require('express-validator')
 
 
@@ -31,7 +32,7 @@ const user_controller = {
             "name": req.body.name,
             "lastname": req.body.lastname, 
             "email": req.body.email,
-            "password": req.body.password,
+            "password":bcrypt.hashSync(req.body.password, 10),
             "Role": 1
         }
 

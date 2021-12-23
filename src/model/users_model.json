@@ -56,5 +56,47 @@
         "lastname": "lopez",
         "email": "l@gmail.com",
         "password": "12345"
+    },
+    {
+        "id": 8,
+        "lastname": "cardenas",
+        "email": "uncorreo@gmail.com",
+        "password": "950206"
+    },
+    {
+        "id": 9,
+        "lastname": "cardenas",
+        "email": "uncorreo@gmail.com",
+        "password": "950206"
+    },
+    {
+        "id": 10,
+        "lastname": "cardenas",
+        "email": "uncorreo@gmail.com",
+        "password": "950206"
+    },
+    {
+        "id": 11,
+        "name": "el grupo de stevens ",
+        "lastname": "cardenas",
+        "email": "uncorreo@gmail.com",
+        "password": "$2a$10$.RJZ.nbZoDig37oGvPP/oe0w.jzs7wFhxJq81PACwYMFCGc4N/x76",
+        "Role": 1
+    },
+    {
+        "id": 12,
+        "name": "el ",
+        "lastname": "byscript",
+        "email": "elcorreodebyscript@gmail.com",
+        "password": "$2a$10$tH35h8IbsqFz76JRmJgDHeHXZa0MUhruoj197qmYjv/ZFTwax2gsy",
+        "Role": 1
+    },
+    {
+        "id": 13,
+        "name": "luisa",
+        "lastname": "lopez",
+        "email": "andres.moyano@misena.edu.co",
+        "password": "$2a$10$R2CZk2Id/DzUegH9qoXJiuA4STugHRkuLJl8rV9VYHYfDneY.ttjK",
+        "Role": 1
     }
 ]
