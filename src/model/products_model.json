@@ -15,13 +15,24 @@
     },
     {
         "id": 2,
-        "name": "Perfume 2",
-        "description": "Este es el perfume 2",
-        "image": "3.jpeg",
-        "category": "liquid",
-        "amount": 200,
-        "typeAmount": "floz",
-        "price": 250000,
-        "discount": "60"
+        "name": "Perfume de wilson",
+        "description": "Descripción",
+        "image": "2.jpeg",
+        "category": "gel",
+        "amount": "50",
+        "typeAmount": "ml",
+        "price": "20000",
+        "discount": "0"
+    },
+    {
+        "id": 3,
+        "name": "Perfume Jeison ",
+        "description": "Descripción",
+        "image": "2.jpeg",
+        "category": "gel",
+        "amount": "50",
+        "typeAmount": "ml",
+        "price": "20000",
+        "discount": "35"
     }
 ]
