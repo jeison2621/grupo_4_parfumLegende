@@ -4,13 +4,23 @@
 <body>   
     <%- include('./partials/header') %>
     <main class="main-login">
-        <h3>INGRESA</h3>
+        <h3>INGRESA prueba</h3>
         <form action="#" class="form-login">
             <label for="email-user" id="email-user">Email*</label>
             <input type="email" name="email-user" id="email-user" required>
+            <% if(typeof(errors) != 'undefined' && errors.email){%>
+                <span class="text-danger">
+                  <%= errors.email.msg %>
+                </span>
+             <%}%>
 
             <label for="password-user" id="password-user">Contraseña*</label>
             <input type="password" name="password-user" id="password-user" required>
+            <% if(typeof(errors) != 'undefined' && errors.password){%>
+                <span class="text-danger">
+                  <%= errors.password.msg %>
+                </span>
+             <%}%>
 
             <p>¿Nuevo cliente?<a href="/register">Crear cuenta</a></p>
 

@@ -116,5 +116,14 @@
         "password": "$2a$10$.DHPYdtDv/5/uiohTIW9NOj1rQQBrxyNw4fZy5TugCYw0Se7sKT42",
         "Role": 1,
         "img": "C:\\Users\\Jeison\\Desktop\\Nueva carpeta\\grupo_4_parfumLegende\\src\\public\\images\\users"
+    },
+    {
+        "id": 16,
+        "name": "jeison ",
+        "lastname": "final ",
+        "email": "finaljeison@correo.com",
+        "password": "$2a$10$NJvO9chQIjQ1HC3jVlxZNeItlYMTnW9qfp6lIRmP/8lBjEG1VoxZi",
+        "Role": 1,
+        "img": "C:\\Users\\steve\\OneDrive\\Escritorio\\DIGITAL HOUSE\\EJERCICIOS CLASE\\PARFUM_LEGENDE_WS\\grupo_4_parfumLegende\\src\\public\\images\\users"
     }
 ]
