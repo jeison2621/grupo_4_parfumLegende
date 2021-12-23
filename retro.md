@@ -65,3 +65,35 @@
 
 ## Dejar de Hacer:
 - Procastinar.
+
+
+
+# Retrospectiva - Sprint 5
+
+
+## Comenzar a Hacer:
+ - terminar todas las tareas asignadas en jira
+ - adelantar todos los temas pendientes en la playGround
+ - dedicar mas tiempo a practicar conceptos aprendidos
+ 
+ 
+
+## Hacer Más:
+- alzar la mano en las dificultades, para poder avanzar en conjunto
+- profundizar los temas , completando las practicas integradoras de la playGroun
+- dedicar mas tiempo al proyecto
+
+
+## Continuar Haciendo:
+- continuar apoyandonos en las dificultades 
+- reuniones para checkeo de avances 
+
+
+## Hacer Menos:
+- trabajar por separado
+- no comunicar las novedades , con el grupo
+- subir cambios y no informar 
+
+## Dejar de Hacer:
+- Procastinar.
+- quedarse callado si no se entiende algo
