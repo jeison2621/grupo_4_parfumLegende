@@ -84,3 +84,54 @@ Terminar detalles de css, y demas tareas pendientes.
 - Wilson 
 Terminar detalles de css, y demas tareas pendientes.
     tareas asignadas en el sprint 4
+
+
+    # weekly - Sprint 5
+
+## ¿Que hicimos la semana pasada?
+
+- Diego 
+
+    actualice el tablero jira con esprint 5 (tareas)
+    termine tareas del sprint 4
+
+
+- Jeison
+
+    trabaje en las rutas de del usuario , en el Formulario de registro 
+
+
+- Wilson 
+
+    termine responsive del carrito
+
+ 
+## ¿Qué impedimentos tubimos?
+
+- Diego 
+     tiempo de reunion en conjuto
+
+- Jeison
+    tiempo de reunion en conjuto
+    Falta de comprensión de algunos conceptos.
+    terminar ejercicios playground
+
+- Wilson 
+    tiempo de reunion en conjuto
+    cruce con otras tareas 
+    adelantar contenido sprint 4
+
+
+## ¿Qué haremos la próxima semana? 
+
+- Diego 
+    tareas asignadas en el sprint 4
+
+- Jeison 
+
+    tareas asignadas en el sprint 4
+
+- Wilson 
+Terminar detalles de css, y demas tareas pendientes.
+    tareas asignadas en el sprint 4
+
