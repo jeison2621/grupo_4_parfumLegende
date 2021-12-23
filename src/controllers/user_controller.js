@@ -28,16 +28,19 @@ const user_controller = {
         const product = {
 
             "id": newId(),
-            "name": res.params,
+            "name": req.body.name,
             "lastname": req.body.lastname, 
             "email": req.body.email,
             "password": req.body.password,
+            "Role": 1
         }
 
         allProducts.push(product)
 
         let jsonProducts = JSON.stringify(allProducts, null, 4);
         fs.writeFileSync(productsFilePath, jsonProducts)
+
+        res.redirect('/login')
     },
 
     insert: (req, res) => {
