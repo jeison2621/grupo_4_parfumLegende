@@ -10,8 +10,7 @@ const upload = require('../middlewares/multermidd')
 
 router.get('/registro',(req,res)=>{res.render('registro')});
 router.post('/registro',upload.single('img'),user_controller.save); 
-router.get('/', (req,res)=>{res.render('index')}); 
-router.post('/', user_controller.ingresar); 
+
 
 
 

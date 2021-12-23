@@ -55,19 +55,22 @@
         "id": 7,
         "lastname": "lopez",
         "email": "l@gmail.com",
-        "password": "12345"
+        "password": "12345",
+        "Role": 1
     },
     {
         "id": 8,
         "lastname": "cardenas",
         "email": "uncorreo@gmail.com",
-        "password": "950206"
+        "password": "950206",
+        "Role": 1
     },
     {
         "id": 9,
         "lastname": "cardenas",
         "email": "uncorreo@gmail.com",
-        "password": "950206"
+        "password": "950206",
+        "Role": 1
     },
     {
         "id": 10,

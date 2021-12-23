@@ -5,7 +5,7 @@
     <%- include('./partials/header') %>
     <main class="main-login">
         <h3>INGRESA prueba</h3>
-        <form action="#" class="form-login">
+        <form  method="post" action="/" class="form-login">
             <label for="email-user" id="email-user">Email*</label>
             <input type="email" name="email-user" id="email-user" required>
             <% if(typeof(errors) != 'undefined' && errors.email){%>
