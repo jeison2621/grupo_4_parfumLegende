@@ -99,7 +99,7 @@ Terminar detalles de css, y demas tareas pendientes.
 - Jeison
 
     trabaje en las rutas de del usuario , en el Formulario de registro 
-
+    
 
 - Wilson 
 
@@ -125,7 +125,7 @@ Terminar detalles de css, y demas tareas pendientes.
 ## ¿Qué haremos la próxima semana? 
 
 - Diego 
-    tareas asignadas en el sprint 4
+    tareas asignadas en el sprint 
 
 - Jeison 
 

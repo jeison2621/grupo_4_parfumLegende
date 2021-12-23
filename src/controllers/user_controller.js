@@ -4,39 +4,32 @@ const path = require('path');
 const res = require('express/lib/response');
 const { validationResult } = require('express-validator')
 
+
 const productsFilePath = path.resolve(__dirname, '../model/users_model.json');
 let allProducts = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
-
-
-/*console.log("llego aqui")
-let name = "jeison"
-
-        const product = {
-            "name": "elsa",
-            "lastname": "sanchez",
-            "email": "ann@gmail.com",
-            "password": "12345678",
-        }
-
-
-console.log(model);
-
-model.push(product)
-console.log(model);
-*/
-
 
 fs.writeFileSync(path.resolve(__dirname, '../model/users_model.json'), JSON.stringify(model, null, 4),
     { encoding: "utf-8" })
 
+    const newId = () => {
+        let ultimo = 0;
+        allProducts.forEach(product => {
+            if (product.id > ultimo) {
+                ultimo = product.id;
+            }
+        });
+        return ultimo + 1
+    }
+
+
+
 const user_controller = {
     save: (req, res) => {
-
-        const body = req.body
         const product = {
 
-            "name": req.body.name,
-            "lastname": req.body.lastname,
+            "id": newId(),
+            "name": res.params,
+            "lastname": req.body.lastname, 
             "email": req.body.email,
             "password": req.body.password,
         }
