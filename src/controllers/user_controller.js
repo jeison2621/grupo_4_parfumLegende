@@ -66,28 +66,19 @@ const user_controller = {
             users.push(user);
             usersJSON = JSON.stringify(users, null, 2);
             fs.writeFileSync(path.resolve(__dirname, '../model/users_model.json'), usersJSON);
-            res.redirect('/login');
+            res.redirect('/user/login');
 
         } else {
             
-            return res.render(path.resolve(__dirname, '../views/registro'), {
+            return res.render(path.resolve(__dirname, '../views/usuarios/registro'), {
                 errors: errors.errors,
                 old: req.body
             });
         }
 
-
-
-
-
-
-
-
-
     },
 
     insert: (req, res) => {
-
 
         let {
             name,
@@ -137,7 +128,7 @@ const user_controller = {
         users.push(user);
         usersJSON = JSON.stringify(users, null, 2);
         fs.writeFileSync(path.resolve(__dirname, '../model/users_model.json'), usersJSON);
-        res.redirect('/login');
+        res.redirect('/user/login');
 
 
     },
@@ -159,7 +150,7 @@ const user_controller = {
 
         } else {
             //Devolver a la vista los errores
-            res.render(path.resolve(__dirname, '../views/login'), {
+            res.render(path.resolve(__dirname, '../views/usuarios/login'), {
                 errors: errors.mapped(),
                 old: req.body
             });

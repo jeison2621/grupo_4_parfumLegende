@@ -10,7 +10,7 @@ router.get('/', main_controller.home);
 router.get('/register', main_controller.register);
 
 /* GET login page. */
-router.get('/login', main_controller.login);
-router.post('/login',main_controller.prueba); 
+//router.get('/login', main_controller.login);
+//router.post('/login',main_controller.prueba); 
 
 module.exports = router;

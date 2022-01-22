@@ -34,5 +34,16 @@
         "typeAmount": "ml",
         "price": "20000",
         "discount": "35"
+    },
+    {
+        "id": 4,
+        "name": "perfume de prueba ",
+        "description": "este es de prueba ",
+        "image": "2.jpeg",
+        "category": "oil",
+        "amount": "50",
+        "typeAmount": "ml",
+        "price": "20000",
+        "discount": "5"
     }
 ]

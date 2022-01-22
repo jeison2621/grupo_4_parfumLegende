@@ -164,5 +164,23 @@
         "password": "$2a$10$vGz1pVlyPZsJyCyZ.kCswuZxBbz2CQy4DOdv0x9rbyxrtqAkA1.EW",
         "Role": 1,
         "avatar": "foto-1642806678759.jpg"
+    },
+    {
+        "id": 21,
+        "name": "steve",
+        "lastname": "card",
+        "email": "elcorreo@correo.com",
+        "password": "$2a$10$QCV32rKSnws1WYEQSkx58OmLZkMnaJmGv06xF7ifcxhVt5pNBXuQe",
+        "role": 1,
+        "avatar": "foto-1642859949066.png"
+    },
+    {
+        "id": 22,
+        "name": "wilson",
+        "lastname": "cardenas",
+        "email": "estecorreoreal@gmail.com",
+        "password": "$2a$10$knX7CvQ3dmZnnNwrHw7jYu5cGB7F0CPcfg266DfGWA0fTnYZUQs.G",
+        "role": 1,
+        "avatar": "foto-1642884691946.jpg"
     }
 ]

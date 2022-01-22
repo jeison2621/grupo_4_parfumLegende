@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en"> 
-    <%- include('./partials/head') %>
+    <%- include('../partials/head') %>
 <body>   
-    <%- include('./partials/header') %>
+    <%- include('../partials/header') %>
     <main class="main-login">
         <h3>INGRESA prueba</h3>
-        <form  method="post" action="/login" class="form-login">
+        <form  method="post" action="/user/login" class="form-login">
             <label for="email-user" id="email-user">Email*</label>
-            <input type="email" name="email" id="email-user" required>
+            <input type="email" name="email" id="email-user" required value="<%= typeof old != 'undefined' ? old.email : '' %>">
             <% if(typeof(errors) != 'undefined' && errors.email){%>
-                <span class="text-danger">
+                <span style="color: red;">
                   <%= errors.email.msg %>
                 </span>
              <%}%>
-
             <label for="password-user" id="password-user">Contraseña*</label>
             <input type="password" name="password" id="password-user" required>
             <% if(typeof(errors) != 'undefined' && errors.password){%>
-                <span class="text-danger">
+                <span style="color: red;">
                   <%= errors.password.msg %>
                 </span>
              <%}%>
+             <p >
+                <input type="checkbox" name="recordarme"><label class="checkbox-inline">Recordarme</label>
+             </p>
 
-            <p>¿Nuevo cliente?<a href="/register">Crear cuenta</a></p>
+            <p>¿Nuevo cliente?<a href="/user/registro">Crear cuenta</a></p>
 
             <p>¿Olvidaste tu contraseña?<a href="#">Recuperar contraseña</a></p>
 
             <input type="submit" class="button-login" value="Ingresar">
         </form>
     </main>
-    <%- include('./partials/footer') %>
+    <%- include('../partials/footer') %>
 </body>
 
 </html>

@@ -125,11 +125,7 @@ Terminar detalles de css, y demas tareas pendientes.
 ## ¿Qué haremos la próxima semana? 
 
 - Diego 
-<<<<<<< HEAD
-    tareas asignadas en el sprint 
-=======
     tareas asignadas en el sprint, profundizar en los temas vistos en clase en las vacaciones, dejar al día ejercicios de la playground
->>>>>>> b224f7e61bfed7bfa678ac8713fa19cbd1cdbff6
 
 - Jeison 
 
@@ -138,4 +134,50 @@ Terminar detalles de css, y demas tareas pendientes.
 
 - Wilson 
 Terminar detalles de css, y demas tareas pendientes.tener al día ejercicios de la playground y rofundizar en los temas vistos en clase y tareas asignadas en el sprint 
+
+
+# weekly - Sprint 6
+
+## ¿Que hicimos la semana pasada?
+
+- Diego 
+
+    
+
+- Jeison
+
+    
+    
+
+- Wilson 
+
+    configurando pendiente del registro de usuarios y el CRUD
+
+ 
+## ¿Qué impedimentos tubimos?
+
+- Diego 
+     tiempo de reunion en conjuto
+
+- Jeison
+    tiempo de reunion en conjuto
+    Falta de comprensión de algunos conceptos.
+    terminar ejercicios playground
+
+- Wilson 
+    Las validaciones no se están ejecutando, hay que revisar porque no estan funcionando, se ha revisado el código pero no se encuentra el error  
+
+
+## ¿Qué haremos la próxima semana? 
+
+- Diego 
+    
+
+- Jeison 
+
+    Va a avanzar en el diagrama de la base de datos y en el script de sql 
+ 
+
+- Wilson 
+Dejar listo el CRUD para que podamos avanzar en las bases de datos sin problema. Avanzar lo que mas se pueda de las tareas del SPRINT 6 pendientes 
 

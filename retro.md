@@ -98,3 +98,39 @@
 - Procastinar.
 
 - quedarse callado si no se entiende algo
+
+# Retrospectiva - Sprint 6
+
+
+## Comenzar a Hacer:
+ - las tareas correspondientes al SPRINT
+ - terminar todas las tareas asignadas en jira
+ - adelantar todos los temas pendientes en la playGround
+ - dedicar mas tiempo a practicar conceptos aprendidos
+ 
+ 
+ 
+
+## Hacer Más:
+- alzar la mano en las dificultades, para poder avanzar en conjunto
+- profundizar los temas , completando las practicas integradoras de la playGroun
+- dedicar mas tiempo al proyecto
+- informar de las dificuldes y motivar al grupo para el cumplimiento de las tareas
+
+
+## Continuar Haciendo:
+- continuar apoyandonos en las dificultades 
+- reuniones para checkeo de avances 
+- no desisitir, insistir, confiar, avanzar 
+
+
+## Hacer Menos:
+- trabajar por separado
+- no comunicar las novedades , con el grupo
+- subir cambios y no informar 
+- Intentar no dejar tareas pendientes de Sprint anteriores
+
+## Dejar de Hacer:
+- Procastinar.
+- Insistir en lo que no funciona
+- quedarse callado si no se entiende algo

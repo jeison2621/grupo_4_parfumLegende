@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const path  = require('path');
-const user_controller = require('../controllers/user_controller');
+const user_controller = require(path.resolve(__dirname,'../controllers/user_controller'));
 const upload = require('../middlewares/multermidd');
 
 const fs = require('fs');
@@ -16,12 +16,13 @@ let archivoUsuarios =  JSON.parse(fs.readFileSync(path.resolve(__dirname, '../mo
 
 //Aquí ejecuto mis validaciones
 const validacionesLogin = [
+  
     body('email').isEmail().withMessage('Agregar un email válido'),
     body('password').isLength({min: 6 }).withMessage('La contraseña debe tener un mínimo de 6 caractéres'),
     body('email').custom( (value  ) =>{
       for (let i = 0; i < archivoUsuarios.length; i++) {
           if (archivoUsuarios[i].email == value) {
-              return true    
+              return true; 
           }
       }
       return false
@@ -69,18 +70,13 @@ const validacionesRegistro = [
 
 
 
-router.get('/registro',(req,res)=>{res.render('registro')});
+router.get('/registro',(req,res)=>{res.render(path.resolve(__dirname, '../views/usuarios/registro'))});
 router.post('/registro',upload.single('avatar'), validacionesRegistro, user_controller.save); 
 // de login 
-router.get('/login', (req,res)=>{res.render('login')});
+router.get('/login', (req,res)=>{res.render(path.resolve(__dirname, '../views/usuarios/login'))});
 router.post('/login', validacionesLogin, user_controller.ingresar);
 
 router.get('/logout', user_controller.logout);
-
-
-
-
-
 
 
 

@@ -10,7 +10,7 @@ const app = express();
 //Aqui requiero los paquetes para trabajar lo referido a session y cookies
 const session = require('express-session');
 const cookieParser = require('cookie-parser');
-const acceso = require('../src/middlewares/acceso');
+const acceso = require('./middlewares/acceso');
 
 
 //Implementación EJS
