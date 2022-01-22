@@ -128,5 +128,41 @@
         "password": "$2a$10$NJvO9chQIjQ1HC3jVlxZNeItlYMTnW9qfp6lIRmP/8lBjEG1VoxZi",
         "Role": 1,
         "img": "C:\\Users\\steve\\OneDrive\\Escritorio\\DIGITAL HOUSE\\EJERCICIOS CLASE\\PARFUM_LEGENDE_WS\\grupo_4_parfumLegende\\src\\public\\images\\users"
+    },
+    {
+        "id": 17,
+        "name": "nuevo",
+        "lastname": "wilson",
+        "email": "nuevowilson@correo.com",
+        "password": "$2a$10$P65g6iF4Cd9.igWqKe4jbuP2jeA8.hRMOM38/aSrtGsmjGxrqDpQK",
+        "Role": 1,
+        "img": "C:\\Users\\steve\\OneDrive\\Escritorio\\DIGITAL HOUSE\\EJERCICIOS CLASE\\PARFUM_LEGENDE_WS\\grupo_4_parfumLegende\\src\\public\\images\\users"
+    },
+    {
+        "id": 18,
+        "name": "probando ",
+        "lastname": "multer",
+        "email": "multer@correo.com",
+        "password": "$2a$10$xBeod1KTGocncKZguUuhPeWpqMwZaD4A7SHboji9NENADIapDuMey",
+        "Role": 1,
+        "img": "C:\\Users\\steve\\OneDrive\\Escritorio\\DIGITAL HOUSE\\EJERCICIOS CLASE\\PARFUM_LEGENDE_WS\\grupo_4_parfumLegende\\src\\public\\images\\users"
+    },
+    {
+        "id": 19,
+        "name": "otra prueba",
+        "lastname": "multer",
+        "email": "multer2@correo.com",
+        "password": "$2a$10$G5k6LmqxdBO0ZcQhmJrageGafCDO2ciDecJG1gYXETvgJPfN6wy1S",
+        "Role": 1,
+        "avatar": "foto-1642804037685.jpg"
+    },
+    {
+        "id": 20,
+        "name": "nueva prueba",
+        "lastname": "bien ",
+        "email": "todobien@correo.com",
+        "password": "$2a$10$vGz1pVlyPZsJyCyZ.kCswuZxBbz2CQy4DOdv0x9rbyxrtqAkA1.EW",
+        "Role": 1,
+        "avatar": "foto-1642806678759.jpg"
     }
 ]

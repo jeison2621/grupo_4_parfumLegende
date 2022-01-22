@@ -8,23 +8,23 @@
         <nav>
             <% if(locals.usuario){%>
                 <p><a href="/admin">Administrar</a></p>
-            <% } %>
-            <% if(locals.usuario) { %>
+                <% } %>
+                    <% if(locals.usuario) { %>
 
-                
-                <p><a href="/products/cart"><i class="fas fa-shopping-cart"></i></a></p>
-                <p><a href="/logout">Cerrar sesión<i class="fas fa-sign-out-alt"></i></a></p>
-                <div class="avatar">
-                    <img  src="/images/usuarios/<%=locals.usuario.avatar %>"   style= 'border-radius: 100%;'alt="">
-                  </div>
 
-            <% } else { %>
-                <!--Cuando no estoy logueado debería ver esto-->
+                        <p><a href="/products/cart"><i class="fas fa-shopping-cart"></i></a></p>
+                        <p><a href="/logout">Cerrar sesión<i class="fas fa-sign-out-alt"></i></a></p>
+                        <div class="avatar">
+                            <img src="/images/usuarios/<%=locals.usuario.avatar %>" style='border-radius: 100%;' alt="">
+                        </div>
 
-                <p><a href="/register"><i class="fas fa-user"></i></a></p>
-                <p><a href="/login"><i class="fas fa-sign-in-alt"></i></a></p>
-                <p><a href="/products/cart"><i class="fas fa-shopping-cart"></i></a></p>
-            <%}%>
+                        <% } else { %>
+                            <!--Cuando no estoy logueado debería ver esto-->
+
+                            <p><a href="/user/registro"><i class="fas fa-user"></i></a></p>
+                            <p><a href="/login"><i class="fas fa-sign-in-alt"></i></a></p>
+                            <p><a href="/products/cart"><i class="fas fa-shopping-cart"></i></a></p>
+                            <%}%>
         </nav>
     </section>
 

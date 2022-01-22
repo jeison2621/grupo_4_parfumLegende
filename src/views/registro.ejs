@@ -7,20 +7,20 @@
         <h3>REGISTRATE HOMBRE</h3>
         <form  method="post" action="/user/registro" class="form-register" enctype="multipart/form-data" >
             <label for="name-new-user" id="name-new-user">Nombre(s)*</label>
-            <input type="text" name="name" id="name" placeholder="Ingrese Nombre"  required>
+            <input type="text" name="name" id="name" placeholder="Ingrese Nombre" required value="<%= typeof old != 'undefined' ? old.name : '' %>">
 
             <label for="lastname-new-user" id="lastname-new-user">Apellidos(s)*</label>
-            <input type="text" name="lastname" id="lastname" placeholder="Ingrese Apellido" required>
+            <input type="text" name="lastname" id="lastname" placeholder="Ingrese Apellido" required value="<%= typeof old != 'undefined' ? old.lastname : '' %>">
 
             
 
             <label for="email-new-user" id="email-new-user">Email*</label>
-            <input type="email" name="email" id="email" placeholder="Ingrese Correo" required>
+            <input type="email" name="email" id="email" placeholder="Ingrese Correo" required value="<%= typeof old != 'undefined' ? old.email : '' %>">  
 
             <label for="password-user" id="password-user">Contraseña*</label>
             <input type="password" name="password" id="password" required>
 
-            <input type= "file" name = img >
+            <input type= "file" name = avatar >
     
 
 
