@@ -7,16 +7,17 @@
         <H1>Parfum Légende</H1>
         <nav>
             <% if(locals.usuario){%>
-                <p><a href="/admin">Administrar</a></p>
+                <p><a href="/">Inicio</a></p>
+                <p><a href="/admin">Administrar</a></p>                
                 <% } %>
                     <% if(locals.usuario) { %>
 
 
                         <p><a href="/products/cart"><i class="fas fa-shopping-cart"></i></a></p>
-                        <p><a href="/logout">Cerrar sesión<i class="fas fa-sign-out-alt"></i></a></p>
-                        <div class="avatar">
-                            <img src="/images/usuarios/<%=locals.usuario.avatar %>" style='border-radius: 100%;' alt="">
-                        </div>
+                        <p><a href="/user/logout">Cerrar sesión<i class="fas fa-sign-out-alt"></i></a></p>
+                        <section class="avatar">
+                            <img src="/images/users/<%=locals.usuario.avatar %>" style='border-radius: 100%;' alt="">
+                        </section>
 
                         <% } else { %>
                             <!--Cuando no estoy logueado debería ver esto-->

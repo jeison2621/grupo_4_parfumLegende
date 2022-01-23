@@ -50,6 +50,7 @@ const admin_controller = {
         let id = req.params.id;
         let editProduct = allProducts.filter(product => product.id == id);
         res.render('editProducts', { editProduct });
+        
     },
     update: (req, res) => {
         let id = req.params.id;

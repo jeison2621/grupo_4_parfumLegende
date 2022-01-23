@@ -182,5 +182,32 @@
         "password": "$2a$10$knX7CvQ3dmZnnNwrHw7jYu5cGB7F0CPcfg266DfGWA0fTnYZUQs.G",
         "role": 1,
         "avatar": "foto-1642884691946.jpg"
+    },
+    {
+        "id": 23,
+        "name": "stevens",
+        "lastname": "cardenas",
+        "email": "correo@gmail.com",
+        "password": "$2a$10$onMcucaG0tPt/x5pSvXtXOC4/mMAYZUB8gKtONuoSGx2gRMvE5AF6",
+        "role": 1,
+        "avatar": "foto-1642941620306.jpeg"
+    },
+    {
+        "id": 24,
+        "name": "stevens",
+        "lastname": "the best",
+        "email": "stevens@correo.com",
+        "password": "$2a$10$U/eD0wXXrtwtVrVc.2hMFux9lp.gZOb1Ur5MSwGonqlX4bClurLA6",
+        "role": 1,
+        "avatar": "foto-1642945419489.jpeg"
+    },
+    {
+        "id": 25,
+        "name": "steven",
+        "lastname": "cardenas",
+        "email": "steven@gmail.com",
+        "password": "$2a$10$ERm5PYjhtjZmG5fb21cxEuhtyNSlZh.lyqwR8gZXgWymwlE1YUk5q",
+        "role": 1,
+        "avatar": "foto-1642950854469.jpeg"
     }
 ]

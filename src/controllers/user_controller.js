@@ -137,10 +137,16 @@ const user_controller = {
 
         if (errors.isEmpty()) {
             let archivoUsuarios = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../model/users_model.json')));
-            let usuarioLogueado = archivoUsuarios.find(usuario => usuario.email == req.body.email)
-
+            let usuarioLogueado = archivoUsuarios.find(usuario => usuario.email == req.body.email); 
+            //console.log(usuarioLogueado);
+            
             //Como podemos modificar nuestros req.body
             delete usuarioLogueado.password;
+
+            //console.log(usuarioLogueado);
+            //console.log(req.session);
+            //console.log(req.session.usuario);
+            
             req.session.usuario = usuarioLogueado; //Guardar del lado del servidor
             //Aquí voy a guardar las cookies del usuario que se loguea
             if(req.body.recordarme){

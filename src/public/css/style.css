@@ -27,6 +27,11 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
     flex-direction: column;
     flex-wrap: wrap;
 }
+.avatar img{
+    width: 10vh;
+    height: 10vh;
+    
+}
 
 .cabecera .seccion-1 {
     display: flex;

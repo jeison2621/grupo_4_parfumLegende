@@ -7,7 +7,7 @@
     <body>
         <%- include('./partials/header') %>
             <main class="main-edit-products">
-                <h3>EDITAR PRODUCTO</h3>
+                <h3>EDITAR PRODUCTO de editProduct</h3>
                 <% editProduct.forEach(product=> { %>
 
                     <form action="/admin/edit/<%= product.id %>?_method=PUT" method="POST" class="form-edit-products"
