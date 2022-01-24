@@ -16,17 +16,19 @@ const newId = () => {
 
 const admin_controller = {
     admin: (req, res) => {
-        res.render('admin', { allProducts })
+        res.render('admin', {
+            allProducts
+        })
     },
     create: (req, res) => {
-       res.render('newProducts')
+        res.render('newProducts')
     },
     save: (req, res) => {
         const product = {
             "id": newId(),
             "name": req.body.name_new_product,
             "description": req.body.description_new_product,
-            "image": "2.jpeg",
+            "image": req.file ? req.file.filename : '',
             "category": req.body.category_new_product,
             "amount": req.body.amount_new_product,
             "typeAmount": req.body.type_amount_new_product,
@@ -44,28 +46,32 @@ const admin_controller = {
     show: (req, res) => {
         let id = req.params.id;
         let editProduct = allProducts.filter(product => product.id == id);
-        res.render('productShow', { editProduct });
+        res.render('productShow', {
+            editProduct
+        });
     },
     edit: (req, res) => {
         let id = req.params.id;
         let editProduct = allProducts.filter(product => product.id == id);
-        res.render('editProducts', { editProduct });
-        
+        res.render('editProducts', {
+            editProduct
+        });
+
     },
     update: (req, res) => {
         let id = req.params.id;
 
-console.log(id);
-console.log('///////////');
-console.log('///////////');
-console.log(allProducts);
-console.log('///////////');
-console.log(req.body);
+        console.log(id);
+        console.log('///////////');
+        console.log('///////////');
+        console.log(allProducts);
+        console.log('///////////');
+        console.log(req.body);
 
 
 
-        let editProduct = allProducts.map(product =>{
-            if(product.id == id){
+        let editProduct = allProducts.map(product => {
+            if (product.id == id) {
                 return product = {
                     "name": req.body.name_edit_product,
                     "description": req.body.description_edit_product,
@@ -99,6 +105,6 @@ console.log(req.body);
 
         res.redirect('/admin');
     }
-}
+};
 
 module.exports = admin_controller;
