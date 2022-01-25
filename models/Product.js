@@ -20,7 +20,7 @@ module.sports = (sequelize, dataTypes) => {
         },		
     categoria:
         {
-            type: dataTypes.STRING
+            type: dataTypes.STRING 
         },
     marca:
         {

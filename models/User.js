@@ -3,7 +3,7 @@ module.sports = (sequelize, dataTypes) => {
     let alias = "users"
 
     let config = {
-        tableName: "db_perfumes",
+        tableName: "db_perfumes", 
         timestamps: false
     }
     let cols =
