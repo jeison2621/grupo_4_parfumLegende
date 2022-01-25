@@ -209,5 +209,41 @@
         "password": "$2a$10$ERm5PYjhtjZmG5fb21cxEuhtyNSlZh.lyqwR8gZXgWymwlE1YUk5q",
         "role": 1,
         "avatar": "foto-1642950854469.jpeg"
+    },
+    {
+        "id": 26,
+        "name": "jeison",
+        "lastname": "muñoz",
+        "email": "uncorreo@gmail.com",
+        "password": "$2a$10$FW4yTJJrXv9EU6TNaPeho.MVco1R0SIjXmN.jrbK6mSzyH7lt97WG",
+        "role": 1,
+        "avatar": "foto-1642991144744.html"
+    },
+    {
+        "id": 26,
+        "name": "jeison",
+        "lastname": "muñoz",
+        "email": "jeison@gmail.com",
+        "password": "$2a$10$L1pugxZRCA3w6S/6ZOGmrOnV5rhDgXYBfRqx/O6KJ/1fSu7jvsn7G",
+        "role": 1,
+        "avatar": "foto-1642991195268.html"
+    },
+    {
+        "id": 27,
+        "name": "luis",
+        "lastname": "cardenas",
+        "email": "lcardenas@gmail.com",
+        "password": "$2a$10$UGuqYnGG94dJjLlJKn/S3e62MhtEKO38dxCDCO48fLpkw13FRV7q.",
+        "role": 1,
+        "avatar": "foto-1642991436226.html"
+    },
+    {
+        "id": 27,
+        "name": "luis",
+        "lastname": "cardenas",
+        "email": "lucardenas@gmail.com",
+        "password": "$2a$10$pjg8wbqsqWavySBx5m4tSe6zN.01HMYKLn3Z/zOw8d.K6ubCp.kia",
+        "role": 1,
+        "avatar": "foto-1642991526620.html"
     }
 ]
