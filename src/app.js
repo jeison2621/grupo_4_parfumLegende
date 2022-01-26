@@ -8,7 +8,7 @@ const cookieParser = require('cookie-parser');
 const acceso = require('./middlewares/acceso');
 
 //Definiendo carpeta pública
-app.use(express.static(path.resolve(__dirname, './public')));
+app.use(express.static(path.resolve(__dirname, '../public')));
 
 //Implementación EJS
 app.set('view engine', 'ejs'); 
