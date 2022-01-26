@@ -1,4 +1,4 @@
-module.sports = (sequelize, dataTypes) =>{
+module.exports = (sequelize, dataTypes) =>{
 
     let alias = "users"
 
@@ -6,7 +6,7 @@ module.sports = (sequelize, dataTypes) =>{
         tableName: "db_perfumes", 
         timestamps: false
     }
-    let cols =
+    let columns =
     {
     id: {
             type: dataTypes.INTEGER,
@@ -44,7 +44,7 @@ module.sports = (sequelize, dataTypes) =>{
         } 
 }
 
-    const User = sequelize.define(alias, cols, config);
+    const User = sequelize.define(alias, columns, config);
 
 
     return User;

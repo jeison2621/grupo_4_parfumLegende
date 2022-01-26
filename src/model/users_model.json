@@ -245,5 +245,32 @@
         "password": "$2a$10$pjg8wbqsqWavySBx5m4tSe6zN.01HMYKLn3Z/zOw8d.K6ubCp.kia",
         "role": 1,
         "avatar": "foto-1642991526620.html"
+    },
+    {
+        "id": 28,
+        "name": "jeison ",
+        "lastname": "andres",
+        "email": "jeison@hotmail.com",
+        "password": "$2a$10$JG1.ZIFSPvMrKEZyFl/6J.4wZetpI/erVmi42jr0O8lV7wky1s.cu",
+        "role": 1,
+        "avatar": "foto-1643209150223.jpg"
+    },
+    {
+        "id": 28,
+        "name": "jeison ",
+        "lastname": "andres",
+        "email": "jeison@hotmail.com",
+        "password": "$2a$10$9eD/9FNO8RV//nznRkY8jeEwBb.R2RYCKSqx7tOO32yZX3l1CRe1G",
+        "role": 1,
+        "avatar": "foto-1643209183744.jpg"
+    },
+    {
+        "id": 28,
+        "name": "jeison ",
+        "lastname": "andres",
+        "email": "jeison23@hotmail.com",
+        "password": "$2a$10$eeICkKQXjEQcehNwSnbKlecxPRQElpPDv0DKY11Q.Wc2JbRhNclHe",
+        "role": 1,
+        "avatar": "foto-1643209233237.jpg"
     }
 ]

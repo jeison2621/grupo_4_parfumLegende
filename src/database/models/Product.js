@@ -1,4 +1,4 @@
-module.sports = (sequelize, dataTypes) => {
+module.exports = (sequelize, dataTypes) => {
 
     let alias = "Products"
 
