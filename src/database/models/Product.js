@@ -4,7 +4,7 @@ module.sports = (sequelize, dataTypes) => {
 
     let config = {
         	        tableName: "db_perfumes",
-        	        timestamps: false
+        	        timestamps: false  
     		     }
     let cols =
     {

@@ -1,4 +1,4 @@
-module.sports = (sequelize, dataTypes) => {
+module.sports = (sequelize, dataTypes) =>{
 
     let alias = "users"
 
@@ -10,7 +10,7 @@ module.sports = (sequelize, dataTypes) => {
     {
     id: {
             type: dataTypes.INTEGER,
-            primaryKey: true,
+            primaryKey: true, 
             autoIncrement: true
         },
     nombre:
