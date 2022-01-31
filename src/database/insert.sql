@@ -1,0 +1,16 @@
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('jeison', 'vargas', '22', '1', '1', 'ma@hotmail.com', '234567');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('wilson', 'vargas', '5', '1', '1', 'je@gd.com', '122345');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('andres', 'martin', '44', '1', '1', 'andres@gmail.com', 'rweregre');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('aidee', 'cuervo', '12', '2', '1', 'andres@gmail.com', 'fgregrrg');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('jeison', 'vargas', '22', '1', '1', 'ma@hotmail.com', '234567');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('wilson', 'vargas', '5', '1', '1', 'je@gd.com', '122345');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('andres', 'martin', '44', '1', '1', 'andres@gmail.com', 'rweregre');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('aidee', 'cuervo', '12', '2', '1', 'andres@gmail.com', 'fgregrrg');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('jeison', 'vargas', '22', '1', '1', 'ma@hotmail.com', '234567');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('wilson', 'vargas', '5', '1', '1', 'je@gd.com', '122345');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('andres', 'martin', '44', '1', '1', 'andres@gmail.com', 'rweregre');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('aidee', 'cuervo', '12', '2', '1', 'andres@gmail.com', 'fgregrrg');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('jeison', 'vargas', '22', '1', '1', 'ma@hotmail.com', '234567');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('wilson', 'vargas', '5', '1', '1', 'je@gd.com', '122345');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('andres', 'martin', '44', '1', '1', 'andres@gmail.com', 'rweregre');
+INSERT INTO `perfumeria_db`.`users` (`nombre`, `apellido`, `edad`, `genero`, `tipo`, `email`, `password`) VALUES ('aidee', 'cuervo', '12', '2', '1', 'andres@gmail.com', 'fgregrrg');

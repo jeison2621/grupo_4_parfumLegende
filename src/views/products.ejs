@@ -11,31 +11,31 @@
                 <section class="products">
                     <% allProducts.forEach(product=> { %>
                         <article class="products_article">
-                            <% for(let i=0; i < product.length; i++){ %>
+                            <% /* for(let i=0; i < product.length; i++){*/ %>
 
                                 <div>
                                     <h2>
-                                        <%= product[i].name %>
+                                        <%= product.name %>
                                     </h2>
-                                    <a href="/products/detail"><img src="/images/products/<%= product[i].image %>"
+                                    <a href="/admin/editdetail/<%= product.id %>"><img src="/images/products/<%= product.image %>"
                                             alt="" width="100px"></a>
 
                                     <h4>
-                                        <%= product.category[i] %>
+                                        <%= product.category %>
                                     </h4>
                                     <p>
-                                        <%= product.amount[i] %> - <%= product.typeAmount[i] %>
+                                        <%= product.amount %> - <%= product.typeAmount %>
                                     </p>
                                     <h6>
-                                        <%= product.price[i] %> - <%= product.discount[i] %>
+                                        <%= product.price %> - <%= product.discount %>
                                     </h6>
                                     <p>
-                                        <%= product.description[i] %>
+                                        <%= product.description %>
                                     </p>
                                 </div>
-                                <% } %>
+                                <% /*}*/ %>
                         </article>
-                        <% }) %>
+                        <%  })%>
                 </section>
             </main>
             <%- include('./partials/footer') %>

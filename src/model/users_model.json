@@ -272,5 +272,14 @@
         "password": "$2a$10$eeICkKQXjEQcehNwSnbKlecxPRQElpPDv0DKY11Q.Wc2JbRhNclHe",
         "role": 1,
         "avatar": "foto-1643209233237.jpg"
+    },
+    {
+        "id": 29,
+        "name": "steve",
+        "lastname": "quiroga",
+        "email": "quiroga@gmail.com",
+        "password": "$2a$10$CfBj4glq9IbiK7rg6fUzXe7ewPpfUsybxd8WlxKLpE63KaBlbIopy",
+        "role": 1,
+        "avatar": "foto-1643330527069.jpg"
     }
 ]

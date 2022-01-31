@@ -27,10 +27,11 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
     flex-direction: column;
     flex-wrap: wrap;
 }
-.avatar img{
+
+.avatar img {
     width: 10vh;
     height: 10vh;
-    
+
 }
 
 .cabecera .seccion-1 {
@@ -87,9 +88,47 @@ Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
     margin-top: -15px;
 }
 
-.cabecera .seccion-3 input {
-    margin: 16px;
-    padding: 5px;
+.cabecera .seccion-3 .search {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cabecera .seccion-3 .search .search-bar {
+
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 9px;
+    font-size: 14px;
+    height: 24px;
+    transition: .15s ease all;
+    
+}
+
+.cabecera .seccion-3 .search .search-bar:focus {
+    outline: 0;
+    box-shadow: none;
+    background-color: #efefef;
+    padding-left: 9px;
+    border-right: #dbdbdb solid 1px;
+
+}
+
+.cabecera .seccion-3 .search button {
+
+    width: 15%;
+    background-color: white;
+    margin-top: 2px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    color: #666;
+    height: 24px;
+    transition: .15s ease all;
+    
+}
+.cabecera .seccion-3 .search button:hover {
+    background-color: #ebebeb;
 }
 
 
@@ -172,7 +211,8 @@ footer section {
     width: 33%;
     height: 100px;
     padding: 10px;
-    border: 2px solid #542d2d;
+    /*border: 2px solid #542d2d;*/
+    border-bottom: 2px solid #542d2d;
     color: white;
 }
 
@@ -189,8 +229,8 @@ footer section {
 }
 
 .contenedor-redes {
-    padding: 20px;
-    height: 6vh;
+    padding: 15px;
+    /*height: 9vh;*/
     color: white;
 }
 
@@ -631,10 +671,11 @@ p {
 
 /* NEWPRODUCTS.html */
 
-.container{
+.container {
     width: 100%;
     margin: 0 auto;
 }
+
 .main-new-products {
     background: white;
     margin-top: 10px;
@@ -828,31 +869,33 @@ select {
 
 /*Tabla admin*/
 
-.tablaadmin{
+.tablaadmin {
     width: 100%;
     background-color: #ffffff;
-    
+
 }
-.tablaadmin .row{
+
+.tablaadmin .row {
     width: 100%;
     margin: auto;
-    
-   
-    
-    
+
+
+
+
 }
 
-.tablaadmin .row .tabla{
-      
+.tablaadmin .row .tabla {
+
     margin: auto;
-    width: 70% ;
+    width: 70%;
     margin-bottom: 1vw;
-    
-}
- a{
-    text-decoration: none
 
 }
+
+a {
+    text-decoration: none
+}
+
 /*
 .tablaadmin .row .tabla .contenedor{
     display: flex;   
@@ -871,6 +914,7 @@ select {
         display: flex;
         flex-wrap: nowrap;
     }
+
     /* Listado de productos products.ejs */
     .main_products .products .products_article {
         background-color: white;
@@ -891,9 +935,11 @@ select {
     .cabecera .seccion-2 {
         justify-content: end;
     }
+
     .main_cart .carrito_content {
         background-color: white;
     }
+
     .main_cart .carrito_content .carrito_head {
         display: flex;
         width: 100vw;
@@ -903,17 +949,20 @@ select {
         padding: 2px;
         background-color: rgba(156, 85, 242, 1);
     }
+
     .main_cart .carrito_content .carrito_head h2 {
         margin: auto;
         font-size: large;
         color: white;
     }
+
     .main_cart .carrito_content .product .encabezado {
         width: 100vw;
         display: flex;
         flex-direction: row;
         padding: 2px;
     }
+
     .main_cart .carrito_content .product .encabezado h2 {
         display: flex;
         width: 95%;
@@ -923,6 +972,7 @@ select {
         margin: auto;
         justify-content: space-around;
     }
+
     .main_cart .carrito_content .product .product_detail {
         width: 100vw;
         display: flex;
@@ -932,6 +982,7 @@ select {
         border-bottom: 1px solid;
         justify-content: space-around;
     }
+
     .main_cart .carrito_content .product .product_detail .quantity {
         display: flex;
         width: 100%;
@@ -940,6 +991,7 @@ select {
         font-size: 3vw;
         margin: auto;
     }
+
     .main_cart .carrito_content .product .product_detail p {
         width: 95%;
         font-size: medium;
@@ -950,27 +1002,32 @@ select {
         justify-content: center;
         margin: auto;
     }
+
     .main_cart .carrito_content .product .product_detail p img {
         width: 25vw;
         display: flex;
         flex-direction: row;
         padding: 2px;
     }
+
     .main_cart .carrito_content .notasytotal {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
+
     .main_cart .carrito_content .notasytotal .notas {
         width: 60%;
         flex-direction: column;
         padding: 2vw;
         margin-left: 8vw;
     }
+
     .main_cart .carrito_content .notasytotal .notas p {
         display: flex;
         padding: 2px;
     }
+
     .main_cart .carrito_content .notasytotal .notas .comentarios {
         display: flex;
         padding: 2px;
@@ -980,6 +1037,7 @@ select {
         height: 10vw;
         margin: 0;
     }
+
     .main_cart .carrito_content .notasytotal .notas .cupon {
         display: flex;
         padding: 2px;
@@ -989,6 +1047,7 @@ select {
         height: 5vw;
         margin: 0;
     }
+
     .main_cart .carrito_content .notasytotal .total {
         width: 50%;
         display: flex;
@@ -996,10 +1055,12 @@ select {
         flex-direction: column;
         padding: 2vw;
     }
+
     .main_cart .carrito_content .notasytotal .total p {
         display: flex;
         padding: 2vw;
     }
+
     .main_cart .carrito_content .notasytotal .total .acepto {
         display: flex;
         justify-content: center;
@@ -1007,6 +1068,7 @@ select {
         margin: auto;
         flex-direction: column;
     }
+
     .main_cart .carrito_content .notasytotal .total button {
         background-color: rgba(87, 103, 247, 1);
         border: none;
@@ -1014,130 +1076,162 @@ select {
         font-weight: normal;
         font-size: 20px;
     }
+
     .main_cart .carrito_content .notasytotal .total p .cbox1 {
         margin: 0;
     }
+
     /*/ configurando desktop del detalle producto/*/
 }
 
 @media (min-width: 700px) {
+
     /* PRODUCTDETAIL.html */
     .main_productDetailt .producto_info {
         background-color: white;
     }
+
     .main_productDetail .producto_info .productdescript {
         background: white;
         display: flex;
         flex-direction: row;
         margin-top: 20px;
     }
+
     .main_productDetail .producto_info .productdescript .producto {
         margin: auto;
     }
+
     .main_productDetail .producto_info .productdescript .producto img {
         width: 400px;
         height: 400px;
     }
+
     .main_productDetail .producto_info .productdescript .producto p {
         margin: auto;
     }
+
     .main_productDetail .producto_info .productdescript .miniatura {
         display: flex;
         flex-direction: column;
         padding: 1vw;
         width: 200px;
     }
+
     .main_productDetail .producto_info .productdescript .miniatura img {
         width: 100%;
     }
+
     .main_productDetail .producto_info .productdescript .description {
         width: 95vw;
     }
+
     .main_productDetail .producto_info .productdescript .description .uno {
         display: flex;
         flex-direction: row;
         margin: 10px;
     }
+
     .main_productDetail .producto_info .productdescript .description .uno i {
         margin: auto;
     }
+
     .main_productDetail .producto_info .productdescript .description .uno img {
         margin: auto;
         width: 40px;
         height: 40px;
     }
+
     .main_productDetail .producto_info .productdescript .description .uno p {
         margin: auto;
     }
+
     .main_productDetail .producto_info .productdescript .description .uno .cajita {
         border: rgba(237, 121, 83, 1) solid;
         background-color: rgba(237, 121, 83, 1);
         color: #fff;
     }
+
     .main_productDetail .producto_info .productdescript .description .uno .quantity {
         display: flex;
         flex-direction: row;
     }
+
     .main_productDetail .producto_info .productdescript .description .dos {
         display: flex;
         flex-direction: row;
         margin: 10px;
     }
+
     .main_productDetail .producto_info .productdescript .description .dos i {
         margin: auto;
     }
+
     .main_productDetail .producto_info .productdescript .description .dos img {
         margin: auto;
         width: 40px;
         height: 40px;
     }
+
     .main_productDetail .producto_info .productdescript .description .dos p {
         margin: auto;
     }
+
     .main_productDetail .producto_info .productdescript .description .dos .cajita {
         border: rgba(237, 121, 83, 1) solid;
         background-color: rgba(237, 121, 83, 1);
         color: #fff;
     }
+
     .main_productDetail .producto_info .productdescript .description .dos .quantity {
         display: flex;
         flex-direction: row;
     }
+
     .main_productDetail .producto_info .productdescript .description .tres {
         display: flex;
         flex-direction: row;
         margin: 10px;
     }
+
     .main_productDetail .producto_info .productdescript .description .tres i {
         margin: auto;
     }
+
     .main_productDetail .producto_info .productdescript .description .tres img {
         margin: auto;
         width: 40px;
         height: 40px;
     }
+
     .main_productDetail .producto_info .productdescript .description .tres p {
         margin: auto;
     }
+
     .main_productDetail .producto_info .productdescript .description .tres .cajita {
         border: rgba(237, 121, 83, 1) solid;
         background-color: rgba(237, 121, 83, 1);
         color: #fff;
     }
+
     .main_productDetail .producto_info .productdescript .description .tres .quantity {
         margin: auto;
         display: flex;
         flex-direction: row;
     }
+
     .main_productDetail .producto_info .productdescript .description .comprar_ahora {
         margin-top: 20px;
     }
+
     .main_productDetail .producto_info .productdescript .description .comprar_ahora {
         margin-top: 20px;
     }
+
     .main_productDetail .producto_info .productdescript .description .comprar_ahora {
         margin-top: 20px;
     }
+
     .main_productDetail .producto_info .productdescript .description .comprar_ahora .button-comprarAhora {
         margin-top: 20px;
         color: #fff;
@@ -1145,6 +1239,7 @@ select {
         border: none;
         font-weight: bold;
     }
+
     .main_productDetail .producto_info .productdescript .description .comprar_ahora .button-AgregarCarrito {
         margin-top: 20px;
         color: #fff;
@@ -1152,21 +1247,25 @@ select {
         border: none;
         font-weight: bold;
     }
+
     .main_productDetail .producto_info .descripcion_detalle {
         display: flex;
         flex-direction: column;
         background-color: white;
         margin: auto;
     }
+
     .main_productDetail .producto_info .descripcion_detalle .encabezado {
         display: flex;
         flex-direction: row;
     }
+
     .main_productDetail .producto_info .descripcion_detalle .encabezado .titulo {
         margin: auto;
         font-family: 'Roboto Slab';
         font-size: medium;
     }
+
     .main_productDetail .producto_info .descripcion_detalle p {
         margin: auto;
         text-align: justify;

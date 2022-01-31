@@ -145,7 +145,7 @@ const user_controller = {
 
             //console.log(usuarioLogueado);
             //console.log(req.session);
-            //console.log(req.session.usuario);
+            console.log(req.session.usuario);
             
             req.session.usuario = usuarioLogueado; //Guardar del lado del servidor
             //Aquí voy a guardar las cookies del usuario que se loguea
