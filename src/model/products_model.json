@@ -1,5 +1,4 @@
 [
-    
     {
         "id": 1,
         "name": "Perfume Chanel",
@@ -43,5 +42,16 @@
         "typeAmount": "ml",
         "price": "350000",
         "discount": "10"
+    },
+    {
+        "id": 5,
+        "name": "Perfume 4",
+        "description": "Descripciónqedwerv4t4",
+        "image": "perfume-1643595530399.jpg",
+        "category": "gel",
+        "amount": "50",
+        "typeAmount": "ml",
+        "price": "20000",
+        "discount": "0"
     }
 ]

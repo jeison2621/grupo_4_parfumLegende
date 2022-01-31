@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('../partials/head') %>
-<body>
-    <%- include('../partials/header') %>
-    <main class="main-register">
-        <h3>REGISTRATE</h3>
+<%- include('../partials/head') %>
+
+    <body class="body-registro">
+        <%- include('../partials/header') %>
+           <main class="main-register">
+     <h3>REGISTRATE</h3>
         <% if(typeof(errors) != 'undefined'){%>
             <span style="color: red;">
                <% errors.forEach(error => { %>
@@ -12,29 +13,48 @@
                <%});%>
             </span>
          <%}%>
-        <form  method="post" action="/user/registro" class="form-register" enctype="multipart/form-data" >
-            <label for="name-new-user" id="name-new-user">Nombre(s)*</label>
-            <input type="text" name="name" id="name" placeholder="Ingrese Nombre" required value="<%= typeof old != 'undefined' ? old.name : '' %>">
+         <form  method="post" action="/user/registro" class="form-register" enctype="multipart/form-data" >
+   
+            <div class="grupo">
+                <input class="input1"  type="text" name="name" id="name" required value="<%= typeof old != 'undefined' ? old.name : '' %>"><span></span>
+                <label for="name-new-user" id="name-new-user">Nombres(*)</label>
+            </div>
 
-            <label for="lastname-new-user" id="lastname-new-user">Apellidos(s)*</label>
-            <input type="text" name="lastname" id="lastname" placeholder="Ingrese Apellido" required value="<%= typeof old != 'undefined' ? old.lastname : '' %>">
+            <div class="grupo">
+                <input class="input1" type="text" name="lastname" id="lastname"  required value="<%= typeof old != 'undefined' ? old.lastname : '' %>">
+                <label for="lastname-new-user" id="lastname-new-user">Apellidos(*)</label>       
+            </div>
+
+            <div class="grupo">
+                <input class="input1" type="email" name="email" id="email"  required value="<%= typeof old != 'undefined' ? old.email : '' %>">  
+                <label for="email-new-user" id="email-new-user">Email(*)</label>
+            </div>
+
+            <div class="grupo">
+                <input class="input1"  type="password" name="password" id="password"  required>
+                <label for="password-user" id="password-user">Contraseña(*)</label>
+            </div>
+
+
+            <div class="grupo2">
+                <input type= "file" name = "avatar" > 
+                <label for="avatar-user" id="avatar-user">Foto de perfil*</label> 
+            </div>
             
 
-            <label for="email-new-user" id="email-new-user">Email*</label>
-            <input type="email" name="email" id="email" placeholder="Ingrese Correo" required value="<%= typeof old != 'undefined' ? old.email : '' %>">  
-
-            <label for="password-user" id="password-user">Contraseña*</label>
-            <input type="password" name="password" id="password" placeholder="Ingrese Contraseña" required>
-            
-            <label for="avatar-user" id="avatar-user">Elije una foto de perfil*</label>
-            <input type= "file" name = "avatar" >  
 
 
             <p>¿Ya tienes una cuenta?<a href="/login">Ingresa aquí</a></p>
 
-            <input type="submit" class="button-register" value="Registrarse">
-        </form>
-    </main>
-    <%- include('../partials/footer') %>
-</body>
+
+
+            <input type="submit" class="button-register" value="Registrar">
+        </form> 
+    </main>-->
+
+
+          
+            <%- include('../partials/footer') %>
+    </body>
+
 </html>

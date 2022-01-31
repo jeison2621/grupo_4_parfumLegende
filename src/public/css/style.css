@@ -8,12 +8,24 @@ Alegreya (https://fonts.google.com/specimen/Alegreya)
 Myanmar Khyay (https://es.ffonts.net/Myanmar-Khyay.font)
 */
 
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab';
 }
+
+
+body{
+    background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #f096dc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #f096dc); 
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 
 /* INDEX.html */
 
@@ -528,9 +540,7 @@ footer section {
     margin-top: 20px;
 }
 
-.main_productDetail .producto_info .productdescript .description .comprar_ahora {
-    margin-top: 20px;
-}
+
 
 .main_productDetail .producto_info .productdescript .description .comprar_ahora .button-comprarAhora {
     margin-top: 20px;
@@ -578,12 +588,13 @@ footer section {
 /* REGISTER.html */
 
 .main-register {
-    width: 90vw;
+    width: 70vw;
     margin: 30px auto;
     padding: 4px;
     background-color: #fff;
     border: rgba(57, 55, 55, 0.3) solid 2px;
     color: #000;
+    border-radius: 10px;
 }
 
 .main-register h3 {
@@ -595,9 +606,65 @@ footer section {
 .form-register {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 10px;
+    width: 100%;
+    
+ 
 }
+
+.grupo input{
+    background: none;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    display: block;
+    margin: auto;
+}
+
+.grupo2 input{
+        background: none;
+        font-size: 18px;
+        padding: 10px 10px 10px 5px;
+        border: none;
+        display: block;
+        margin: auto;
+    }
+
+
+.grupo input {
+    background: blue;
+    outline: none;
+}
+
+
+.form{
+    width: 100%;
+    margin: auto;
+    background-color: blue;
+}
+
+form .grupo input{
+    position: relative;
+    background: none;
+    
+    
+}
+
+form .grupo label{
+
+    color: rgb(122, 122, 126);
+}
+
+form .grupo input :focus{
+    outline: none;
+    }
+    form .grupo label{
+        display: flex;
+        margin-left: 30px;
+        position: relative;
+    }
+
+
 
 .form-register label,
 input,
@@ -605,17 +672,20 @@ p {
     margin: 2px;
     width: 80%;
     padding: 10px;
+    margin-left: 20px;
 }
 
 .form-register a {
-    margin-left: 8px;
+    margin-left: 20px;
 }
 
 .button-register {
+    margin-left: 45px;
     color: #fff;
     background-color: rgba(163, 73, 164, 1);
     border: none;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 @media (min-width: 481px) {
@@ -628,12 +698,13 @@ p {
 /* LOGIN.html */
 
 .main-login {
-    width: 90vw;
+    width: 60vw;
     margin: 30px auto;
     padding: 4px;
     background-color: #fff;
     border: rgba(57, 55, 55, 0.3) solid 2px;
     color: #000;
+    border-radius: 10px;
 }
 
 .main-login h3 {
@@ -649,12 +720,55 @@ p {
     padding: 10px;
 }
 
+/*cambios inicio */
+
+form .grupo-ingreso input{
+    width: 60vh;
+    position: relative;
+    background: none;
+    
+    
+}
+
+form .grupo-ingreso label{
+    display: flex;
+    justify-content: initial;
+    color: rgb(122, 122, 126);
+}
+
+
+.grupo-ingreso input{
+            
+            font-size: 18px;
+            padding: 10px 10px 10px 5px;
+            border: none;
+            border-bottom: 1px solid black;
+            display: block;
+            margin: auto;
+        }
+
+.grupo-ingreso input{
+    outline: none
+
+}
+
+
+
+
+/*cambios fin*/
+
+
+
+
+
+
+
 .form-login label,
 input,
 p {
     margin: 2px;
     width: 80%;
-    padding: 10px;
+    padding: 5px;
 }
 
 .form-login a {
@@ -666,6 +780,7 @@ p {
     background-color: rgba(163, 73, 164, 1);
     border: none;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 

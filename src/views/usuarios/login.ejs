@@ -4,17 +4,29 @@
 <body>   
     <%- include('../partials/header') %>
     <main class="main-login">
-        <h3> INGRESA</h3>
+        <h3> INGRESAR</h3>
         <form  method="post" action="/user/login" class="form-login">
-            <label for="email-user" id="email-user">Email*</label>
-            <input type="email" name="email" id="email-user" required value="<%= typeof old != 'undefined' ? old.email : '' %>">
-            <% if(typeof(errors) != 'undefined' && errors.email){%>
-                <span style="color: red;">
-                  <%= errors.email.msg %>
-                </span>
-             <%}%>
-            <label for="password-user" id="password-user">Contraseña*</label>
-            <input type="password" name="password" id="password-user" required>
+           
+           
+            <div class="grupo-ingreso">
+
+                <input type="email" name="email" id="email-user" required value="<%= typeof old != 'undefined' ? old.email : '' %>">
+                <label for="email-user" id="email-user">Email(*)</label>
+           
+                <% if(typeof(errors) != 'undefined' && errors.email){%>
+                    <span style="color: red;">
+                      <%= errors.email.msg %>
+                    </span>
+                 <%}%>
+            </div>
+
+            <div class="grupo-ingreso">
+                <input type="password" name="password" id="password-user" required>
+                <label for="password-user" id="password-user">Contraseña(*)</label>
+            </div>
+
+            
+
             <% if(typeof(errors) != 'undefined' && errors.password){%>
                 <span style="color: red;">
                   <%= errors.password.msg %>
