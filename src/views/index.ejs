@@ -5,39 +5,54 @@
     <body>
         <%- include('./partials/header') %>
             <section class="banner">
-                <img src="/images/banner.jpg" alt="banner"> 
+                <img src="/images/banner.jpg" alt="banner">
             </section>
             <main>
                 <section>
-                    <ul>
-                      <% if (data) { %>
+
+                    <% if (data) { %>
                         <% data.forEach(function(product){ %>
-                          <li>
-                            <%= product.id%>
-                            <%= product.name%>
-                            <%= product.description%>
-                            <%= product.image%>
-                            <%= product.category%>
-                            <%= product.amount%>
-                            <%= product.typeAmount%>
-                            <%= product.price%>
-                            <%= product.discount%>
-            
-                          </li>
-                
-                        <% }); %>
-                      <% } %>
-                    </ul>
-                  </section>
-            
+                            <article>
+                           
+                                <div>
+                                    <h4>
+                                        <%= product.name%>
+                                    </h4>
+                                    <img src="<%= product.image%>" alt="">
+                                    <p class="descripcion">
+                                        <%= product.description%>                                        
+                                        <%= product.amount%>
+                                        <%= product.typeAmount%>
+                                        <%= product.price%>
+                                        <%= product.category%>
+                                        <%= product.discount%>
+                                        
+                                    </p>                                   
+
+                                </div>
+                            </article>
+
+                            <% }); %>
+                                <% } %>
+
+                </section>
+
             </main>
             <%- include('./partials/footer') %>
     </body>
+
 </html>
 
 <!-- <div>
     <h1>Nuevo</h1>
 </div>
+
+                                <li>
+
+                    
+                                  </li>
+
+
 
 <section>
 
@@ -172,4 +187,3 @@
         </div>
     </article>
 </section> -->
-

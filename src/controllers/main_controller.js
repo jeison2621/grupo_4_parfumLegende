@@ -3,7 +3,7 @@ const model = require('../model')
 const main_controller = { 
     home:(req,res,next)=>{
         model.product.findAll().then(item=>{
-            res.render('index', { title: 'crud', data: item })
+            res.render('index', {  data: item })
         })
         .catch(err => next(err))
     },
