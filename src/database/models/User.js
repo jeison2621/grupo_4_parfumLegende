@@ -1,48 +1,81 @@
-module.exports = (sequelize, dataTypes) =>{
+module.exports = (sequelize, dataTypes) => {
 
     let alias = "users"
 
     let config = {
-        tableName: "db_perfumes", 
+        tableName: "users", // remplazar nombre de la tabla en la db
         timestamps: false
     }
-    let columns =
+    let column =
     {
-    id: {
+        id: {
             type: dataTypes.INTEGER,
-            primaryKey: true, 
+            primaryKey: true,
             autoIncrement: true
         },
-    nombre:
+        nombre:
         {
             type: dataTypes.STRING,
 
-        },		
-    apellido:
+        },
+        apellido:
         {
             type: dataTypes.STRING
         },
-    edad:
+        edad:
         {
             type: dataTypes.INTEGER
         },
-    genero:
+        genero:
         {
             type: dataTypes.INTEGER
         },
-    tipo:
+        tipo:
         {
-            type: dataTypes.INTEGER 
+            type: dataTypes.INTEGER
         },
-    email:
+        email:
         {
             type: dataTypes.STRING
         },
-    password:
+        password:
         {
-            type: dataTypes.STRING 
-        } 
-}
+            type: dataTypes.STRING
+        }
+    }
+    
+    let columns = {
+        id: {
+            type: dataTypes.INTEGER,
+            primaryKey: true,
+            autoIncrement: true
+        },
+        name:               // configuracion de columnas 
+        {
+            type: dataTypes.STRING,
+            allowNull: false
+        },
+        lastname: {
+            type: dataTypes.STRING
+
+        },
+        email:
+        {
+            type: dataTypes.STRING,
+            allowNull: false
+        },
+        password:
+        {
+            type: dataTypes.STRING,
+            allowNull: false
+        },
+        avatar:{
+            type: dataTypes.STRING,
+        },
+        roles_id:{
+            type: dataTypes.STRING,
+        }
+    }
 
     const User = sequelize.define(alias, columns, config);
 

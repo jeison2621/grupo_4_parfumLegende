@@ -5,149 +5,165 @@
     <body>
         <%- include('./partials/header') %>
             <section class="banner">
-                <img src="/images/banner.jpg" alt="banner">
+                <img src="/images/banner.jpg" alt="banner"> 
             </section>
             <main>
-                <div>
-                    <h1>Nuevo</h1>
-                </div>
-
                 <section>
-
-                    <article>
-                        <h2>Angel Gold</h2>
-                        <a href="/products/detail/2"><img src="\images\products\1_Angel Gold.jpeg" alt=""></a>
-                        <div class="description-product">
-                            <h4>Love me victoria secret</h4>
-                            <p>
-                                1,7 Oz Edp $275.000
-                                3,4 Oz Edp $370.000
-                            </p>
-                        </div>
-
-
-                    </article>
-
-                    <article>
-                        <h2>very sexy</h2>
-                        <a href="/products/detail/2"><img src="/images/products/9_very sexy.jpeg" alt=""></a>
-
-                        <div class="description-product">
-                            <h4>Very sexy</h4>
-                            <p>3,4 Oz Edp $295.000</p>
-                        </div>
-
-                    </article>
-
-                    <article>
-                        <h2>Vs angel</h2>
-                        <a href="/products/detail"><img src="/images/products/10_Vs angel.jpeg" alt=""></a>
-                        <div class="description-product">
-                            <h4>VS Angel</h4>
-                            <p>
-                                2,5 Oz Edp $275.000
-                                4,2 Oz Edp $370.000
-                            </p>
-                        </div>
-
-
-
-                    </article>
-
-                    <article>
-                        <h2>Angel Gold Classic</h2>
-                        <a href="/products/detail"><img src="\images\products\2_Angel Gold Classic.jpeg" alt=""></a>
-                        <div class="description-product">
-                            <h4>Angel Gold Classic</h4>
-                            <p>
-                                2,5 Oz Edp $250.000
-                            </p>
-                        </div>
-                    </article>
-                    <article>
-                        <h2>Angel silver</h2>
-                        <a href="/products/detail"><img src="/images/products/3_Angel silver.jpeg" alt=""></a>
-                        <div class="description-product">
-                            <h4>Angel Silver</h4>
-                            <p>
-                                3,4 Oz Edp $300.000
-                            </p>
-                        </div>
-                    </article>
-
-                    <article>
-                        <h2>Bombshells in bloom</h2>
-                        <a href="/products/detail"><img src="/images/products/4_Bombshells in bloom.jpeg" alt=""></a>
-                        <div class="description-product">
-                            <h4>Bombshell in bloom</h4>
-                            <p>
-                                2,5 Oz Edp $320.000
-                            </p>
-                        </div>
-                    </article>
-
-
-
-                </section>
-
-                <div>
-                    <h1>Ofertas</h1>
-                </div>
-
-
-                <section>
-
-                    <article>
-                        <h2>Darke Angel</h2>
-                        <a href="/products/detail"><img src="/images/products/5_Darke angel.jpeg" alt=""></a>
-                        <div class="description-product">
-                            <h4>Dark Angel</h4>
-                            <p>
-                                1,7 Oz Edp $275.000
-                                3,4 Oz Edp $370.000
-                            </p>
-                        </div>
-                    </article>
-
-                    <article>
-                        <h2>Eau So Sexy</h2>
-                        <a href="/products/detail"><img src="/images/products/6_Eau so sexy.jpeg" alt=""></a>
-                        <div class="description-product">
-
-                            <h4>Eau So Sexy</h4>
-                            <p>
-                                1,7 Oz Edp $275.000
-                                3,4 Oz Edp $370.000
-                            </p>
-                        </div>
-
-                    </article>
-                    <article>
-                        <h2>Love Me Victoria Secret</h2>
-                        <a href="/products/detail"><img src="/images/products/7_Love me victoria secret.jpeg" alt=""></a>
-                        <div class="description-product">
-                            <h4>Love Me Victoria Secret</h4>
-                            <p>
-                                1,7 Oz Edp $275.000
-                                3,4 Oz Edp $370.000
-                            </p>
-                        </div>
-                    </article>
-                    <article>
-                        <h2>Noir tease</h2>
-                        <a href="/products/detail"><img src="/images/products/8_Noir tease.jpeg" alt=""></a>
-                        <div class="description-product">
-                            <h4>Noir tease</h4>
-                            <p>
-                                1,7 Oz Edp $275.000
-                                3,4 Oz Edp $370.000
-                            </p>
-                        </div>
-                    </article>
-                </section>
-
-
+                    <ul>
+                      <% if (data) { %>
+                        <% data.forEach(function(user){ %>
+                          <li>
+                            <%= user.id%>
+                            <%= user.name%>
+                            <%= user.email%>
+            
+                          </li>
+                
+                        <% }); %>
+                      <% } %>
+                    </ul>
+                  </section>
+            
             </main>
             <%- include('./partials/footer') %>
     </body>
 </html>
+
+<!-- <div>
+    <h1>Nuevo</h1>
+</div>
+
+<section>
+
+    <article>
+        <h2>Angel Gold</h2>
+        <a href="/products/detail/2"><img src="\images\products\1_Angel Gold.jpeg" alt=""></a>
+        <div class="description-product">
+            <h4>Love me victoria secret</h4>
+            <p>
+                1,7 Oz Edp $275.000
+                3,4 Oz Edp $370.000
+            </p>
+        </div>
+
+
+    </article>
+
+    <article>
+        <h2>very sexy</h2>
+        <a href="/products/detail/2"><img src="/images/products/9_very sexy.jpeg" alt=""></a>
+
+        <div class="description-product">
+            <h4>Very sexy</h4>
+            <p>3,4 Oz Edp $295.000</p>
+        </div>
+
+    </article>
+
+    <article>
+        <h2>Vs angel</h2>
+        <a href="/products/detail"><img src="/images/products/10_Vs angel.jpeg" alt=""></a>
+        <div class="description-product">
+            <h4>VS Angel</h4>
+            <p>
+                2,5 Oz Edp $275.000
+                4,2 Oz Edp $370.000
+            </p>
+        </div>
+
+
+
+    </article>
+
+    <article>
+        <h2>Angel Gold Classic</h2>
+        <a href="/products/detail"><img src="\images\products\2_Angel Gold Classic.jpeg" alt=""></a>
+        <div class="description-product">
+            <h4>Angel Gold Classic</h4>
+            <p>
+                2,5 Oz Edp $250.000
+            </p>
+        </div>
+    </article>
+    <article>
+        <h2>Angel silver</h2>
+        <a href="/products/detail"><img src="/images/products/3_Angel silver.jpeg" alt=""></a>
+        <div class="description-product">
+            <h4>Angel Silver</h4>
+            <p>
+                3,4 Oz Edp $300.000
+            </p>
+        </div>
+    </article>
+
+    <article>
+        <h2>Bombshells in bloom</h2>
+        <a href="/products/detail"><img src="/images/products/4_Bombshells in bloom.jpeg" alt=""></a>
+        <div class="description-product">
+            <h4>Bombshell in bloom</h4>
+            <p>
+                2,5 Oz Edp $320.000
+            </p>
+        </div>
+    </article>
+
+
+
+</section>
+
+<div>
+    <h1>Ofertas</h1>
+</div>
+
+
+<section>
+
+    <article>
+        <h2>Darke Angel</h2>
+        <a href="/products/detail"><img src="/images/products/5_Darke angel.jpeg" alt=""></a>
+        <div class="description-product">
+            <h4>Dark Angel</h4>
+            <p>
+                1,7 Oz Edp $275.000
+                3,4 Oz Edp $370.000
+            </p>
+        </div>
+    </article>
+
+    <article>
+        <h2>Eau So Sexy</h2>
+        <a href="/products/detail"><img src="/images/products/6_Eau so sexy.jpeg" alt=""></a>
+        <div class="description-product">
+
+            <h4>Eau So Sexy</h4>
+            <p>
+                1,7 Oz Edp $275.000
+                3,4 Oz Edp $370.000
+            </p>
+        </div>
+
+    </article>
+    <article>
+        <h2>Love Me Victoria Secret</h2>
+        <a href="/products/detail"><img src="/images/products/7_Love me victoria secret.jpeg" alt=""></a>
+        <div class="description-product">
+            <h4>Love Me Victoria Secret</h4>
+            <p>
+                1,7 Oz Edp $275.000
+                3,4 Oz Edp $370.000
+            </p>
+        </div>
+    </article>
+    <article>
+        <h2>Noir tease</h2>
+        <a href="/products/detail"><img src="/images/products/8_Noir tease.jpeg" alt=""></a>
+        <div class="description-product">
+            <h4>Noir tease</h4>
+            <p>
+                1,7 Oz Edp $275.000
+                3,4 Oz Edp $370.000
+            </p>
+        </div>
+    </article>
+</section> -->
+

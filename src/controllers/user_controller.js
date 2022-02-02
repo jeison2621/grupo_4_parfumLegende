@@ -1,4 +1,5 @@
 const model = require('../model/users_model.json')
+const model2 = require('../model')
 const fs = require('fs')
 const path = require('path');
 const res = require('express/lib/response');
@@ -28,6 +29,12 @@ const newId = () => {
 
 
 const user_controller = {
+    getHome:(req,res,next)=>{
+        model2.user.findAll().then(item=>{
+            res.render('index', { title: 'crud', data: item })
+        })
+        .catch(err => next(err))
+    },
     save: (req, res) => {
 
         let errors = validationResult(req);
@@ -167,10 +174,16 @@ const user_controller = {
         res.cookie('email',null,{maxAge: -1});
         res.redirect('/');
     }
-
-
+}
+const user_controller_crud = {
+    getHome:(req,res,next)=>{
+        model2.user.findAll().then(item=>{
+            res.render('index', { title: 'crud', data: item })
+        })
+        .catch(err => next(err))
+    }
 
 
 }
 
-module.exports = user_controller;
+module.exports = user_controller,user_controller_crud;

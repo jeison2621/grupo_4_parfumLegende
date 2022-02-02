@@ -136,7 +136,7 @@ Terminar detalles de css, y demas tareas pendientes.
 Terminar detalles de css, y demas tareas pendientes.tener al día ejercicios de la playground y rofundizar en los temas vistos en clase y tareas asignadas en el sprint 
 
 
-# weekly - Sprint 6
+# weekly - Sprint 7
 
 ## ¿Que hicimos la semana pasada?
 
@@ -179,5 +179,63 @@ Terminar detalles de css, y demas tareas pendientes.tener al día ejercicios de 
  
 
 - Wilson 
-Dejar listo el CRUD para que podamos avanzar en las bases de datos sin problema. Avanzar lo que mas se pueda de las tareas del SPRINT 6 pendientes 
+Dejar listo el CRUD para que podamos avanzar en las bases de datos sin problema. Avanzar lo que mas se pueda de las tareas del SPRINT 7 pendientes 
 
+
+
+## ¿Que hicimos la semana pasada?
+
+- Diego 
+
+    
+
+- Jeison
+
+    diagrama de base de datos 
+    sequelize 
+    sequelize crud 
+    mejore css de formularios de registros 
+    
+    
+
+- Wilson 
+
+    mostrar todos los productos en la vista de product y 
+    pulir css en vista de products(tabla)
+    implemento session y cookies
+
+
+ 
+## ¿Qué impedimentos tubimos?
+
+- Diego 
+     tiempo de reunion en conjuto
+
+- Jeison
+    tiempo de reunion en conjuto
+    
+    terminar ejercicios playground
+
+- Wilson 
+
+tiempo de reunion en conjuto
+    
+
+
+
+## ¿Qué haremos la próxima semana? 
+
+- Diego 
+    
+    continuar con las validaciones
+
+- Jeison 
+
+    enviar datos a las vistas correspondientes user registro  y products
+ 
+
+- Wilson 
+
+    organizar visualizacion de los datos enviados desde los modelos y terminar las validaciones 
+
+ 

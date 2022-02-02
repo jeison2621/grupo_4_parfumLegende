@@ -1,303 +1,339 @@
 [
-  {
-    "name": "hola"
-  },
-  {
-    "name": "jeison"
-  },
-  {
-    "name": "jeison"
-  },
-  {
-    "name": "jeison"
-  },
-  {
-    "name": "jeison",
-    "lastname": "moyano",
-    "email": "ann@gmail.com",
-    "password": "12345678"
-  },
-  {
-    "name": "wilson",
-    "email": "ann@gmail.com",
-    "password": "12345678"
-  },
-  {
-    "name": "elsa",
-    "lastname": "sanchez",
-    "email": "ann@gmail.com",
-    "password": "12345678"
-  },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {
-    "id": 1
-  },
-  {
-    "id": 2
-  },
-  {
-    "id": 3
-  },
-  {
-    "id": 4
-  },
-  {
-    "id": 5
-  },
-  {
-    "id": 6
-  },
-  {
-    "id": 7,
-    "lastname": "lopez",
-    "email": "l@gmail.com",
-    "password": "12345",
-    "Role": 1
-  },
-  {
-    "id": 8,
-    "lastname": "cardenas",
-    "email": "uncorreo@gmail.com",
-    "password": "950206",
-    "Role": 1
-  },
-  {
-    "id": 9,
-    "lastname": "cardenas",
-    "email": "uncorreo@gmail.com",
-    "password": "950206",
-    "Role": 1
-  },
-  {
-    "id": 10,
-    "lastname": "cardenas",
-    "email": "uncorreo@gmail.com",
-    "password": "950206"
-  },
-  {
-    "id": 11,
-    "name": "el grupo de stevens ",
-    "lastname": "cardenas",
-    "email": "uncorreo@gmail.com",
-    "password": "$2a$10$.RJZ.nbZoDig37oGvPP/oe0w.jzs7wFhxJq81PACwYMFCGc4N/x76",
-    "Role": 1
-  },
-  {
-    "id": 12,
-    "name": "el ",
-    "lastname": "byscript",
-    "email": "elcorreodebyscript@gmail.com",
-    "password": "$2a$10$tH35h8IbsqFz76JRmJgDHeHXZa0MUhruoj197qmYjv/ZFTwax2gsy",
-    "Role": 1
-  },
-  {
-    "id": 13,
-    "name": "luisa",
-    "lastname": "lopez",
-    "email": "andres.moyano@misena.edu.co",
-    "password": "$2a$10$R2CZk2Id/DzUegH9qoXJiuA4STugHRkuLJl8rV9VYHYfDneY.ttjK",
-    "Role": 1
-  },
-  {
-    "id": 14,
-    "name": "brayan",
-    "lastname": "rios",
-    "email": "ssaa@gmail.com",
-    "password": "$2a$10$wIDAxfCdju61X92fxW64dOSt05puGsXvVqIoIAHutTe/8WE7g40Ni",
-    "Role": 1,
-    "img": "C:\\Users\\Jeison\\Desktop\\Nueva carpeta\\grupo_4_parfumLegende\\src\\public\\images\\users"
-  },
-  {
-    "id": 15,
-    "name": "luisa",
-    "lastname": "lopez",
-    "email": "ssaa@gmail.com",
-    "password": "$2a$10$.DHPYdtDv/5/uiohTIW9NOj1rQQBrxyNw4fZy5TugCYw0Se7sKT42",
-    "Role": 1,
-    "img": "C:\\Users\\Jeison\\Desktop\\Nueva carpeta\\grupo_4_parfumLegende\\src\\public\\images\\users"
-  },
-  {
-    "id": 16,
-    "name": "jeison ",
-    "lastname": "final ",
-    "email": "finaljeison@correo.com",
-    "password": "$2a$10$NJvO9chQIjQ1HC3jVlxZNeItlYMTnW9qfp6lIRmP/8lBjEG1VoxZi",
-    "Role": 1,
-    "img": "C:\\Users\\steve\\OneDrive\\Escritorio\\DIGITAL HOUSE\\EJERCICIOS CLASE\\PARFUM_LEGENDE_WS\\grupo_4_parfumLegende\\src\\public\\images\\users"
-  },
-  {
-    "id": 17,
-    "name": "nuevo",
-    "lastname": "wilson",
-    "email": "nuevowilson@correo.com",
-    "password": "$2a$10$P65g6iF4Cd9.igWqKe4jbuP2jeA8.hRMOM38/aSrtGsmjGxrqDpQK",
-    "Role": 1,
-    "img": "C:\\Users\\steve\\OneDrive\\Escritorio\\DIGITAL HOUSE\\EJERCICIOS CLASE\\PARFUM_LEGENDE_WS\\grupo_4_parfumLegende\\src\\public\\images\\users"
-  },
-  {
-    "id": 18,
-    "name": "probando ",
-    "lastname": "multer",
-    "email": "multer@correo.com",
-    "password": "$2a$10$xBeod1KTGocncKZguUuhPeWpqMwZaD4A7SHboji9NENADIapDuMey",
-    "Role": 1,
-    "img": "C:\\Users\\steve\\OneDrive\\Escritorio\\DIGITAL HOUSE\\EJERCICIOS CLASE\\PARFUM_LEGENDE_WS\\grupo_4_parfumLegende\\src\\public\\images\\users"
-  },
-  {
-    "id": 19,
-    "name": "otra prueba",
-    "lastname": "multer",
-    "email": "multer2@correo.com",
-    "password": "$2a$10$G5k6LmqxdBO0ZcQhmJrageGafCDO2ciDecJG1gYXETvgJPfN6wy1S",
-    "Role": 1,
-    "avatar": "foto-1642804037685.jpg"
-  },
-  {
-    "id": 20,
-    "name": "nueva prueba",
-    "lastname": "bien ",
-    "email": "todobien@correo.com",
-    "password": "$2a$10$vGz1pVlyPZsJyCyZ.kCswuZxBbz2CQy4DOdv0x9rbyxrtqAkA1.EW",
-    "Role": 1,
-    "avatar": "foto-1642806678759.jpg"
-  },
-  {
-    "id": 21,
-    "name": "steve",
-    "lastname": "card",
-    "email": "elcorreo@correo.com",
-    "password": "$2a$10$QCV32rKSnws1WYEQSkx58OmLZkMnaJmGv06xF7ifcxhVt5pNBXuQe",
-    "role": 1,
-    "avatar": "foto-1642859949066.png"
-  },
-  {
-    "id": 22,
-    "name": "wilson",
-    "lastname": "cardenas",
-    "email": "estecorreoreal@gmail.com",
-    "password": "$2a$10$knX7CvQ3dmZnnNwrHw7jYu5cGB7F0CPcfg266DfGWA0fTnYZUQs.G",
-    "role": 1,
-    "avatar": "foto-1642884691946.jpg"
-  },
-  {
-    "id": 23,
-    "name": "stevens",
-    "lastname": "cardenas",
-    "email": "correo@gmail.com",
-    "password": "$2a$10$onMcucaG0tPt/x5pSvXtXOC4/mMAYZUB8gKtONuoSGx2gRMvE5AF6",
-    "role": 1,
-    "avatar": "foto-1642941620306.jpeg"
-  },
-  {
-    "id": 24,
-    "name": "stevens",
-    "lastname": "the best",
-    "email": "stevens@correo.com",
-    "password": "$2a$10$U/eD0wXXrtwtVrVc.2hMFux9lp.gZOb1Ur5MSwGonqlX4bClurLA6",
-    "role": 1,
-    "avatar": "foto-1642945419489.jpeg"
-  },
-  {
-    "id": 25,
-    "name": "steven",
-    "lastname": "cardenas",
-    "email": "steven@gmail.com",
-    "password": "$2a$10$ERm5PYjhtjZmG5fb21cxEuhtyNSlZh.lyqwR8gZXgWymwlE1YUk5q",
-    "role": 1,
-    "avatar": "foto-1642950854469.jpeg"
-  },
-  {
-    "id": 26,
-    "name": "jeison",
-    "lastname": "muñoz",
-    "email": "uncorreo@gmail.com",
-    "password": "$2a$10$FW4yTJJrXv9EU6TNaPeho.MVco1R0SIjXmN.jrbK6mSzyH7lt97WG",
-    "role": 1,
-    "avatar": "foto-1642991144744.html"
-  },
-  {
-    "id": 26,
-    "name": "jeison",
-    "lastname": "muñoz",
-    "email": "jeison@gmail.com",
-    "password": "$2a$10$L1pugxZRCA3w6S/6ZOGmrOnV5rhDgXYBfRqx/O6KJ/1fSu7jvsn7G",
-    "role": 1,
-    "avatar": "foto-1642991195268.html"
-  },
-  {
-    "id": 27,
-    "name": "luis",
-    "lastname": "cardenas",
-    "email": "lcardenas@gmail.com",
-    "password": "$2a$10$UGuqYnGG94dJjLlJKn/S3e62MhtEKO38dxCDCO48fLpkw13FRV7q.",
-    "role": 1,
-    "avatar": "foto-1642991436226.html"
-  },
-  {
-    "id": 27,
-    "name": "luis",
-    "lastname": "cardenas",
-    "email": "lucardenas@gmail.com",
-    "password": "$2a$10$pjg8wbqsqWavySBx5m4tSe6zN.01HMYKLn3Z/zOw8d.K6ubCp.kia",
-    "role": 1,
-    "avatar": "foto-1642991526620.html"
-  },
-  {
-    "id": 28,
-    "name": "jeison ",
-    "lastname": "andres",
-    "email": "jeison@hotmail.com",
-    "password": "$2a$10$JG1.ZIFSPvMrKEZyFl/6J.4wZetpI/erVmi42jr0O8lV7wky1s.cu",
-    "role": 1,
-    "avatar": "foto-1643209150223.jpg"
-  },
-  {
-    "id": 28,
-    "name": "jeison ",
-    "lastname": "andres",
-    "email": "jeison23@hotmail.com",
-    "password": "$2a$10$eeICkKQXjEQcehNwSnbKlecxPRQElpPDv0DKY11Q.Wc2JbRhNclHe",
-    "role": 1,
-    "avatar": "foto-1643209233237.jpg"
-  },
-  {
-    "id": 29,
-    "name": "steve",
-    "lastname": "quiroga",
-    "email": "quiroga@gmail.com",
-    "password": "$2a$10$CfBj4glq9IbiK7rg6fUzXe7ewPpfUsybxd8WlxKLpE63KaBlbIopy",
-    "role": 1,
-    "avatar": "foto-1643330527069.jpg"
-  },
-  {
-    "id": 30,
-    "name": "laura",
-    "lastname": "paez",
-    "email": "laura@gmail.com",
-    "password": "$2a$10$mfXrgk/V/Iy8jh57ZcZ2.OxIktnroSiwj05BUDf9kb/EjZHWpyS/q",
-    "role": 1,
-    "avatar": "foto-1643594773111.jpg"
-  },
-  {
-    "id": 31,
-    "name": "laura",
-    "lastname": "lalal",
-    "email": "lalapaez@gmail.com",
-    "password": "$2a$10$LfAued74aHNjZwb77IY2hehcCfYt1DrHHuLsFwtj0PHJ6Yet7HJ16",
-    "role": 1,
-    "avatar": "foto-1643635122530.jpg"
-  },
-  {
-    "id": 31,
-    "name": "laura",
-    "lastname": "paez",
-    "email": "lpaez@gmail.com",
-    "password": "$2a$10$9bgiosZ3YmYqxDcupxz3reS5eGYjwgBxC3N5wZ0iwiDXBncy9UWfS",
-    "role": 1,
-    "avatar": "foto-1643639275144.jpg"
-  }
+    {
+        "name": "hola"
+    },
+    {
+        "name": "jeison"
+    },
+    {
+        "name": "jeison"
+    },
+    {
+        "name": "jeison"
+    },
+    {
+        "name": "jeison",
+        "lastname": "moyano",
+        "email": "ann@gmail.com",
+        "password": "12345678"
+    },
+    {
+        "name": "wilson",
+        "email": "ann@gmail.com",
+        "password": "12345678"
+    },
+    {
+        "name": "elsa",
+        "lastname": "sanchez",
+        "email": "ann@gmail.com",
+        "password": "12345678"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+        "id": 1
+    },
+    {
+        "id": 2
+    },
+    {
+        "id": 3
+    },
+    {
+        "id": 4
+    },
+    {
+        "id": 5
+    },
+    {
+        "id": 6
+    },
+    {
+        "id": 7,
+        "lastname": "lopez",
+        "email": "l@gmail.com",
+        "password": "12345",
+        "Role": 1
+    },
+    {
+        "id": 8,
+        "lastname": "cardenas",
+        "email": "uncorreo@gmail.com",
+        "password": "950206",
+        "Role": 1
+    },
+    {
+        "id": 9,
+        "lastname": "cardenas",
+        "email": "uncorreo@gmail.com",
+        "password": "950206",
+        "Role": 1
+    },
+    {
+        "id": 10,
+        "lastname": "cardenas",
+        "email": "uncorreo@gmail.com",
+        "password": "950206"
+    },
+    {
+        "id": 11,
+        "name": "el grupo de stevens ",
+        "lastname": "cardenas",
+        "email": "uncorreo@gmail.com",
+        "password": "$2a$10$.RJZ.nbZoDig37oGvPP/oe0w.jzs7wFhxJq81PACwYMFCGc4N/x76",
+        "Role": 1
+    },
+    {
+        "id": 12,
+        "name": "el ",
+        "lastname": "byscript",
+        "email": "elcorreodebyscript@gmail.com",
+        "password": "$2a$10$tH35h8IbsqFz76JRmJgDHeHXZa0MUhruoj197qmYjv/ZFTwax2gsy",
+        "Role": 1
+    },
+    {
+        "id": 13,
+        "name": "luisa",
+        "lastname": "lopez",
+        "email": "andres.moyano@misena.edu.co",
+        "password": "$2a$10$R2CZk2Id/DzUegH9qoXJiuA4STugHRkuLJl8rV9VYHYfDneY.ttjK",
+        "Role": 1
+    },
+    {
+        "id": 14,
+        "name": "brayan",
+        "lastname": "rios",
+        "email": "ssaa@gmail.com",
+        "password": "$2a$10$wIDAxfCdju61X92fxW64dOSt05puGsXvVqIoIAHutTe/8WE7g40Ni",
+        "Role": 1,
+        "img": "C:\\Users\\Jeison\\Desktop\\Nueva carpeta\\grupo_4_parfumLegende\\src\\public\\images\\users"
+    },
+    {
+        "id": 15,
+        "name": "luisa",
+        "lastname": "lopez",
+        "email": "ssaa@gmail.com",
+        "password": "$2a$10$.DHPYdtDv/5/uiohTIW9NOj1rQQBrxyNw4fZy5TugCYw0Se7sKT42",
+        "Role": 1,
+        "img": "C:\\Users\\Jeison\\Desktop\\Nueva carpeta\\grupo_4_parfumLegende\\src\\public\\images\\users"
+    },
+    {
+        "id": 16,
+        "name": "jeison ",
+        "lastname": "final ",
+        "email": "finaljeison@correo.com",
+        "password": "$2a$10$NJvO9chQIjQ1HC3jVlxZNeItlYMTnW9qfp6lIRmP/8lBjEG1VoxZi",
+        "Role": 1,
+        "img": "C:\\Users\\steve\\OneDrive\\Escritorio\\DIGITAL HOUSE\\EJERCICIOS CLASE\\PARFUM_LEGENDE_WS\\grupo_4_parfumLegende\\src\\public\\images\\users"
+    },
+    {
+        "id": 17,
+        "name": "nuevo",
+        "lastname": "wilson",
+        "email": "nuevowilson@correo.com",
+        "password": "$2a$10$P65g6iF4Cd9.igWqKe4jbuP2jeA8.hRMOM38/aSrtGsmjGxrqDpQK",
+        "Role": 1,
+        "img": "C:\\Users\\steve\\OneDrive\\Escritorio\\DIGITAL HOUSE\\EJERCICIOS CLASE\\PARFUM_LEGENDE_WS\\grupo_4_parfumLegende\\src\\public\\images\\users"
+    },
+    {
+        "id": 18,
+        "name": "probando ",
+        "lastname": "multer",
+        "email": "multer@correo.com",
+        "password": "$2a$10$xBeod1KTGocncKZguUuhPeWpqMwZaD4A7SHboji9NENADIapDuMey",
+        "Role": 1,
+        "img": "C:\\Users\\steve\\OneDrive\\Escritorio\\DIGITAL HOUSE\\EJERCICIOS CLASE\\PARFUM_LEGENDE_WS\\grupo_4_parfumLegende\\src\\public\\images\\users"
+    },
+    {
+        "id": 19,
+        "name": "otra prueba",
+        "lastname": "multer",
+        "email": "multer2@correo.com",
+        "password": "$2a$10$G5k6LmqxdBO0ZcQhmJrageGafCDO2ciDecJG1gYXETvgJPfN6wy1S",
+        "Role": 1,
+        "avatar": "foto-1642804037685.jpg"
+    },
+    {
+        "id": 20,
+        "name": "nueva prueba",
+        "lastname": "bien ",
+        "email": "todobien@correo.com",
+        "password": "$2a$10$vGz1pVlyPZsJyCyZ.kCswuZxBbz2CQy4DOdv0x9rbyxrtqAkA1.EW",
+        "Role": 1,
+        "avatar": "foto-1642806678759.jpg"
+    },
+    {
+        "id": 21,
+        "name": "steve",
+        "lastname": "card",
+        "email": "elcorreo@correo.com",
+        "password": "$2a$10$QCV32rKSnws1WYEQSkx58OmLZkMnaJmGv06xF7ifcxhVt5pNBXuQe",
+        "role": 1,
+        "avatar": "foto-1642859949066.png"
+    },
+    {
+        "id": 22,
+        "name": "wilson",
+        "lastname": "cardenas",
+        "email": "estecorreoreal@gmail.com",
+        "password": "$2a$10$knX7CvQ3dmZnnNwrHw7jYu5cGB7F0CPcfg266DfGWA0fTnYZUQs.G",
+        "role": 1,
+        "avatar": "foto-1642884691946.jpg"
+    },
+    {
+        "id": 23,
+        "name": "stevens",
+        "lastname": "cardenas",
+        "email": "correo@gmail.com",
+        "password": "$2a$10$onMcucaG0tPt/x5pSvXtXOC4/mMAYZUB8gKtONuoSGx2gRMvE5AF6",
+        "role": 1,
+        "avatar": "foto-1642941620306.jpeg"
+    },
+    {
+        "id": 24,
+        "name": "stevens",
+        "lastname": "the best",
+        "email": "stevens@correo.com",
+        "password": "$2a$10$U/eD0wXXrtwtVrVc.2hMFux9lp.gZOb1Ur5MSwGonqlX4bClurLA6",
+        "role": 1,
+        "avatar": "foto-1642945419489.jpeg"
+    },
+    {
+        "id": 25,
+        "name": "steven",
+        "lastname": "cardenas",
+        "email": "steven@gmail.com",
+        "password": "$2a$10$ERm5PYjhtjZmG5fb21cxEuhtyNSlZh.lyqwR8gZXgWymwlE1YUk5q",
+        "role": 1,
+        "avatar": "foto-1642950854469.jpeg"
+    },
+    {
+        "id": 26,
+        "name": "jeison",
+        "lastname": "muñoz",
+        "email": "uncorreo@gmail.com",
+        "password": "$2a$10$FW4yTJJrXv9EU6TNaPeho.MVco1R0SIjXmN.jrbK6mSzyH7lt97WG",
+        "role": 1,
+        "avatar": "foto-1642991144744.html"
+    },
+    {
+        "id": 26,
+        "name": "jeison",
+        "lastname": "muñoz",
+        "email": "jeison@gmail.com",
+        "password": "$2a$10$L1pugxZRCA3w6S/6ZOGmrOnV5rhDgXYBfRqx/O6KJ/1fSu7jvsn7G",
+        "role": 1,
+        "avatar": "foto-1642991195268.html"
+    },
+    {
+        "id": 27,
+        "name": "luis",
+        "lastname": "cardenas",
+        "email": "lcardenas@gmail.com",
+        "password": "$2a$10$UGuqYnGG94dJjLlJKn/S3e62MhtEKO38dxCDCO48fLpkw13FRV7q.",
+        "role": 1,
+        "avatar": "foto-1642991436226.html"
+    },
+    {
+        "id": 27,
+        "name": "luis",
+        "lastname": "cardenas",
+        "email": "lucardenas@gmail.com",
+        "password": "$2a$10$pjg8wbqsqWavySBx5m4tSe6zN.01HMYKLn3Z/zOw8d.K6ubCp.kia",
+        "role": 1,
+        "avatar": "foto-1642991526620.html"
+    },
+    {
+        "id": 28,
+        "name": "jeison ",
+        "lastname": "andres",
+        "email": "jeison@hotmail.com",
+        "password": "$2a$10$JG1.ZIFSPvMrKEZyFl/6J.4wZetpI/erVmi42jr0O8lV7wky1s.cu",
+        "role": 1,
+        "avatar": "foto-1643209150223.jpg"
+    },
+    {
+        "id": 28,
+        "name": "jeison ",
+        "lastname": "andres",
+        "email": "jeison23@hotmail.com",
+        "password": "$2a$10$eeICkKQXjEQcehNwSnbKlecxPRQElpPDv0DKY11Q.Wc2JbRhNclHe",
+        "role": 1,
+        "avatar": "foto-1643209233237.jpg"
+    },
+    {
+        "id": 29,
+        "name": "steve",
+        "lastname": "quiroga",
+        "email": "quiroga@gmail.com",
+        "password": "$2a$10$CfBj4glq9IbiK7rg6fUzXe7ewPpfUsybxd8WlxKLpE63KaBlbIopy",
+        "role": 1,
+        "avatar": "foto-1643330527069.jpg"
+    },
+    {
+        "id": 30,
+        "name": "laura",
+        "lastname": "paez",
+        "email": "laura@gmail.com",
+        "password": "$2a$10$mfXrgk/V/Iy8jh57ZcZ2.OxIktnroSiwj05BUDf9kb/EjZHWpyS/q",
+        "role": 1,
+        "avatar": "foto-1643594773111.jpg"
+    },
+    {
+        "id": 31,
+        "name": "laura",
+        "lastname": "lalal",
+        "email": "lalapaez@gmail.com",
+        "password": "$2a$10$LfAued74aHNjZwb77IY2hehcCfYt1DrHHuLsFwtj0PHJ6Yet7HJ16",
+        "role": 1,
+        "avatar": "foto-1643635122530.jpg"
+    },
+    {
+        "id": 31,
+        "name": "laura",
+        "lastname": "paez",
+        "email": "lpaez@gmail.com",
+        "password": "$2a$10$9bgiosZ3YmYqxDcupxz3reS5eGYjwgBxC3N5wZ0iwiDXBncy9UWfS",
+        "role": 1,
+        "avatar": "foto-1643639275144.jpg"
+    },
+    {
+        "id": 32,
+        "name": "robinson",
+        "lastname": "saenz",
+        "email": "robinson@gmail.com",
+        "password": "$2a$10$RUml0qmfW/03vJnQ0sITS.adV0xvPmVPk3IrBfZey/Lp4KkequpXe",
+        "role": 1,
+        "avatar": "foto-1643648318274.jpg"
+    },
+    {
+        "id": 33,
+        "name": "wilmar",
+        "lastname": "barrios",
+        "email": "wcb@gmail.com",
+        "password": "$2a$10$Ws9nST5ScO74dC8ZIUEPFOjnHMSPUczk7j2ZqWCre810XCNk5lja2",
+        "role": 1,
+        "avatar": "foto-1643648638141.jpg"
+    },
+    {
+        "id": 34,
+        "name": "camilo",
+        "lastname": "diaz",
+        "email": "cam@gmail.com",
+        "password": "$2a$10$FONH9LR5u89WUV.p0k2z8OTeixE/s.IMTXvNSsNJWAIehrWinP86u",
+        "role": 1,
+        "avatar": "foto-1643649150708.jpg"
+    },
+    {
+        "id": 34, 
+        "name": "loro",
+        "lastname": "lalal",
+        "email": "lapaez@gmail.com",
+        "password": "$2a$10$r3zgxjZfv69KOoX1jRUjvulRxL5uviFTLgD5dhGA/1Wje5DS0zxOW",
+        "role": 1,
+        "avatar": "foto-1643649177835.jpg"
+    }
 ]
