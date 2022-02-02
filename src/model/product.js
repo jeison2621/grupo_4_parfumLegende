@@ -1,7 +1,7 @@
 const db = require('../database/models')
 
+const productsModel = {
 
-const ProductModel = {
     findAll:()=>{
         return db.products  // nombre de la tabla en da db
                    .findAll()
@@ -49,4 +49,6 @@ const ProductModel = {
      },
  }
 
-module.exports =  ProductModel 
+ productsModel.findAll() 
+
+module.exports =  productsModel 

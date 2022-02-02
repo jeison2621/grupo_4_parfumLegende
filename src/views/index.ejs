@@ -11,11 +11,17 @@
                 <section>
                     <ul>
                       <% if (data) { %>
-                        <% data.forEach(function(user){ %>
+                        <% data.forEach(function(product){ %>
                           <li>
-                            <%= user.id%>
-                            <%= user.name%>
-                            <%= user.email%>
+                            <%= product.id%>
+                            <%= product.name%>
+                            <%= product.description%>
+                            <%= product.image%>
+                            <%= product.category%>
+                            <%= product.amount%>
+                            <%= product.typeAmount%>
+                            <%= product.price%>
+                            <%= product.discount%>
             
                           </li>
                 
